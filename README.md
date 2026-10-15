@@ -1,5 +1,9 @@
 # MIDA: Multimodal Interactive Deception Assessment
 
+*Can MLLMs Read the Room? A Multimodal Benchmark for Assessing Deception in Multi-Party Social Interactions* (EMNLP 2026 Main)
+
+🔥 **MIDA has been accepted to EMNLP 2026 (Main Conference)!**
+
 [Paper (arXiv)](https://arxiv.org/abs/2511.16221) | [Dataset (Hugging Face)](https://huggingface.co/datasets/Ukpkmkkk/MIDA) | [Code (GitHub)](https://github.com/kkkcx/Can-MLLMs-Read-the-Room)
 
 This repository contains the MIDA benchmark and reference implementation accompanying the EMNLP 2026 (Main Conference) paper *"Can MLLMs Read the Room? A Multimodal Benchmark for Assessing Deception in Multi-Party Social Interactions"*. MIDA evaluates whether multimodal large language models can ground language in the visual and auditory cues of multi-party social interaction and assess deception, using the social-deduction game *One Night Ultimate Werewolf* as a controlled but ecologically valid testbed with verifiable ground truth.
