@@ -1,0 +1,150 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:00,Justin,"Good night, everybody.",No Strategy,Neutral,"Meta-comment, not a falsifiable game fact."
+00:01,Mike,Close your eyes.,No Strategy,Neutral,A command.
+01:21,Mitchell,Can I?,No Strategy,Neutral,A question.
+01:21,Mike,"Yeah, you can. Oh.",No Strategy,Neutral,An answer and expression.
+01:22,Paul,The scrabble maker.,No Strategy,Neutral,A joke.
+01:29,Mitchell,Buddies for life.,No Strategy,Neutral,A joke.
+01:31,Paul,"What did you see in the center, Mike?",Interrogation,Neutral,A question.
+01:33,Mitchell,"What did you see in the center, Mike?",Interrogation,Neutral,A question.
+01:35,Mike,I saw one werewolf.,Evidence,FALSE,Mike's known fact is that he is the Tanner and he saw nothing. He is lying and claiming to be the Seer.
+01:36,Mitchell,Oh.,No Strategy,Neutral,An expression.
+01:36,Justin,And?,Interrogation,Neutral,A question.
+01:38,Mike,Not saying the second one.,Defense,FALSE,"Continuing his Seer lie. He knows he saw zero cards, so he is fabricating the existence of a ""second one""."
+01:39,Paul,"Whoa. Sick. Okay. Let's fucking... I believe all y'all. I was a werewolf. I hope you switched me. This was the werewolf I looked at. Let's do this. Speed round, let's go. Lightning round. Come on. Justin, tell me who you are going to vote for me.",Identity Declaration,TRUE,"This is a compound statement. ""I was a werewolf"" (TRUE, his known fact). ""This was the werewolf I looked at"" (TRUE, his known fact). He is being truthful about his role and action."
+01:53,Justin,Okay. I didn't switch anybody.,Evidence,TRUE,Justin's known fact (as the person he believes is the Troublemaker) is that he *chose not to switch anyone*. This statement aligns with his knowledge.
+01:53,Paul,"Fuck. You didn't switch, nobody, nobody, nobody?",Interrogation,Neutral,A question.
+01:56,Justin,"I picked up your card, put it back down, turn to the camera and said, no.",Evidence,FALSE,"The ground truth `nightActions` states `targets: null (he chose no change)`. This implies he did not perform the physical action of picking up cards. This detailed story is a fabrication to sell his true claim (""I didn't switch"")."
+02:01,Mitchell,If this is true-,No Strategy,Neutral,Start of a hypothetical.
+02:02,Paul,Get me.,Call for Action,Neutral,A command.
+02:02,Mitchell,... this is the first time he's ever done this.,No Strategy,Neutral,A subjective opinion about Justin's playstyle.
+02:06,Paul,Get me. Get at me. Ready to vote. Vote for me. What if I'm the tanner?,Call for Action,FALSE,"His primary command (""Vote for me"") contradicts his known role (Werewolf), whose objective is *not* to be executed. ""What if I'm the tanner"" is also a lie."
+02:10,Justin,I think you deserve it.,No Strategy,Neutral,A subjective opinion.
+02:11,Paul,"Oh, man. Really? That'd be nice.",No Strategy,Neutral,An expression.
+02:13,Justin,Yeah. Like totally. Like I-,No Strategy,Neutral,Filler.
+02:15,Paul,"Copy this strategy, and apply it next time you are the tanner.",Defense,Neutral,A suggestion/meta-comment.
+02:22,Justin,I mean I probably will never have a round where I don't switch again.,No Strategy,Neutral,A prediction about his future playstyle (Rule 4a).
+02:25,Mike,"Yeah, this is weird. I think Justin switched.",Accusation,Neutral,"A statement of opinion (""I think...""). Mike has no facts about Justin's action."
+02:28,Mitchell,Yeah. This is making me nervous.,No Strategy,Neutral,A statement of emotion.
+02:29,Paul,Are you-,No Strategy,Neutral,Incomplete.
+02:29,Mitchell,Both of us are on the hook here.,No Strategy,Neutral,A strategic opinion.
+02:30,Paul,Are you enjoying Paul strategy? Is that what you're doing? Are you going to tell us that-,No Strategy,Neutral,A question.
+02:32,Justin,No. I-,No Strategy,Neutral,Incomplete.
+02:33,Paul,Are you going to tell us at the 11th hour?,Interrogation,Neutral,A question.
+02:35,Justin,I literally never-,No Strategy,Neutral,Incomplete.
+02:37,Paul,"Because if you are. I want you to enjoy that, because it's fun-",No Strategy,Neutral,A conditional statement.
+02:39,Justin,"No, I picked up your card, put it back down and then went like this.",Evidence,FALSE,This is a reiteration of his fabrication from 01:56. The ground truth is he performed no action.
+02:43,Paul,"This is suicide. Interesting strategy, Paul.",No Strategy,Neutral,Meta-commentary on his own (true) claim.
+02:46,Justin,This is a 100% the truth. If you saw what you saw-,No Strategy,FALSE,"Justin is referring to his *fabricated story* (02:39) as ""100% the truth"". This is a lie."
+02:50,Mitchell,I did.,No Strategy,Neutral,"Mitchell is responding to Justin's hypothetical. He has no knowledge of what Justin is talking about. This is likely a lie, but unverifiable."
+02:50,Justin,Then you have nothing to worry about.,No Strategy,Neutral,A conclusion based on a hypothetical.
+02:50,Paul,"I'm fully inclined to believe Justin, and I deserve this death and loss.",No Strategy,Neutral,A statement of belief/opinion.
+02:55,Mike,"But no, Justin-",No Strategy,Neutral,Incomplete.
+02:57,Paul,I went out on a limb to try to tell the truth thinking that I got trouble made and it was not.,No Strategy,TRUE,"Compound statement. ""I went out on a limb to try to tell the truth"" (TRUE, he did at 01:39). ""thinking that I got trouble made"" (TRUE, this is a statement of his past (incorrect) belief)."
+03:01,Justin,"You were going to be the one. I was going to switch you and Mike, but I didn't.",No Strategy,TRUE,"This statement's core factual claim is ""I didn't [switch]"", which is 100% TRUE to Justin's knowledge. The ""I was going to"" is unverifiable past intent."
+03:04,Paul,"So I'm going to vote for Mike, in case you did.",Call for Action,Neutral,A statement of future intent (Rule 4a).
+03:09,Justin,I like that. I respect that.,No Strategy,Neutral,A subjective opinion.
+03:10,Paul,Since he was the intended recipient.,No Strategy,Neutral,A statement of rationale.
+03:13,Mike,I don't believe that you didn't switch.,Accusation,Neutral,"A statement of belief (""I don't believe...""). Rule 3c."
+03:15,Justin,I didn't switch.,"Defense, Evidence",TRUE,This core fact is TRUE based on Justin's knowledge.
+03:16,Paul,"Mike, if he did, it was you-",No Strategy,Neutral,A conditional/hypothetical statement.
+03:19,Mitchell,How could he not have switched.,Interrogation,Neutral,A rhetorical question/statement of disbelief.
+03:19,Mike,I know.,No Strategy,Neutral,Agreement with an opinion.
+03:19,Mitchell,"This is Justin, we're talking about. Justin gets pissed if someone doesn't switch.",Accusation,Neutral,A subjective opinion about Justin's playstyle.
+03:23,Mike,"But the problem is, is if I'm arguing that means I'm the werewolf.",No Strategy,Neutral,A hypothetical/strategic deduction.
+03:26,Mitchell,Or I am. It's one of us.,Defense,Neutral,"A strategic deduction. Mitchell *knows* he is the Troublemaker (now), not a werewolf. This is a lie, but it's framed as a possibility. Neutral."
+03:28,Justin,I did not interact with you at all. If I-,Evidence,TRUE,Justin (speaking to Mitchell) *knows* he is the Troublemaker and *knows* he did not target Mitchell. This is TRUE.
+03:29,Mitchell,Sick. I'm killing you.,Call for Action,Neutral,A statement of future intent (Rule 4a).
+03:31,Justin,"If I did make the switch, it would've been between them. But I did not. I picked it up-",Evidence,TRUE,"The core factual claim is ""But I did not"" [switch], which is TRUE. (He then starts his false story again, but the main clause is true)."
+03:36,Paul,I like where this is-,No Strategy,Neutral,Incomplete.
+03:37,Justin,I picked it up and I said-,No Strategy,FALSE,He is restarting his fabricated story. This is a lie.
+03:39,Paul,... going.,No Strategy,Neutral,Completes sentence.
+03:39,Justin,"... you know what, I'll switch over Mike's, but I'm not going to.",No Strategy,TRUE,This describes a thought process. The factual part is the outcome: he did not switch. This is TRUE.
+03:42,Paul,Who did you rob?,Interrogation,Neutral,A question (to Mitchell).
+03:43,Mitchell,Justin.,Evidence,TRUE,Mitchell's known fact is that he *did* rob Justin. This is TRUE.
+03:43,Paul,Right because you confirmed trouble maaaa.,No Strategy,Neutral,A deduction based on public info.
+03:45,Mitchell,So I weirdly trust him.,No Strategy,Neutral,A statement of feeling/trust.
+03:46,Mike,And then you-,No Strategy,Neutral,Incomplete.
+03:47,Mitchell,At the same time-,No Strategy,Neutral,Incomplete.
+03:47,Paul,You trust in Justin.,No Strategy,Neutral,Repeating Mitchell's statement.
+03:49,Mike,"... confirm that my role, weirdly-",No Strategy,Neutral,Incomplete.
+03:52,Paul,"Because you used... Well, you pull another werewolf or-",No Strategy,Neutral,A guess/deduction.
+03:53,Justin,What was the other one you saw in the middle?,Interrogation,Neutral,"A question (to Mike, based on his Seer lie)."
+03:54,Mike,It was the copycat. I was just going to see if anyone came up with it.,Evidence,FALSE,"Mike's known fact is that he is the Tanner and saw *nothing*. He is fabricating this ""result""."
+03:57,Justin,"Yeah, that's all we have, or potentially this. Like let's-",No Strategy,Neutral,A strategic observation.
+04:01,Mitchell,But you make a good point. We should vote for Mike.,Call for Action,Neutral,"A strategic opinion (""we should vote"")."
+04:07,Justin,I don't think we should vote for Mike.,Defense,Neutral,"A strategic opinion (""I don't think"")."
+04:09,Mike,Why not?,Interrogation,Neutral,A question.
+04:09,Justin,Because I did not switch you.,Evidence,TRUE,"Justin's known fact is that he did not switch anyone. Therefore, he did not switch Mike. This is TRUE."
+04:12,Mitchell,I'm ready to go to vote,Call for Action,Neutral,A statement of readiness.
+04:12,Paul,"Oh, but he's not saying he didn't switch anymore.",Accusation,FALSE,"This is a false statement about the public record. Justin *just* said ""I did not switch you"" (04:09) and ""I didn't switch"" (03:15). Paul is lying."
+04:15,Justin,"Why? Well, I told Mitch I didn't switch him, and I didn't switch him, which means I did not switch you.","Defense, Evidence",TRUE,This is a 100% TRUE statement of fact and logic based on Justin's knowledge (he switched no one).
+04:19,Paul,You switched me.,Interrogation,FALSE,Paul is contradicting Justin. Paul has no facts to support this; he is stating a fabrication as fact. This is a lie.
+04:20,Justin,"I think Mike actually might be a tanner, and that's why he's upset that we're not going to kill him now.",Accusation,Neutral,"A strategic guess/opinion (""I think..."", ""my guess""). This is a ""Lucky Guess"" (Rule 3a) and is therefore Neutral."
+04:24,Mike,"No, no, no, no, no, no.",Defense,FALSE,Mike's known fact is that he *is* the Tanner. He is lying by denying Justin's (correct) guess.
+04:27,Justin,That's my guess.,No Strategy,Neutral,A statement clarifying his prior claim was a guess.
+04:28,Mike,I'm very confused that you didn't switch.,Defense,Neutral,A statement of emotion/confusion.
+04:29,Justin,I didn't. I'm being-,No Strategy,TRUE,Reiterating his true factual claim.
+04:30,Paul,That's a good point. I'm going to vote for Mitchell just in case.,No Strategy,Neutral,A statement of future intent (Rule 4a).
+04:33,Justin,"That's fine. I'm still voting for you because if you're the tanner, you deserve it.",No Strategy,Neutral,A statement of future intent (Rule 4a) and opinion.
+04:35,Paul,"No, no. Of course, vote for me. Vote for me. Vote for me.",Call for Action,FALSE,"Paul (Werewolf) is asking to be voted for, which contradicts his goal. He is lying (likely pretending to be the Tanner)."
+04:37,Justin,Yeah. Because I picked your card up-,No Strategy,FALSE,He is restarting his fabricated story. This is a lie.
+04:38,Paul,Vote for Mitchell. Vote for Mitchell.,Call for Action,Neutral,A command/call to action.
+04:42,Mitchell,You told me to vote for Mitchell.,No Strategy,Neutral,A statement about the public record.
+04:43,Paul,Vote for Mitchell.,Call for Action,Neutral,A command.
+04:46,Mike,I can't -,No Strategy,Neutral,Incomplete.
+04:47,Paul,You can spirit.,No Strategy,Neutral,A joke.
+04:48,Mitchell,I'm ready to go vote-,Call for Action,Neutral,A statement of readiness.
+04:48,Mike,Why would I vote for Mitchell?,Interrogation,Neutral,A question.
+04:50,Justin,"No, you're not. You're voting for Paul.",Call for Action,Neutral,A command.
+04:51,Paul,In case Justin... Because-,No Strategy,Neutral,Incomplete thought.
+04:52,Mike,I'm voting for Paul. It doesn't matter what because I can't vote for-,Call for Action,Neutral,A statement of future intent (Rule 4a).
+04:54,Paul,"No, listen, you have a really good point that Justin would definitely switch.",Defense,Neutral,A statement of strategic opinion.
+04:57,Mike,"Yes. So I'm still voting for you, even if he switched me.",Call for Action,Neutral,A statement of future intent (Rule 4a).
+05:00,Paul,"No, he switched me with somebody.",Defense,FALSE,Paul is stating as fact that Justin switched him. He has no knowledge of this. This is a lie.
+05:02,Mike,"Yes, I understand.",No Strategy,Neutral,Acknowledgment.
+05:03,Paul,So I'm not the werewolf anymore.,Defense,FALSE,Paul's known fact is that he *is* the Werewolf. He is lying.
+05:04,Mike,Yeah. But-,No Strategy,Neutral,Incomplete.
+05:05,Paul,He switched me and Mitchell. You're a good guy.,"Accusation, Defense",FALSE,This is a complete fabrication. Paul has no knowledge of this switch. This is a lie.
+05:07,Mike,I don't think he did.,Defense,Neutral,"A statement of opinion (""I don't think"")."
+05:08,Paul,You're a good guy.,No Strategy,Neutral,This is an accusation/claim about Mike. Paul has no info on Mike. This is a guess. Neutral.
+05:08,Mike,I don't think he did.,Defense,Neutral,A statement of opinion.
+05:08,Paul,"Mike, you're a good guy.",No Strategy,Neutral,Repetition of his guess.
+05:08,Mike,I'm not a good guy.,No Strategy,TRUE,Mike's known fact is that he is the Tanner. The Tanner is not on the village (good guy) team. This statement is TRUE.
+05:11,Mitchell,"You're probably a tanner somehow, even though I saw troublemaker because you fucked up this whole round.",Accusation,FALSE,"Compound statement. ""I saw troublemaker"" (TRUE, Rule 1a). ""You're probably a tanner"" (Neutral guess). The core of the statement is using a true fact to make a guess. But he's talking to Justin. Mitchell *knows* his new card is Troublemaker. He is lying by implying Justin is still the Troublemaker."
+05:17,Paul,"I like it, even if I lose-",No Strategy,Neutral,A statement of opinion.
+05:19,Justin,I have not lied this game.,Defense,FALSE,"Justin's known fact is that he *did* lie (e.g., at 01:56, 02:39, 02:46) about the *details* of his non-action. This is a lie."
+05:21,Mitchell,Which is scary.,No Strategy,Neutral,A subjective opinion.
+05:22,Mike,This is insane.,No Strategy,Neutral,A subjective opinion.
+05:23,Paul,"Mike, I think we got to vote for Mitch because I think... If you believe-",Call for Action,Neutral,"A strategic opinion/call to action (""I think..."")."
+05:26,Mike,No. I'm voting for you.,Call for Action,Neutral,A statement of future intent (Rule 4a).
+05:27,Paul,Here's what's up.,No Strategy,Neutral,Filler.
+05:28,Mike,I'm voting for you.,Call for Action,Neutral,A statement of future intent.
+05:28,Paul,Here's what's up.,No Strategy,Neutral,Filler.
+05:28,Mike,I'm on Justin's side. I am voting for you.,Call for Action,Neutral,A statement of future intent.
+05:30,Paul,If you believe that Justin had to have switched because he is incapable of not switching-,Accusation,Neutral,A hypothetical statement (Rule 4b).
+05:35,Mike,"Yes, and if he did switch, he switched us two.",No Strategy,Neutral,A hypothetical statement (Rule 4b).
+05:37,Paul,No. I think he-,No Strategy,Neutral,Incomplete opinion.
+05:37,Justin,And he still wants to vote for you.,Accusation,Neutral,A statement about Mike's stated intent.
+05:38,Mike,And I would still want to vote for you.,Call for Action,Neutral,A statement of intent.
+05:39,Paul,No. I think he switched me and Mitchell.,Accusation,Neutral,"A statement of opinion/guess (""I think"")."
+05:41,Justin,I didn't. I did not touch Mitchell's card. I picked up your card-,Evidence,TRUE,"Compound statement. ""I didn't"" (TRUE). ""I did not touch Mitchell's card"" (TRUE). ""I picked up your card-"" (Start of his FALSE fabrication). The true parts are factually correct."
+05:44,Paul,"Justin would lie, so that-",Accusation,Neutral,A subjective opinion about Justin's character.
+05:45,Justin,"...So I went like this, and put it down.",Evidence,FALSE,The conclusion of his fabricated story. This is a lie.
+05:47,Paul,I wouldn't know who-,No Strategy,Neutral,Incomplete.
+05:48,Justin,That doesn't make sense.,Defense,Neutral,A subjective opinion.
+05:50,Paul,... it is. No. Who the werewolf... Sorry. Who the werewolf-,No Strategy,Neutral,Incomplete.
+05:52,Mike,"Yeah. Well, that doesn't make any sense.",No Strategy,Neutral,A subjective opinion.
+05:53,Paul,The werewolf wouldn't know that they are the werewolf.,No Strategy,Neutral,A strategic hypothesis.
+05:55,Mike,Yeah. But then Justin wouldn't have anybody on his team-,No Strategy,Neutral,A strategic hypothesis.
+05:57,Paul,The whole point is to keep Mitchell from know he's the werewolf.,Accusation,Neutral,A strategic hypothesis.
+05:57,Mike,But Justin wouldn't have anybody on his team voting with him. Justin wouldn't have nobody in his team-,Defense,Neutral,A strategic hypothesis.
+06:02,Paul,No. Because he'd have all the villages voting for me.,Accusation,Neutral,A strategic hypothesis.
+06:04,Justin,Which is good because you're werewolf.,Accusation,Neutral,Justin *thinks* he is Troublemaker (Village). He has no facts about Paul. This is a guess. Neutral.
+06:05,Mike,That's what he wants me.,No Strategy,Neutral,A strategic hypothesis.
+06:05,Paul,Justin's the werewolf.,Accusation,FALSE,Paul's known fact is that *he* is the Werewolf. This is a lie to deflect blame.
+06:07,Mitchell,Unless he's about to reveal it last second.,Accusation,Neutral,A hypothetical guess.
+06:09,Justin,I'm not.,Defense,Neutral,A statement of future intent (denying a future action). Rule 4a.
+06:09,Mitchell,Let's just let it die down.,No Strategy,Neutral,A suggestion.
+06:11,Justin,"Yeah. Let's just sit and quiet for the last five seconds, and just enjoy it.",No Strategy,Neutral,A suggestion.
+06:13,Paul,Yes. Kill the last of the time. I'm voting for Mitchell.,Call for Action,Neutral,A statement of future intent (Rule 4a).

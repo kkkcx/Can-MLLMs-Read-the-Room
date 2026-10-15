@@ -1,0 +1,164 @@
+{
+  "Game6": {
+    "playerNames": [
+      "Zack",
+      "Sean",
+      "Hunter",
+      "Jacob"
+    ],
+    "votingOutcome": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "startRoles": [
+      "Robber",
+      "Villager",
+      "Villager",
+      "Seer"
+    ],
+    "endRoles": [
+      "Villager",
+      "Robber",
+      "Villager",
+      "Seer"
+    ],
+    "warning": "N/A"
+  },
+  "Game7": {
+    "playerNames": [
+      "Zack",
+      "Sean",
+      "Hunter",
+      "Jacob"
+    ],
+    "votingOutcome": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Seer",
+      "Troublemaker",
+      "Robber"
+    ],
+    "endRoles": [
+      "Seer",
+      "Werewolf",
+      "Robber",
+      "Troublemaker"
+    ],
+    "warning": "N/A"
+  },
+  "Game8": {
+    "playerNames": [
+      "Zack",
+      "Sean",
+      "Hunter",
+      "Jacob"
+    ],
+    "votingOutcome": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "startRoles": [
+      "Robber",
+      "Troublemaker",
+      "Werewolf",
+      "Villager"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Robber",
+      "Troublemaker",
+      "Villager"
+    ],
+    "warning": "N/A"
+  },
+  "Game9": {
+    "playerNames": [
+      "Zack",
+      "Sean",
+      "Hunter",
+      "Jacob"
+    ],
+    "votingOutcome": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Villager",
+      "Villager",
+      "Seer"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Villager",
+      "Villager",
+      "Seer"
+    ],
+    "warning": "N/A"
+  },
+  "Game10": {
+    "playerNames": [
+      "Zack",
+      "Sean",
+      "Hunter",
+      "Jacob"
+    ],
+    "votingOutcome": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Villager",
+      "Troublemaker",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Villager",
+      "Werewolf",
+      "Troublemaker",
+      "Werewolf"
+    ],
+    "warning": "Jacob incorrectly looks at center card"
+  },
+  "Game11": {
+    "playerNames": [
+      "Zack",
+      "Sean",
+      "Hunter",
+      "Jacob"
+    ],
+    "votingOutcome": [
+      3,
+      3,
+      0,
+      3
+    ],
+    "startRoles": [
+      "Insomniac",
+      "Werewolf",
+      "Troublemaker",
+      "Drunk"
+    ],
+    "endRoles": [
+      "Drunk",
+      "Werewolf",
+      "Troublemaker",
+      "Villager"
+    ],
+    "warning": "N/A"
+  }
+}

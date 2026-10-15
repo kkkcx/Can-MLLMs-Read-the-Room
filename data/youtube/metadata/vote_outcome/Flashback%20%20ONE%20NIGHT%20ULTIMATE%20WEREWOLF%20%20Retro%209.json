@@ -1,0 +1,252 @@
+{
+  "Game1": {
+    "startTime": "00:00:21",
+    "endTime": "00:06:46",
+    "playerNames": [
+      "Justin",
+      "Laura",
+      "Paul",
+      "James",
+      "Mitchell"
+    ],
+    "votingOutcome": [
+      2,
+      2,
+      4,
+      4,
+      0
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Villager",
+      "Villager",
+      "Robber",
+      "Insomniac"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Villager",
+      "Robber",
+      "Villager",
+      "Insomniac"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "James",
+        "target": "Paul"
+      },
+      "troublemaker": {
+        "actor": null,
+        "targets": null
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game2": {
+    "startTime": "00:08:25",
+    "endTime": "00:14:51",
+    "playerNames": [
+      "Justin",
+      "Laura",
+      "Paul",
+      "James",
+      "Mitchell"
+    ],
+    "votingOutcome": [
+      3,
+      3,
+      3,
+      4,
+      3
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Werewolf",
+      "Villager",
+      "Villager",
+      "Seer"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Werewolf",
+      "Seer",
+      "Villager",
+      "Villager"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": "Mitchell",
+        "action_type": "center_cards",
+        "targets": null
+      },
+      "robber": {
+        "actor": null,
+        "target": null
+      },
+      "troublemaker": {
+        "actor": null,
+        "targets": [
+          "Paul",
+          "Mitchell"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game3": {
+    "startTime": "00:17:50",
+    "endTime": "00:22:02",
+    "playerNames": [
+      "Justin",
+      "Laura",
+      "Paul",
+      "James",
+      "Mitchell"
+    ],
+    "votingOutcome": [
+      1,
+      2,
+      3,
+      0,
+      0
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Seer",
+      "Werewolf",
+      "Villager",
+      "Robber"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Villager",
+      "Robber",
+      "Seer",
+      "Werewolf"
+    ],
+    "warning": "N/A",
+    "nightActions": null,
+    "nightActions_note": "Not recorded in source video; labels were inferred at annotation time."
+  },
+  "Game4": {
+    "startTime": "00:23:53",
+    "endTime": "00:30:17",
+    "playerNames": [
+      "Justin",
+      "Laura",
+      "Paul",
+      "James",
+      "Mitchell"
+    ],
+    "votingOutcome": [
+      1,
+      2,
+      1,
+      1,
+      0
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Villager",
+      "Robber",
+      "Seer",
+      "Villager"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Villager",
+      "Villager",
+      "Seer",
+      "Robber"
+    ],
+    "warning": "N/A",
+    "nightActions": null,
+    "nightActions_note": "Not recorded in source video; labels were inferred at annotation time."
+  },
+  "Game5": {
+    "startTime": "00:32:49",
+    "endTime": "00:38:47",
+    "playerNames": [
+      "Justin",
+      "Laura",
+      "Paul",
+      "James",
+      "Mitchell"
+    ],
+    "votingOutcome": [
+      4,
+      4,
+      4,
+      4,
+      0
+    ],
+    "startRoles": [
+      "Insomniac",
+      "Werewolf",
+      "Werewolf",
+      "Seer",
+      "Villager"
+    ],
+    "endRoles": [
+      "Insomniac",
+      "Werewolf",
+      "Werewolf",
+      "Seer",
+      "Villager"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": "James",
+        "action_type": "center_cards",
+        "targets": null
+      },
+      "robber": {
+        "actor": null,
+        "target": null
+      },
+      "troublemaker": {
+        "actor": null,
+        "targets": null
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "MetaData": {
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "numPlayers": 5
+  }
+}

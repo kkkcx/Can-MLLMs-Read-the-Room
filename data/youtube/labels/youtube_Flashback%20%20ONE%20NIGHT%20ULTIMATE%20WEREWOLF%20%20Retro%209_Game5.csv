@@ -1,0 +1,81 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:26,Justin,"I know that the timing of this never changes, but this slower tempo music makes me feel like I'm in hell.",No Strategy,Neutral,A subjective opinion about the music.
+01:20,Justin,"no, we're going to be, crazy eights is so yesterday, we're playing crazy nines now. James, he was the seer. He found the tanner and the Insomniac in the center. That's bullshit because I'm the Insomniac.",No Strategy,TRUE,"This is a complex statement. Justin is parodying a potential claim from James, then states ""That's bullshit because I'm the Insomniac,"" which is a statement of fact based on his perfect knowledge."
+01:33,Mitchell,"What the, you're the tanner maybe. Maybe you're the tanner. Who knows?",No Strategy,Neutral,A speculative accusation directed at Justin.
+01:37,Mitchell,I'm the villager.,Identity Declaration,TRUE,Mitchell knows he is a Villager.
+01:39,Paul,Who knows? I'm the villager.,"Identity Declaration, Interrogation",FALSE,Paul knows he is a Werewolf.
+01:41,Justin,I'm the Insomniac.,Identity Declaration,TRUE,Justin knows with certainty that he is the Insomniac.
+01:46,Mitchell,Why do you think he's lying?,Interrogation,Neutral,A question directed at Justin about James.
+01:48,James,Because I looked at those cards.,Evidence,TRUE,James knows he is the Seer and looked at the center cards.
+01:50,Paul,"That's crazy because if you're a werewolf and you fucking lied about what you are and what you saw, that's like three variables that you could only possibly have information about one. And you're just, I'll just do it. Which is very much though, it seems to be your strategy. So...",Accusation,Neutral,"A complex, hypothetical accusation against James based on perceived strategy."
+02:04,Mitchell,Can anyone verify either of these stories? We got a conflict.,Interrogation,Neutral,A question.
+02:07,Justin,"Well, no one can. No one can verify my story because I woke up as the Insomniac. We need some other people talking.",Defense,TRUE,"This is a correct statement. As the Insomniac, only he has proof of his own role, and he needs others to provide their information to solve the game."
+02:18,Paul,I can't confirm anything cause I was a troublemaker.,Defense,FALSE,Paul knows he is a Werewolf. He is lying and claiming a false role.
+02:21,Justin,Nice. Got there.,No Strategy,Neutral,A sarcastic comment.
+02:22,Mitchell,This is a dangerous round.,No Strategy,Neutral,A subjective opinion.
+02:24,Justin,I can confirm you did not switch me.,Evidence,TRUE,"As the Insomniac, Justin knows his card was not switched. This is a fact from his perspective."
+02:27,Paul,"I was like, how? I understood, because you're saying you're Insomniac.",Accusation,Neutral,A statement of his thought process.
+02:32,Mitchell,"Hey, interesting, if he was lying then he wouldn't have been able to confirm that without risk. But he said it confidently.","Accusation, Defense, Evidence",Neutral,A subjective analysis of Paul's confidence and strategy.
+02:40,Paul,"What this kind of says to me is, James knows he's the tanner. This is a possibility. He knows he's the tanner so he's going to say that that's one of the cards in there. Because then the tanner's not going to lie about being or not if a whole, okay.",Accusation,Neutral,A strategic hypothesis about James's motives.
+02:55,Mitchell,What the fuck is Laura?,Interrogation,Neutral,A question.
+02:56,James,What am I?,Interrogation,Neutral,A question.
+02:57,Mitchell,"Yeah, what's Laura? Laura, what are you? Laura's a werewolf.","Accusation, Interrogation",Neutral,"Questions followed by a guess (""Lucky Guess"" Rule 3a)."
+03:00,Paul,I'm confused.,No Strategy,FALSE,"As a Werewolf who knows his partner and is actively lying, claiming confusion is a strategic lie."
+03:01,James,I think Laura might be a werewolf.,Accusation,Neutral,A subjective opinion/guess.
+03:03,Justin,Laura might be werewolf.,Accusation,Neutral,A subjective opinion/guess.
+03:03,Mitchell,I mean that's the way things are looking. But also there is this conflict we cannot ignore between stories.,"Accusation, Call for Action",Neutral,A strategic opinion and suggestion.
+03:11,Justin,I think James might be the tanner.,Accusation,Neutral,A subjective opinion/guess.
+03:13,Laura,I think Justin's also a werewolf.,Accusation,FALSE,Laura knows she and Paul are the Werewolves. She is knowingly making a false accusation against Justin to protect her team.
+03:15,Justin,I am the Insomniac and I woke up as the Insomniac.,"Identity Declaration, Evidence",TRUE,A 100% factual statement based on his own night action.
+03:18,Paul,"You say, also.",No Strategy,Neutral,An observation about Laura's word choice.
+03:18,Mitchell,"Also,...",No Strategy,Neutral,An observation.
+03:19,Paul,Which is really interesting because Laura may be one of the people that I switched.,Defense,FALSE,Paul knows he was not the Troublemaker and did not switch anyone. This is a lie to support his false role claim.
+03:26,Justin,You did not switch her with me cause I woke up as the Insomniac.,"Identity Declaration, Accusation",TRUE,"This is a correct logical deduction. Since he knows he is the Insomniac, he knows Paul's claim of switching him is impossible."
+03:32,Paul,That makes me believe Justin a bit too because actually I didn't switch Justin with her.,"Defense, Evidence",FALSE,"Paul is lying. The premise ""I didn't switch Justin"" is accidentally true, but it's part of his larger lie of being the Troublemaker. His intent is to deceive (""Failed Lie"" Rule 2a)."
+03:38,Justin,"How does it feel to be lying about being the villager right now, by the way, steal that information.",Interrogation,Neutral,A question directed at Mitchell.
+03:44,Mitchell,Feels good.,Defense,TRUE,"Mitchell knows he is a Villager, so he is not lying. His response is a truthful, albeit sarcastic, answer to the question."
+03:46,Justin,I was the Insomniac. This is a problem. He's lying.,"Identity Declaration, Accusation",TRUE,"""I was the Insomniac"" is a fact. ""He's lying"" is a correct deduction based on his own knowledge clashing with James's (parodied) claim."
+03:51,James,"No, I'm not.",Defense,Neutral,A general denial. The specifics of James's claim are still vague at this point.
+03:54,Justin,I think James is the tanner.,Accusation,Neutral,A strategic opinion/guess.
+03:55,Paul,I think James is the tanner as well. He did that right away because he chose the tanner as one of the cards in the center.,Accusation,Neutral,"A strategic opinion based on a false premise (Justin's parody, not James's actual words)."
+04:02,Justin,"I think James, this is a good gambit to be as the tanner. Not as much as the werewolf because like you said, you're lying about three things.",Accusation,Neutral,A subjective analysis of James's potential strategy.
+04:10,Justin,"But if he is the werewolf, it totally puts us off the track of James.",Accusation,Neutral,A hypothetical statement.
+04:14,Paul,Here's the awkward part that comes into play here.,No Strategy,Neutral,A conversational filler.
+04:18,Justin,Switch James...,No Strategy,Neutral,An incomplete command.
+04:19,Paul,I didn't...,No Strategy,Neutral,An incomplete denial.
+04:20,Justin,Switch James.,No Strategy,Neutral,A command.
+04:21,Paul,I didn't switch James.,Defense,FALSE,"The statement is factually correct, but it's made to support his lie of being the Troublemaker. The intent is to deceive (""Failed Lie"" Rule 2a)."
+04:22,Justin,So you switched Laura and Mitchell.,Accusation,Neutral,A logical deduction to corner Paul in his lie.
+04:23,Paul,I switched Lauren and Mitchell.,Evidence,FALSE,Paul knows he is a Werewolf and did not switch anyone. He is fabricating this action to maintain his lie.
+04:25,Mitchell,Dang.,No Strategy,Neutral,An exclamation.
+04:26,Paul,Were you a werewolf?,Interrogation,Neutral,A question to Laura.
+04:26,Laura,I was a werewolf. That means you are a werewolf now.,"Identity Declaration, Accusation",TRUE,"""I was a werewolf"" is true. The accusation ""That means you are a werewolf now"" is a correct deduction based on Paul's (false) claim of switching her with Mitchell. It's a clever trap."
+04:31,Mitchell,Please tell me you're trapping her.,Call for Action,Neutral,A plea.
+04:34,Paul,I'm not.,Defense,FALSE,Paul knows he wasn't trapping her because his entire Troublemaker story is a lie. He's denying a truth (that Laura trapped him) to maintain his lie.
+04:37,Mitchell,Please save my life.,Call for Action,Neutral,A plea.
+04:39,Justin,I think we got to kill Mitchell.,Call for Action,Neutral,A strategic suggestion.
+04:40,Mitchell,I mean I have no defense. I was a villager.,Identity Declaration,TRUE,Mitchell knows he is a Villager.
+04:43,Justin,Suddenly. Someone made some trouble and I'm a werewolf.,"Identity Declaration, Interrogation",FALSE,Justin knows he is the Insomniac. He is lying and pretending to be a Werewolf now due to Paul's actions.
+04:46,Mitchell,I've grown some fur.,Evidence,Neutral,A joke.
+04:47,Paul,Brown bumper.,No Strategy,Neutral,Irrelevant chatter.
+04:47,Justin,I think we got to kill Mitchell.,Call for Action,Neutral,A strategic suggestion.
+04:50,Mitchell,I kind of agree.,No Strategy,Neutral,A statement of agreement.
+04:52,Mitchell,But what the fuck.,No Strategy,Neutral,An exclamation.
+04:52,Paul,What the fuck is James going to do If we decide to kill Mitchell?,Interrogation,Neutral,A question about strategy.
+04:55,Justin,He's going to vote for me.,Accusation,Neutral,A prediction of another player's vote.
+04:57,Paul,"Okay. But he can't. Okay. As the tanner, he can't screw up the vote for us because we're not trying to vote for laughs so you can't do that, take us down.",No Strategy,Neutral,A complex statement of strategy based on the assumption James is the Tanner.
+05:03,Justin,You can't do the Mike plan. Cursed Mike plan. Chad didn't like that plan.,No Strategy,Neutral,An irrelevant inside joke.
+05:06,Mitchell,Who are you voting for?,Interrogation,Neutral,A question.
+05:06,James,What?,Interrogation,Neutral,A question.
+05:08,Mitchell,I'll vote with you because I'm a werewolf. I'm scared.,"Identity Declaration, Call for Action",FALSE,Mitchell knows he started as a Villager. He is lying about being a Werewolf based on the fabricated switch.
+05:13,Justin,"Oh, you can't vote for yourself.",No Strategy,TRUE,A correct statement of the game's voting rules.
+05:17,James,"Well here's the thing, again because, okay, so I was a seer.",Identity Declaration,TRUE,James knows he is the Seer.
+05:22,James,And I'm terrible at being the seer because last time I had forgot the first card I looked at.,Defense,Neutral,A subjective self-assessment referencing a past game.
+05:26,Justin,You did.,No Strategy,Neutral,An agreement about a past game.
+05:27,James,For the second card.,No Strategy,Neutral,A continuation of his anecdote.
+05:28,James,"I forgot the first card I looked at because I was like, oh the tanner, he's the funny guy. I saw brown hair, could have been the robber, no one claimed him. So Justin's story might very well check out, but I'm sticking to my guns and....",Accusation,TRUE,He is truthfully reporting his (somewhat muddled) memory of what he saw as the Seer (Tanner and Robber). The rest is his strategic reasoning.
+05:39,Paul,"I feel pretty, why is there a werewolf on you?",Interrogation,Neutral,A question.
+05:41,Justin,Because that's what James thinks I am.,Defense,Neutral,A subjective interpretation of James's actions.
+05:42,Paul,"Okay, because I feel pretty good about what Justin said because we sort of verified each other's stories based on trust.",Accusation,Neutral,A strategic opinion.
+05:51,James,I'll talk in,No Strategy,Neutral,An incomplete thought.
+05:53,James,There must be blood.,No Strategy,Neutral,"A dramatic, non-factual statement."

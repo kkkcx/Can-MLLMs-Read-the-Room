@@ -1,0 +1,44 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+02:45,Danieal,Okay. Any claims?,Interrogation,Neutral,This is a question and has no factual basis to be judged.
+02:47,Kaelan,"Well, I was the Troublemaker.",Identity Declaration,TRUE,"Kaelan is truthfully stating his starting role, which he believes he still is."
+02:49,Danieal,You were the Troublemaker?,Interrogation,Neutral,This is a question.
+02:50,Kaelan,"I mean, I am the Troublemaker to my knowledge.",Identity Declaration,TRUE,This is a precise and accurate statement of his knowledge about his own role.
+02:53,Danieal,Okay. So you started with the Troublemaker.,Interrogation,Neutral,This is a clarifying statement phrased as a question.
+02:55,Kaelan,I started with the Troublemaker.,"Defense, Evidence",TRUE,This is a factually correct statement.
+02:56,Jessica,I was the Doppelgänger.,Identity Declaration,TRUE,Jessica is accurately stating her starting role.
+02:57,Danieal,You were the Doppelgänger?,Interrogation,Neutral,This is a question.
+02:57,Jessica,Mm-hmm,Defense,Neutral,"This is an affirmative sound, not a statement."
+02:57,Danieal,Who did you Doppel?,Interrogation,Neutral,This is a question.
+03:00,Jessica,Troublemaker.,Identity Declaration,TRUE,She is accurately reporting the role she copied from Kaelan.
+03:00,Kaelan,All right. So you double trouble?,"Interrogation, Defense",Neutral,This is a question based on the new information.
+03:01,Kevin,Jesus.,No Strategy,Neutral,This is an exclamation with no factual content.
+03:02,Kaelan,You switched around first. So what did you switch around?,Interrogation,TRUE,"The premise ""You switched around first"" is a correct statement of the night action order. The rest is a question."
+03:08,Jessica,Those two.,"Defense, Evidence",TRUE,She is accurately reporting her action of swapping Kevin and Daniel.
+03:09,Kaelan,Those two.,"Accusation, Evidence",Neutral,This is a repetition for confirmation.
+03:09,Danieal,Okay.,Defense,Neutral,Acknowledgement.
+03:10,Kaelan,Kevin what were you?,Interrogation,Neutral,This is a question.
+03:13,Kevin,I was the Minion.,Identity Declaration,TRUE,Kevin is accurately stating his starting role.
+03:14,Danieal,You were the Minion?,Interrogation,Neutral,This is a question.
+03:15,Kevin,I was.,"Identity Declaration, Defense",TRUE,Kevin is truthfully confirming his starting role.
+03:16,Kaelan,Okay.,No Strategy,Neutral,Acknowledgement.
+03:16,Danieal,So you swapped?,Interrogation,Neutral,This is a question.
+03:18,Kaelan,"You swapped. Okay, but then I also swapped you two again.",Evidence,TRUE,"He is accurately recounting his own action: swapping Kevin and Jessica (""you two"")."
+03:24,Kevin,Oh fuck.,No Strategy,Neutral,This is an exclamation with no factual content.
+03:25,Jessica,Us two?,Interrogation,Neutral,This is a clarifying question.
+03:25,Kaelan,"No, no, no.",Defense,Neutral,A clarifying negation.
+03:27,Jessica,Okay.,No Strategy,Neutral,Acknowledgement.
+03:28,Danieal,"So, I started out as the Seer and I looked at these two cards and I saw a Werewolf here and then the Drunk here.","Identity Declaration, Defense, Evidence",FALSE,This is a complete fabrication. Daniel knows he started as the Werewolf and is now the Minion. He is lying about his role and inventing a night action.
+03:48,Danieal,Safe shot is center.,Evidence,Neutral,This is a strategic opinion.
+03:49,Kaelan,And that is also something a Werewolf would say.,"Accusation, Defense",Neutral,This is a subjective accusation based on player tendencies.
+00:00,Danieal,Resume.,Call for Action,Neutral,This is a command.
+00:02,Jessica,I'm shooting the middle.,"Call for Action, Defense, Evidence",Neutral,"This is a statement of future intent, which is unverifiable."
+00:04,Kaelan,Yeah.,Defense,Neutral,Agreement.
+00:06,Kevin,Yeah.,Defense,Neutral,Agreement.
+00:06,Kaelan,Yeah.,Defense,Neutral,Agreement.
+00:07,Danieal,We're all shooting the middle?,"Interrogation, Call for Action",Neutral,This is a question about the group's intent.
+00:08,Kaelan,Yeah.,"Defense, Evidence",Neutral,Agreement.
+00:08,Danieal,I've got bad news for you.,"Accusation, Defense",Neutral,This is a dramatic statement with no factual claim.
+00:11,Jessica,God damn it.,No Strategy,Neutral,This is an exclamation.
+00:13,Danieal,That's the Seer. I'm the Minion. Jess is the Werewolf.,"Identity Declaration, Accusation, Defense",TRUE,"The core factual claim here is ""I'm the Minion."" Based on the night phase reconstruction, Daniel knows his card was swapped and that he is now the Minion. He is telling the truth about his current role. The other parts are guesses."
+00:23,Kaelan,Damn.,No Strategy,Neutral,This is an exclamation.
+00:23,Kevin,I started out as the Minion that round.,Identity Declaration,TRUE,"This is a post-game statement, and he is accurately recalling his starting role."

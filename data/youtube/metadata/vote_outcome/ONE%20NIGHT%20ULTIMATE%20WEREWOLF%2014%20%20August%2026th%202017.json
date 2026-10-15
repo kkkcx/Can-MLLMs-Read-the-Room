@@ -1,0 +1,114 @@
+{
+  "Game1": {
+    "startTime": "00:01:45",
+    "endTime": "00:08:01",
+    "playerNames": [
+      "Justin",
+      "Mitchell",
+      "Caitlynn",
+      "Mike"
+    ],
+    "votingOutcome": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "startRoles": [
+      "Tanner",
+      "Insomniac",
+      "Werewolf",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Tanner",
+      "Insomniac",
+      "Werewolf",
+      "Werewolf"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": null,
+        "target": null
+      },
+      "troublemaker": {
+        "actor": null,
+        "targets": null
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game2": {
+    "startTime": "00:11:43",
+    "endTime": "00:17:45",
+    "playerNames": [
+      "Justin",
+      "Mitchell",
+      "Caitlynn",
+      "Mike"
+    ],
+    "votingOutcome": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Insomniac",
+      "Tanner",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Insomniac",
+      "Tanner",
+      "Werewolf"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": null,
+        "target": null
+      },
+      "troublemaker": {
+        "actor": null,
+        "targets": null
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "MetaData": {
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "numPlayers": 4
+  }
+}

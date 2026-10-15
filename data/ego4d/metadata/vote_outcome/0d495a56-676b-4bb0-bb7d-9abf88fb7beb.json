@@ -1,0 +1,126 @@
+{
+  "Game1": {
+    "playerNames": [
+      "Shiyu",
+      "Alvin",
+      "Davis",
+      "Grace",
+      "Alex"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "endRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "warning": "NA"
+  },
+  "Game2": {
+    "playerNames": [
+      "Shiyu",
+      "Alvin",
+      "Davis",
+      "Grace",
+      "Alex"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "endRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "warning": "NA"
+  },
+  "Game3": {
+    "playerNames": [
+      "Shiyu",
+      "Alvin",
+      "Davis",
+      "Grace",
+      "Alex"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "endRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "warning": "NA"
+  },
+  "Game4": {
+    "playerNames": [
+      "Shiyu",
+      "Alvin",
+      "Davis",
+      "Grace",
+      "Alex"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "endRoles": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "warning": "NA"
+  }
+}

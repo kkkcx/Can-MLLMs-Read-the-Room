@@ -1,0 +1,86 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+02:07,Danieal,"Okay, anyone want to claim anything?",Interrogation,Neutral,This is a question and has no factual basis to be judged.
+02:12,Kevin,I'm the Troublemaker.,Identity Declaration,TRUE,"Kevin robbed Kaelan (Troublemaker) and saw his new card. Based on the information he possesses, this statement is factually correct (Rule 1a)."
+02:13,Kaelan,Nope.,Defense,Neutral,A simple refusal to claim a role is not a factual statement.
+02:13,Kaelan,I'm the Troublemaker. I started with the Troublemaker. So would you like to admit anything?,"Identity Declaration, Interrogation, Evidence",TRUE,"Kaelan is unaware his card was swapped. He is truthfully stating his starting role, which is the only information he has about his own card. The last part is a question."
+02:23,Danieal,Were you the Robber? Is that what happened there?,Interrogation,Neutral,This is a question based on a deduction from hearing two Troublemaker claims.
+02:28,Kevin,Yeah.,"Defense, Evidence",TRUE,Kevin is truthfully confirming that he started as the Robber.
+02:32,Kaelan,"So, I guess I'm the Robber now.","Identity Declaration, Accusation",Neutral,"This is a logical deduction based on Kevin's claim. Kaelan does not know this for a fact, he is guessing."
+02:35,Danieal,Who did you trouble?,Interrogation,Neutral,This is a direct question.
+02:37,Kaelan,"Wait, no, I'm still the Robber. I troubled these two. So you're the Troublemaker, Jess.","Identity Declaration, Defense, Evidence",TRUE,"""I troubled these two"" is the core factual claim. Kaelan did perform the Troublemaker action on Kevin and Jessica, so he is accurately describing his night action."
+02:46,Danieal,What were you Jess?,Interrogation,Neutral,This is a direct question.
+02:46,Jessica,I was the Minion.,Identity Declaration,FALSE,Jessica knows her starting role was Werewolf. This is a direct and intentional lie.
+02:50,Danieal,You were the Minion? That's interesting. I was the Drunk.,"Identity Declaration, Interrogation",TRUE,"The second part, ""I was the Drunk,"" is a truthful statement about his starting role. The first part is a question."
+02:51,Kaelan,"So, who did you? Okay, so you swapped with The middle? The Drunk doesn't know what card, so you have no idea.",Interrogation,Neutral,"These are questions and statements about game rules/another player's knowledge state, not his own."
+03:03,Danieal,"I have no idea what I am now. But I mean, this tells us that there's a high likelihood that the Werewolf was in the center, unless Jess was the Werewolf. But if Jess was the Werewolf, she could just come out and say, I was the Werewolf and we'd all shoot Kevin.","Accusation, Call for Action, Evidence",TRUE,"The initial claim ""I have no idea what I am now"" is a perfectly accurate description of his knowledge as the Drunk. The rest is speculation and thus Neutral."
+03:19,Kaelan,That's true.,Defense,Neutral,This is an expression of agreement with Daniel's speculation.
+03:20,Kevin,That'd be awful rude.,Accusation,Neutral,This is a subjective comment.
+03:21,Kaelan,That's true.,No Strategy,Neutral,This is an expression of agreement with Daniel's speculation.
+03:26,Kaelan,The Minion could confirm if-,No Strategy,Neutral,This is an incomplete hypothetical statement.
+03:30,Kevin,If they saw a Werewolf.,No Strategy,Neutral,This is a hypothetical statement completing Kaelan's thought.
+03:31,Kaelan,"Well, but the Minion ",No Strategy,Neutral,This is an incomplete thought.
+03:35,Jessica,But doesn't the Minion want to die?,Interrogation,Neutral,This is a question about game rules.
+03:38,Kaelan,"No, the Minion wants the Werewolf to win .",No Strategy,Neutral,"This is a statement of game rules, not a claim based on private information."
+03:40,Danieal,"No, that's the Tanner that wants to die.","Defense, Evidence",Neutral,"This is a statement of game rules, not a claim based on private information."
+03:41,Jessica,Okay.,No Strategy,Neutral,This is an acknowledgement.
+03:42,Kaelan,"But also, you're no longer the Minion. You no longer want the Werewolves to win. So if you were the Minion, did you see a Werewolf?","Interrogation, Evidence",Neutral,This is a deduction based on his actions and a direct question. He does not know for a fact that she is no longer the Minion.
+03:48,Danieal,Did you see a Werewolf?,Interrogation,Neutral,This is a direct question.
+03:52,Jessica,No.,Defense,TRUE,"As the lone Werewolf, Jessica woke up and saw no other Werewolves. Her answer is literally true, though intentionally misleading."
+03:52,Kaelan,"So, the Werewolf is in the middle. One of these cards.","Defense, Evidence",Neutral,"This is a conclusion drawn from Jessica's claims; it is a guess, not a known fact for Kaelan."
+03:55,Danieal,"Yep. So, here's the thing, if we shoot a non-Werewolf, the town loses. Even if there's a Werewolf in the center.",No Strategy,Neutral,This is a statement about game strategy and win conditions.
+04:06,Kaelan,But do we have to?,Interrogation,Neutral,This is a question.
+04:08,Danieal,"We can all say we think it's in the center, and no one gets shot.",No Strategy,Neutral,This is a strategic proposal.
+04:12,Kaelan,"Okay, well, it's either in the center or it's you. ",No Strategy,Neutral,This is a speculative accusation. He has no factual basis for this claim.
+04:21,Danieal,"It sucks. It's fifty-fifty. I've got to vote center, because I can't vote to shoot myself.","Call for Action, Defense",Neutral,"This expresses a feeling, an opinion, and a future intention."
+04:24,Kevin,You have no idea.,Accusation,TRUE,"This is a correct statement about Daniel's knowledge state, as Daniel was the Drunk and has confirmed he doesn't know his new role."
+04:25,Kaelan,Here's how it's going to go. We all vote to not shoot. If you are the Werewolf-,Call for Action,Neutral,This is a strategic proposal and a hypothetical statement.
+04:28,Danieal,Then I win. If I'm the Werewolf and you shoot center-,No Strategy,Neutral,This is a statement about a hypothetical scenario.
+04:33,Jessica,"So, we should shoot you just to be safe.",No Strategy,Neutral,This is a strategic suggestion.
+04:33,Kaelan,"No, no, no, we don't shoot center, we skip this round. If ",No Strategy,Neutral,This is a strategic proposal.
+04:39,Jessica,It's only one round.,No Strategy,Neutral,This is a statement of game rules.
+04:40,Danieal,It's one night Werewolf.,No Strategy,Neutral,This is a statement of game rules.
+04:41,Kaelan,"Oh, shit, it's only one night.",No Strategy,Neutral,This is an expression of realization about a rule.
+04:43,Kevin,"Yeah, idiot.",No Strategy,Neutral,This is an insult and contains no factual information.
+04:44,Kaelan,Dumbass.,No Strategy,Neutral,This is an insult and contains no factual information.
+04:46,Danieal,"So, we have to shoot somebody and we have four minutes to do it, which I'll probably put that timer down. I got to shoot center.",Call for Action,Neutral,This is a statement about rules and future intention.
+04:54,Jessica,Do we have to-,Interrogation,Neutral,This is an incomplete question.
+04:56,Danieal,You have to-,No Strategy,Neutral,This is an incomplete statement.
+04:56,Kaelan,Do we have to pick a card in the center?,Interrogation,Neutral,This is a question about rules.
+04:58,Danieal,"No, you just shoot the center.","Call for Action, Defense",Neutral,This is an explanation of game procedure.
+05:00,Kevin,Okay. All right. Hold on. So I was a Robber. So I switched cards with you. You were the Troublemaker.,"Identity Declaration, Evidence",TRUE,"This is an accurate summary of Kevin's knowledge: he knows his starting role, his action, and the role of his target."
+05:04,Kaelan,Yeah.,No Strategy,Neutral,This is a simple agreement.
+05:04,Kevin,"And you switched who, again?",Interrogation,Neutral,This is a direct question.
+05:06,Kaelan,I switched you guys.,"Defense, Evidence",TRUE,Kaelan is accurately reporting the action he took during the night (swapping Kevin and Jessica).
+05:07,Kevin,Okay. And you were the Minion.,Interrogation,Neutral,"This is a statement to confirm Jessica's claim, essentially a question."
+05:08,Jessica,Right.,No Strategy,Neutral,This is an acknowledgement.
+05:09,Kevin,And you said that you didn't see a Werewolf.,"Defense, Evidence",TRUE,Kevin is accurately recalling and stating what Jessica said earlier.
+05:10,Jessica,Uh-uh So it's in the-,No Strategy,Neutral,This is an acknowledgement and the start of a deduction.
+05:11,Kevin,Dan-,No Strategy,Neutral,This is an incomplete statement.
+05:13,Danieal,"But you win with the Werewolves too, so you've got to vote opposite of everybody else for your win condition.",Call for Action,Neutral,This is strategic advice based on Jessica's Minion claim.
+05:29,Kevin,Fuck.,No Strategy,Neutral,This is an expletive with no factual content.
+05:29,Danieal,"But at the same time, you don't know... You're in the same boat, is what I'm trying to say.",No Strategy,Neutral,This is a subjective opinion about the players' shared state of uncertainty.
+05:35,Kevin,"I don't know if I'm a Minion. Ah, beans.",Accusation,TRUE,"Given the confusing swaps described, Kevin is genuinely uncertain about his final card. This statement accurately reflects his mental state of confusion."
+05:38,Kaelan,"No, you're... I guess you can't look at the cards and verify that you're the Minion.",No Strategy,Neutral,This is a statement about game rules and a guess.
+05:42,Danieal,"No, I have to take just Jess at her word.",Defense,Neutral,"This describes his strategic position, which is subjective."
+05:44,Kaelan,You do have to take Jess at her word.,Defense,Neutral,This is an agreement with Daniel's strategic assessment.
+05:45,Danieal,I feel like I can trust her about as far as I can throw her.,"Accusation, Evidence",Neutral,This is a subjective expression of distrust.
+05:48,Kaelan,"It's also possible that Jess was the Werewolf, and thus makes ",Accusation,Neutral,This is a speculative hypothesis.
+05:51,Danieal,"It could also be that one of these was a Werewolf and the other was the Minion, and if you trouble made them, they know-",Accusation,Neutral,This is a speculative hypothesis.
+06:00,Kaelan,I know he's the Robber because I could see his shadow fucking with my card. So I know that-,Defense,FALSE,"Kaelan is fabricating the source of his information. He deduced Kevin was the Robber from conversation, but he is lying by claiming he knows because he saw something."
+06:06,Kevin,"Well, then, you're eye weren't very closed, were they?",Interrogation,Neutral,This is a question accusing Kaelan of cheating.
+06:08,Kaelan,They were closed.,"Defense, Evidence",FALSE,"Having just implied he saw something, he is now lying to deny that he was peeking. This contradicts the basis of his previous statement."
+06:09,Kevin,You lying piece of shit. You fucker.,No Strategy,Neutral,This is an insult.
+06:13,Kaelan,the change in lighting.,No Strategy,FALSE,"This is a continuation of his lie, fabricating a justification for how he could ""see"" with his eyes closed."
+06:14,Kevin,You cheater.,No Strategy,Neutral,This is an accusation.
+06:15,Jessica,Pause it.,No Strategy,Neutral,This is a command.
+00:00,Danieal,"So to recap, I'm shooting the center.",Call for Action,Neutral,This is a statement of future intent.
+00:05,Kaelan,I also am shooting the center. I...,Call for Action,Neutral,This is a statement of future intent.
+00:09,Kevin,"I mean I have to shoot at Dan. If I want to win, I got to...",Defense,Neutral,This is a statement of strategic intent based on his current beliefs.
+00:14,Danieal,"You could shoot at either of them as well because you know that they are not Werewolf, but the three of us are shooting center.","Call for Action, Defense",Neutral,This is a strategic suggestion and statement about group intent.
+00:24,Kevin,"I guess I'll shoot at Kaelan, whatever.",Call for Action,Neutral,This is a statement of future intent.
+00:26,Danieal,Okay.,No Strategy,Neutral,This is an acknowledgement.
+00:26,Kaelan,"Okay, wow, that's pretty rude.",No Strategy,Neutral,This is a subjective opinion.
+00:28,Kevin,I'm not the Werewolf. Town wins.,No Strategy,TRUE,"Based on his outdated information, Kevin believes he is the Troublemaker (a village role). Therefore, he is truthfully stating that he believes he is not a Werewolf (Rule 1a)."
+00:30,Kevin,"I fucking knew it. I told us. I said that you were the most deceptive motherfucker in that survey. You piece of shit, I knew I couldn't trust you.","Defense, Evidence",Neutral,"This is a post-game emotional outburst. Claims like ""I knew it"" are unverifiable statements of past mental states."
+00:49,Danieal,You could have just come out and said you was werewolf.,Defense,Neutral,This is a post-game strategic comment.
+00:51,Jessica,I didn't think that...,No Strategy,Neutral,This is an incomplete post-game explanation.

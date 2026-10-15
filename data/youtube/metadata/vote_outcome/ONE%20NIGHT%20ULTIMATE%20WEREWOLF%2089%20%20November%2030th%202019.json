@@ -1,0 +1,93 @@
+{
+  "Game2": {
+    "startTime": "00:11:44",
+    "endTime": "00:18:27",
+    "playerNames": [
+      "Justin",
+      "Mitchell",
+      "Paul",
+      "James"
+    ],
+    "votingOutcome": [
+      2,
+      0,
+      0,
+      0
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Werewolf",
+      "Robber",
+      "Troublemaker"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Werewolf",
+      "Robber",
+      "Troublemaker"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Paul",
+        "target": "Justin"
+      },
+      "troublemaker": {
+        "actor": "James",
+        "targets": [
+          "Paul",
+          "Justin"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game3": {
+    "startTime": "00:20:16",
+    "endTime": "00:26:36",
+    "playerNames": [
+      "Justin",
+      "Mitchell",
+      "Paul",
+      "James"
+    ],
+    "votingOutcome": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Robber",
+      "Werewolf",
+      "Troublemaker"
+    ],
+    "endRoles": [
+      "Robber",
+      "Werewolf",
+      "Werewolf",
+      "Troublemaker"
+    ],
+    "warning": "N/A"
+  },
+  "MetaData": {
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "numPlayers": 4
+  }
+}

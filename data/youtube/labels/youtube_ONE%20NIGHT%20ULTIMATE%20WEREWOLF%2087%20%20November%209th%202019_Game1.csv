@@ -1,0 +1,135 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:00,Justin,Goodnight everybody.,No Strategy,Neutral,"Meta-comment, not a falsifiable game fact."
+00:12,Paul,There has been a butterscotch firm roll.,No Strategy,Neutral,Night-phase chatter/joke. Not a factual claim.
+00:16,Mitchell,Yummy,No Strategy,Neutral,Night-phase chatter.
+00:16,Justin,"Do you guys remember candy stand, minigolf?",No Strategy,Neutral,Night-phase chatter.
+00:17,Mitchell,"Oh, yeah.",No Strategy,Neutral,Night-phase chatter.
+00:17,Mike,Yeah.,No Strategy,Neutral,Night-phase chatter.
+00:18,Justin,Yeah. Paul's too old for that.,No Strategy,Neutral,Night-phase chatter/joke.
+00:25,Justin,Paul are you flipping me off right now?,No Strategy,Neutral,Night-phase chatter/question.
+00:28,Paul,"I might be, I'm something you off.",No Strategy,Neutral,Night-phase chatter/joke.
+00:31,Justin,Oh. Oh.,No Strategy,Neutral,Night-phase chatter.
+00:31,Paul,Oh.,No Strategy,Neutral,Night-phase chatter.
+00:36,Mike,Oh.,No Strategy,Neutral,Night-phase chatter.
+00:36,Paul,What are we on?,No Strategy,Neutral,Night-phase chatter/question.
+00:36,Justin,Seer.,No Strategy,Neutral,Night-phase chatter.
+00:37,Mike,Seer.,No Strategy,Neutral,Night-phase chatter.
+00:43,Paul,Look at another card. Get away from our habits.,No Strategy,Neutral,Night-phase chatter/suggestion.
+00:48,Mike,No.,No Strategy,Neutral,Night-phase chatter.
+00:51,Paul,It's more fun.,No Strategy,Neutral,Night-phase chatter/opinion.
+00:54,Mike,"Yeah, look at the center.",No Strategy,Neutral,Night-phase chatter/suggestion.
+00:55,Mike,That's more information.,No Strategy,Neutral,Night-phase chatter/opinion.
+00:57,Paul,Fuck more information.,No Strategy,Neutral,Night-phase chatter/opinion.
+00:59,Mitchell,I want personal information.,No Strategy,Neutral,Night-phase chatter/opinion.
+01:00,Paul,"Yeah, it's not about quantity, it's about quality.",No Strategy,Neutral,Night-phase chatter/opinion.
+01:03,Justin,I want your sim number.,No Strategy,Neutral,Night-phase chatter/joke.
+01:08,Paul,What did you see?,No Strategy,Neutral,Night-phase chatter/question.
+01:09,Paul,Mitchell's sim number. Just a sim card just a sim card in the thing,No Strategy,Neutral,Night-phase chatter/joke.
+01:17,Paul,Oh.,No Strategy,Neutral,Night-phase chatter.
+01:18,Mike,We're waking up.,No Strategy,Neutral,Meta-comment.
+01:19,Justin,Copycat.,No Strategy,Neutral,"A random statement, not a factual claim."
+01:19,Mike,Did you miss the troublemaker?,No Strategy,Neutral,A question.
+01:21,Paul,It's a may.,No Strategy,Neutral,Meta-comment about game rules.
+01:22,Mike,It is a may.,No Strategy,Neutral,Meta-comment about game rules.
+01:23,Paul,You missed it.,No Strategy,Neutral,Meta-comment.
+01:27,Mike,I'll let you pick. This is going on over here.,No Strategy,Neutral,Meta-comment.
+01:32,Justin,"Hmm? Yeah, Mitch and I are playing the game, and you guys are joking werewolves.",Accusation,FALSE,Justin's known fact is that *he* is a Werewolf (from robbing Mitchell) and that Mitchell *started* as a Werewolf. He is lying by accusing others and implying he and Mitchell are not werewolves.
+01:35,Mitchell,So we're werewolves?,Interrogation,Neutral,A rhetorical question in response to Justin. Not a statement of fact.
+01:39,Paul,Let's kill more time.,No Strategy,Neutral,A suggestion.
+01:39,Mike,Want to speak here?,Interrogation,Neutral,A question.
+01:40,Mitchell,"Speak up, or forever be werewolves.",Accusation,Neutral,A command/taunt. Not a falsifiable statement.
+01:41,Paul,"Oh, my gosh. Do you know what's really funny about these five tokens? Is if you look at them in this specific arrangement, and you just kike... If you imagine.",No Strategy,Neutral,A time-wasting joke.
+01:55,Mitchell,Okay. Okay. Come on. I didn't clue in at first. Come on.,No Strategy,Neutral,Meta-commentary on Paul's joke.
+02:01,Justin,"That got me. Mitch your face was like, oh. What could this be?",No Strategy,Neutral,Meta-commentary on Paul's joke.
+02:08,Mike,"You said it was such strict tone the way we just saying it, so good.",No Strategy,Neutral,Meta-commentary on Paul's joke.
+02:10,Mitchell,We're still killing time. We're still killing time. Come on. Jesus Christ. Alright.,No Strategy,Neutral,Meta-comment.
+02:18,Justin,Just killing time.,No Strategy,Neutral,Meta-comment.
+02:19,Mitchell,All right. All right Paul. Which troublemaker were you?,Interrogation,Neutral,A question.
+02:25,Paul,"I was one of the roles that's been called, which is very suspicioso.",Defense,FALSE,Paul's known fact is that he is a Werewolf. He is lying by implying he is one of the called (non-Werewolf) roles.
+02:31,Justin,Was that some sort of spell?,Interrogation,Neutral,A question/joke.
+02:32,Paul,That was interesting. Suspicioso? Suspicioso.,No Strategy,Neutral,A joke.
+02:34,Mike,That was troublemaker.,Evidence,FALSE,Mike's known fact is that *he* is the Troublemaker. He is lying by claiming Paul was the Troublemaker.
+02:39,Justin,Sick. I don't believe that for a second.,Accusation,Neutral,"A subjective opinion (""I don't believe""). Per Rule 3c, this is Neutral."
+02:42,Paul,I don't believe that either. I was a seer though.,"Identity Declaration, Accusation",FALSE,"Compound statement. ""I don't believe that either"" (Neutral opinion). ""I was a seer though"" is a **FALSE** statement. Paul knows he is a Werewolf."
+02:44,Mitchell,Did you copycat into troublemaker?,Interrogation,Neutral,A question.
+02:46,Justin,No.,Evidence,Neutral,"A simple negative, not a factual claim about his role."
+02:47,Mitchell,Oh. Is it just because he's being weird.,Accusation,Neutral,A subjective opinion/guess.
+02:53,Paul,Who'd you rob from?,Interrogation,Neutral,"A question (to Justin, who is the implied Robber)."
+02:58,Mitchell,Um. I don't say yet.,Defense,FALSE,"Mitchell (a Werewolf) is answering a question not directed at him, implying he is the Robber. This is an active lie, as his known fact (Werewolf) contradicts the implied fact (Robber)."
+02:59,Mike,Was it bad?,Interrogation,Neutral,A question (to Mitchell).
+03:02,Mitchell,Were they bad?,Interrogation,Neutral,A question.
+03:02,Mike,Was it bad?,Interrogation,Neutral,A question.
+03:02,Mitchell,"No, it was not bad.",Evidence,FALSE,Mitchell is continuing his Robber lie. He knows he is a Werewolf and did not perform this action. He is fabricating a result.
+03:03,Mike,"Oh, okay.",No Strategy,Neutral,Acknowledgment.
+03:05,Paul,Are you sure you wouldn't say if it was bad?,Interrogation,Neutral,A question.
+03:07,Mitchell,It was this unknown.,Evidence,FALSE,Mitchell is continuing his Robber lie. He is fabricating a result.
+03:08,Mike,Oh.,No Strategy,Neutral,Acknowledgment.
+03:09,Mitchell,"So, I'm a little weird.",No Strategy,Neutral,A subjective statement.
+03:11,Paul,"Yeah, especially with this, if we're at this right now.",No Strategy,Neutral,"A vague, non-falsifiable statement."
+03:14,Mike,We kill you then.,Call for Action,Neutral,A strategic opinion/call to action.
+03:16,Mitchell,That's where we are going. Yeah. Yeah. So ...,No Strategy,Neutral,Agreement with a strategic opinion.
+03:16,Paul,Who'd you swanch?,Interrogation,Neutral,"A question (to Mike, ""swanch"" = switch)."
+03:22,Mike,I swanched? I did switch Justin with somebody.,Evidence,TRUE,"Mike's known fact is that he is the Troublemaker and he *did* switch Justin (with Paul). He is being truthful, just not naming the second person."
+03:24,Paul,Cool.,No Strategy,Neutral,Acknowledgment.
+03:28,Justin,"Problem is, that doesn't concern me because I think Mike's the tanner.",Accusation,Neutral,"This is a statement of opinion (""I think...""). Per Rule 3c, this is Neutral."
+03:33,Justin,"Just because it's so weird to lie about being the troublemaker. It's such a vital role to the villagers. No, no it's not a lie about your troublemaker actions. It's lie to weird, it's weird to lie about being the troublemaker. Just say you're the troublemaker.","Accusation, Call for Action",Neutral,This is a lengthy statement of strategic opinion. It is not falsifiable.
+03:47,Paul,It's my goal to lie Justin.,Defense,TRUE,Paul's known fact is that he is a Werewolf. His objective is to deceive the village. This statement aligns perfectly with his known role and objective.
+03:47,Justin,"Yeah, I know, but it's weird because you don't actively try to solve the puzzle. You just like the chaos of your action.",No Strategy,Neutral,A subjective opinion about Paul's playstyle.
+03:52,Mike,"No, no, no.",No Strategy,Neutral,Disagreement.
+03:52,Justin,"So, and that's also Mike. He normally likes to try to solve the puzzle if he's on the villager team, and I think right now,",No Strategy,Neutral,A subjective opinion about Mike's playstyle.
+03:56,Mike,I'm trying to solve the problem.,No Strategy,TRUE,Mike's known fact is that he is the Troublemaker (Village team). His objective is to find the werewolves. This statement aligns with his known role/goal.
+03:57,Justin,"I think Mike right now, Mike's being like, he's going to be like, actually I didn't know anything.",No Strategy,Neutral,"A prediction/opinion (""I think..."")."
+04:01,Mike,I was ...,No Strategy,Neutral,Incomplete.
+04:01,Paul,That was funny. I like junior voice.,No Strategy,Neutral,A joke.
+04:04,Mike,I was trying to see if someone else would claim seer. Cause I wanted to know if there was a seer out there.,Defense,TRUE,"Mike is stating his past intent. As he *is* a villager (Troublemaker), this is a plausible, village-aligned strategy. His statement of his own motivation aligns with his known (village) role."
+04:08,Justin,"That's a weird thing to do. Cause why would you know, why would you care if there was a seer if you're a villager?",Interrogation,Neutral,A strategic opinion and a question.
+04:14,Paul,I feel like I would totally do that. I like doing that too. Like I feel like ...,No Strategy,Neutral,"A subjective opinion (""I feel like..."")."
+04:18,Mike,I was purely,No Strategy,Neutral,Incomplete.
+04:18,Paul,I hope you're only shitting on my strategies when Mike does them and not when I do them.,No Strategy,Neutral,A meta-comment/joke.
+04:23,Mitchell,"All right, so we're running out of time. Who'd you see in the middle? Paul?",Interrogation,Neutral,A question (referencing Paul's Seer lie from 02:42).
+04:27,Paul,I didn't look in the middle.,"Defense, Evidence",TRUE,Paul's known fact is that he is a Werewolf and performed no Seer action. This statement is TRUE.
+04:29,Mitchell,Which user?,Interrogation,Neutral,A question.
+04:29,Paul,"I looked at Mitchell and he was the robber. So I can confirm he was the robber. I wanted to see if he claimed wolf, again.",Evidence,FALSE,This is a compound lie. Paul (Werewolf) did not look at anyone. He is fabricating a Seer action and result.
+04:34,Mitchell,I like to copycat.,Identity Declaration,FALSE,Mitchell's known fact is that he is a Werewolf. He is lying and claiming a different role.
+04:37,Paul,So we don't know what ...,No Strategy,Neutral,Incomplete thought.
+04:40,Mitchell,"Mike, who'd you switch?",Interrogation,Neutral,A question.
+04:43,Mike,"Actually it doesn't matter cause I did switch Justin and Paul. So, well your rob doesn't change anything.",Evidence,TRUE,This is 100% TRUE. Mike's known fact is that he is the Troublemaker and he swapped Justin and Paul.
+04:49,Mitchell,Okay. What were you ...,Interrogation,Neutral,A question.
+04:50,Justin,What was I?,Interrogation,Neutral,A question.
+04:52,Paul,"No. Cause he robbed first, he robbed first.",Accusation,TRUE,Paul is stating the correct order of night actions (Robber acts before Troublemaker). This is a statement of fact about the game rules that he knows.
+04:54,Mike,"Yeah, he robbed first and then I switched these two.","Accusation, Evidence",TRUE,Mike is agreeing with the correct order of operations (which he knows) and reiterating his true action.
+04:54,Justin,"I want to leave leave that to me, that's my little secret.",Defense,Neutral,"A deflection, not a factual claim."
+04:57,Mitchell,That's scary.,No Strategy,Neutral,A subjective opinion.
+04:58,Justin,Cause that's my little secret. I know what you are.,Defense,TRUE,"Justin is speaking to Mitchell. Justin's known fact is that he robbed Mitchell and saw ""Werewolf"". His claim ""I know what you are"" (or *were*) is TRUE (Sub-rule 1a)."
+04:59,Mitchell,"My life is, oh boy.",No Strategy,Neutral,An expression.
+04:59,Mike,Vote left?,Interrogation,Neutral,A question.
+05:04,Mitchell,No.,No Strategy,Neutral,An answer to a meta-question.
+05:06,Paul,You're saying you switched me and Justin.,Interrogation,Neutral,A question to confirm Mike's claim.
+05:08,Mike,Yes.,Evidence,TRUE,Mike is confirming his 100% true action.
+05:09,Paul,You're ...,No Strategy,Neutral,Incomplete.
+05:09,Mitchell,"So, you think he's werewolf or tanner?",Interrogation,Neutral,A question/guess.
+05:10,Paul,You looked at something bad? Probably.,Interrogation,Neutral,A question/guess (to Justin).
+05:13,Justin,I'm not going to tell you because you're going to use that to figure out what you are.,No Strategy,Neutral,A statement of future intent (Rule 4a).
+05:16,Mike,"If this is what is actually happening right here, then yes Mitch is something bad now.",Accusation,Neutral,"A conditional/hypothetical statement (""If... then...""). Rule 4b."
+05:22,Paul,You switched these two sorry?,Interrogation,Neutral,A question.
+05:23,Mike,No ...,Evidence,Neutral,Incomplete.
+05:23,Paul,You switched me.,Interrogation,Neutral,A question.
+05:24,Mike,"Yeah, but he robbed first.",Evidence,TRUE,"A correct statement of the game's order of operations, which Mike knows."
+05:25,Mitchell,He robbed from Justin. Okay.,Evidence,Neutral,"Mitchell is repeating public information (or his misinterpretation of it). He has no *private* knowledge to confirm or deny this. His own fact is ""I am a WW"". This is a statement about others, which is unverifiable to him. Neutral."
+05:26,Mike,"First. So the bad card went there and then I switched the robber. So you have the robber, he has the seer and he has the copycat, which is one of these bad roles.",Evidence,FALSE,"This is a complex fabrication. Mike *knows* he switched Paul and Justin. He does *not* know who the Robber is, nor what the center cards are. This is a lie."
+05:38,Paul,Do you promise you switched me Mike?,Interrogation,Neutral,A question.
+05:39,Mike,I promise you.,No Strategy,TRUE,Mike *did* switch Paul (with Justin). He is truthfully confirming his action.
+05:40,Paul,It wasn't the same.,No Strategy,Neutral,"A vague, unclear statement."
+05:43,Mike,What were you?,Interrogation,Neutral,A question.
+05:43,Paul,I don't know Mike.,No Strategy,FALSE,Paul's known fact is that he is a Werewolf. He is lying by claiming he doesn't know his role.
+05:50,Paul,I think we got to vote for Mitch or Justin.,Call for Action,Neutral,"A strategic opinion/call to action (""I think...""). Rule 3c."
+05:55,Mike,"Mitch is the, what are you?",Interrogation,Neutral,A question.
+05:56,Mitchell,20 seconds.,No Strategy,Neutral,Meta-comment.
+06:00,Mike,What were you?,Interrogation,Neutral,A question.
+06:01,Mitchell,I don't know who the fuck to vote for.,No Strategy,Neutral,A statement of opinion/emotion.
+06:01,Mike,What were you?,Interrogation,Neutral,A question.
+06:01,Justin,I'm going to be voting for you.,Call for Action,Neutral,A statement of future intent (Rule 4a).
+06:02,Mike,"Yeah, I'm voting for Mitchell otherwise, but ...",Call for Action,Neutral,A statement of future intent (Rule 4a).
+06:04,Paul,"Mitchell and I were werewolves together, so that means Justin and Mitchell are werewolves, and I'm maybe a tanner, copycat, or Mike's a tanner and Justin's something.",Accusation,FALSE,"This is a compound statement. The first clause (""Mitchell and I were werewolves together"") is TRUE based on his knowledge. However, the last clause (""and I'm maybe a tanner..."") is a **FALSE** statement, as he *knows* he is a Werewolf. The entire statement is a lie."
+06:16,Mitchell,So he's telling the truth.,No Strategy,FALSE,"Mitchell is referring to Paul. Mitchell *knows* Paul is his Werewolf partner. He therefore *knows* Paul's claim to be ""maybe a tanner..."" is a lie. Mitchell's statement (""he's telling the truth"") contradicts his own private knowledge."
+06:17,Justin,I stole who you voted for.,Evidence,Neutral,A nonsensical statement/joke.

@@ -1,0 +1,175 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:03,Paul,Whoa.,No Strategy,Neutral,"An expression, not a factual claim."
+00:06,Paul,That was fast.,No Strategy,Neutral,A subjective comment on game speed.
+00:12,Paul,It's just me. I'll look attttt...,No Strategy,Neutral,Narration during the night phase. Not a falsifiable statement in the context of the day's discussion.
+00:16,Mitchell,Why are we looking?,No Strategy,Neutral,A question during the night phase.
+00:17,Paul,Oh I didn't see you Mike.,No Strategy,Neutral,"Meta-comment about the room, not the game."
+00:26,Paul,Mike stick out your thumb.,No Strategy,Neutral,A command (during the night).
+00:26,Mike,Are you sticking out your thumb?,No Strategy,Neutral,A question (during the night).
+00:26,Paul,Yeah,No Strategy,Neutral,An answer to a meta-question (during the night).
+00:27,Mike,Sweet.,No Strategy,Neutral,An expression (during the night).
+01:45,Caitlynn,It's a troublemaker.,No Strategy,FALSE,Caitlynn's known fact is that she is the Tanner. She is lying and claiming to be the Troublemaker.
+01:51,Mike,"No, you're not. You fucking enemy.",Defense,Neutral,This is an accusation. Mike's known fact is he was the Drunk; he has no information about Caitlynn. This is a baseless opinion (Rule 3c).
+01:53,Mitchell,"Whoa, no.",Defense,Neutral,An expression of disagreement.
+01:55,Mike,"Yeah, I'm a trouble, okay, we got three troublemakers.","Identity Declaration, Defense",FALSE,Mike's known fact is that he was the Drunk and swapped with the center. He is lying and claiming to be the Troublemaker.
+01:56,Alysha,Oh wow.,Defense,Neutral,An expression of surprise.
+01:58,Mike,This is confusing.,Defense,Neutral,A subjective opinion.
+01:59,Paul,We might actually have four.,Accusation,Neutral,"A speculative statement (""might""). Paul (who thinks he is Werewolf) is adding to the confusion. Neutral (Rule 3c)."
+02:00,Mitchell,It's not confusing for us. We know who's the real troublemaker out of the three of us.,Accusation,TRUE,"Mitchell's known fact is that *he* is the Troublemaker. Therefore, he *does* know who the real one is (himself). This statement is TRUE."
+02:04,Mike,"Oh, we don't actually.",Defense,TRUE,"Mike is one of the fake Troublemakers. He (correctly) states that ""we"" (the group of claimants) don't *all* know. This is TRUE from his perspective."
+02:10,Paul,"So Alysha, just to make sure that you know what you're claiming.",Interrogation,Neutral,A leading question.
+02:14,Alysha,Mm-hmm.,Defense,Neutral,Acknowledgment.
+02:14,Paul,"Since nothing has turned over, that means that you saw a bad card.","Accusation, Interrogation",Neutral,"This is a logical hypothesis, but its premise (about a role turning over cards) is not clear or relevant to the roles in play. Neutral."
+02:18,Alysha,Yeah.,Defense,Neutral,Agreement with a confusing premise.
+02:18,Paul,And turned it back over.,Interrogation,Neutral,Follow-up on confusing premise.
+02:19,Alysha,Yeah.,Defense,Neutral,Agreement.
+02:19,Paul,Okay.,No Strategy,Neutral,Acknowledgment.
+02:20,Justin,"A werewolf or a tanner, can you see which one you saw?","Accusation, Interrogation",Neutral,A question.
+02:22,Alysha,Yeah. I saw a werewolf.,"Identity Declaration, Evidence",FALSE,Alysha is the Minion. She *knows* who the WW is (Justin) but she did not *see* anyone's card (like a Seer). She is lying and claiming a Seer-like action.
+02:23,Justin,Spooky.,Defense,Neutral,An expression.
+02:24,Caitlynn,Ooh.,No Strategy,Neutral,An expression.
+02:25,Mike,"Spooky, spooky.",Defense,Neutral,An expression.
+02:25,Paul,Was it me or Mike that you revealed?,Interrogation,Neutral,A question.
+02:28,Mike,Or Mitch.,"Accusation, Interrogation",Neutral,Adding to the question.
+02:29,Justin,Or Caitlynn.,"Accusation, Interrogation",Neutral,Adding to the question.
+02:29,Alysha,It was Mike.,Accusation,FALSE,Alysha's known fact is that her Werewolf is **Justin**. She is lying and fabricating a Seer result (that Mike is WW) to protect her Werewolf.
+02:30,Mike,"Well, we saw each other. That's right.",Defense,FALSE,Mike knows he was the Drunk and saw no one. He is fabricating a story (perhaps implying Masons?) to align with Alysha's lie. This is FALSE.
+02:31,Mitchell,It was Mike. And I bet he was a tanner. Am I right?,"Accusation, Interrogation",Neutral,"This is a guess/hypothesis (""I bet""). Neutral."
+02:35,Alysha,He's a werewolf.,Accusation,FALSE,Reiteration of her lie from 02:29. She knows her WW is Justin.
+02:36,Justin,"No, I'm sure he saw a werewolf.","Defense, Evidence",FALSE,"Justin is talking about Mitchell's 'bet'. Justin has no facts about this. He is supporting a false narrative. This is a fabrication, not just an opinion. FALSE."
+02:36,Mitchell,"He was a werewolf? Oh, you looked at me?","Interrogation, Defense",Neutral,A question (to Alysha).
+02:39,Mike,"Yeah, she did. I'm dumb.",Defense,FALSE,Mike is confirming Alysha's lie (that she looked at him). He knows this didn't happen. This is FALSE.
+02:40,Mitchell,"Yeah, I know. Because, Mike, you're not a troublemaker. What are you doing?","Interrogation, Defense",TRUE,"Mitchell's known fact is that *he* is the Troublemaker. Therefore, he knows Mike's claim (at 01:55) is false. This statement is TRUE."
+02:43,Mike,I'm a good guy.,Defense,FALSE,"Mike's known fact is that he was the Drunk (Village team), but he's been lying consistently. Claiming ""I'm a good guy"" in this context is part of his web of lies. More importantly, he doesn't *know* his new role. This is a lie."
+02:44,Mitchell,"What are you doing, Caitlynn?",Interrogation,TRUE,"Mitchell knows *he* is the Troublemaker, so he knows Caitlynn's claim (at 01:45) is also false. This is a TRUE challenge based on his knowledge."
+02:50,Justin,All right. Classic.,Defense,Neutral,An expression.
+02:51,Mike,"Justin, Paul, what are you guys?",Interrogation,Neutral,A question.
+02:51,Justin,"I already said seer, someone took it off there.",Identity Declaration,FALSE,Justin's known fact is that he is a Werewolf. He is lying and claiming to be the Seer.
+02:55,Mike,You look at me and you saw a werewolf?,"Interrogation, Defense",Neutral,A question (to Alysha).
+02:56,Alysha,"Yeah, I saw a werewolf.","Identity Declaration, Evidence",FALSE,Reiteration of her lie from 02:22. She did not see any card.
+02:56,Mike,I didn't go to bed as a werewolf. I want to know what happened.,Evidence,TRUE,"Mike's known fact is that he started as the Drunk. His statement ""I didn't go to bed as a werewolf"" is 100% TRUE."
+02:59,Paul,Did you look at two in the center?,Interrogation,Neutral,A question (to Justin).
+03:00,Justin,I did look at two in the center.,Evidence,FALSE,Justin's known fact is that he was a lone Werewolf and looked at *one* center card. He is lying about being a Seer and about seeing *two* cards.
+03:01,Paul,Okay.,No Strategy,Neutral,Acknowledgment.
+03:02,Caitlynn,The revealing was last?,Interrogation,Neutral,A question about game rules.
+03:03,Paul,I'm going to go on a limb. I'm young. I'm going to take a big chance here. I was the drunk.,"Identity Declaration, Accusation",FALSE,Paul's known fact is that he is the Werewolf (after robbing Justin). He is lying and claiming to be the Drunk.
+03:08,Justin,Sick.,No Strategy,Neutral,An expression.
+03:09,Paul,And I switched with the center one.,"Accusation, Defense",FALSE,This is part of his Drunk lie. Paul knows his action was Robber. This is a fabrication.
+03:12,Justin,"All right. I did look at that one. You're in the clear, my friend.","Defense, Evidence",FALSE,"This is a compound lie. Justin is lying about being the Seer (""I did look at that one""). He is also fabricating a 'clear' result for Paul. He has no such knowledge."
+03:14,Paul,What does that mean?,Interrogation,Neutral,A question.
+03:15,Justin,You're not bad.,Defense,FALSE,Continuing his Seer lie. He is fabricating a 'clear' result. This is a lie.
+03:16,Paul,Which one am I?,Interrogation,Neutral,A question.
+03:17,Mike,Which other one did you look at?,Interrogation,Neutral,A question (to Justin).
+03:18,Justin,"I'm not going to say. Which one did I look at? I looked at this one, because these two were the closest to me. So I thought, ""Less energy to spend.""","Interrogation, Defense",FALSE,"This is all part of his Seer lie. His known fact is he was a lone WW and saw *one* card. He's lying about being Seer, lying about seeing *two* cards, and fabricating a rationale."
+03:27,Paul,"Okay, wait a minute. So basically-",Interrogation,Neutral,Incomplete thought.
+03:27,Mike,And this one was good and this one was bad? Is that what are you saying?,Interrogation,Neutral,A question (to Justin).
+03:27,Paul,I'm one of these two?,"Accusation, Interrogation",Neutral,A question (to Justin).
+03:27,Justin,Yes. Mike you're one of these two or-,Evidence,FALSE,"Continuing the Seer lie. Justin is fabricating results about the center cards. His only fact is ""one card was Seer."" This is a lie."
+03:28,Paul,Or you want something that's claimed.,Accusation,Neutral,Speculation.
+03:29,Justin,"Trying to get crazy, let's say the troublemaker too. Just throw that in there.",Defense,FALSE,Continuing the Seer lie. He is fabricating another 'result' from the center. This is a lie.
+03:31,Mitchell,"I did switch. Caitlynn, I switched your card with someone else's.","Defense, Evidence",TRUE,"Mitchell's known fact is that he is the Troublemaker and he *did* swap Caitlynn (with Paul). He is being truthful, just not saying *who* she was swapped with."
+03:35,Justin,Spooky.,No Strategy,Neutral,An expression.
+03:35,Mike,You said this is good and this is bad? Is that what you're saying?,Interrogation,Neutral,A question (to Justin).
+03:37,Caitlynn,Oh did you?,Interrogation,Neutral,A question (to Mitchell).
+03:38,Justin,"No. I said that those are the two I looked at, and good news for Paul. He's not werewolf.","Defense, Evidence",FALSE,"Compound lie. 1) ""those are the two I looked at"" (FALSE, he saw one). 2) ""good news for Paul. He's not werewolf"" (FALSE, he is fabricating this 'clear' result)."
+03:46,Paul,Who did you switch Mitchell?,Interrogation,Neutral,A question.
+03:46,Mike,He is though.,Accusation,FALSE,Mike is accusing Paul of being a werewolf. Mike's known fact is he was the Drunk. He has *no information* about Paul. This is a fabrication stated as fact (Rule 2).
+03:46,Justin,He is?,Interrogation,Neutral,A question.
+03:47,Mike,"Yeah, because I was actually the drunk.",Defense,TRUE,Mike is stating his starting role. His known fact is that he *was* the Drunk. This statement is TRUE. (He is using this true fact to justify his previous lie).
+03:49,Alysha,You're not telling who you switched?,Interrogation,Neutral,A question (to Mitchell).
+03:49,Mitchell,Not yet.,Defense,Neutral,A statement of intent.
+03:52,Paul,"Okay, Mike's definitely werewolf or tanner. No, he was werewolf. That's what Alysha said.","Accusation, Defense, Evidence",Neutral,This is Paul reasoning out loud. He's referencing Alysha's (false) claim. He is not stating his own facts. Neutral.
+03:56,Alysha,Mm-hmm.,Defense,Neutral,Acknowledgment.
+03:58,Alysha,So did you switch him? Can I ask you that?,Interrogation,Neutral,A question (to Mitchell).
+04:00,Justin,Classic.,Defense,Neutral,An expression.
+04:02,Mitchell,"I'm not going to say anymore until Caitlynn reacts to the fact that I'm telling her I switched her card, even though she's claiming to be troublemaker.","Call for Action, Defense, Evidence",TRUE,"This is a complex statement. 1) ""I'm telling her I switched her card"" (TRUE, he did). 2) ""she's claiming to be troublemaker"" (TRUE, she did at 01:45). The entire statement is factually correct based on his knowledge and the public conversation."
+04:10,Caitlynn,"Well, who did you switch me with?",Interrogation,Neutral,A question.
+04:13,Mitchell,"Tell me what you actually were. Give me one piece of info, and I'll help you out.","Call for Action, Defense",Neutral,A command/offer (conditional).
+04:17,Caitlynn,I'm not super helpful. I mean I was a Tanner.,"Identity Declaration, Defense, Evidence",TRUE,Caitlynn's known fact is that she is the Tanner. She is telling the truth.
+04:21,Justin,"Paul, what would you say if you were the drunk and I saw a drunk in the center. Wouldn't that be crazy?","Accusation, Interrogation, Evidence",FALSE,"This is a 'gotcha' question, but its premise is a lie. Justin's known fact is that he saw a **Seer** in the center, not a Drunk. He is fabricating this ""fact""."
+04:27,Paul,"That would be, but that's also not true.","Defense, Evidence",TRUE,"Paul is refuting Justin's claim. Paul's known fact is he is the Werewolf (he thinks). He *knows* he is not the Drunk. His statement ""that's also not true"" is correct from his perspective."
+04:28,Justin,It's not true. It's not legal either.,"Defense, Evidence",TRUE,"Justin agrees with Paul. ""It's not true"" (that Paul is Drunk, as Justin is lying) and ""It's not legal"" (to have two Drunks in the deck). This is TRUE."
+04:30,Mitchell,"Oh, Mike was werewolf.",Evidence,Neutral,This is Mitchell repeating Alysha's claim from 02:29. He has no private knowledge of this. Neutral.
+04:30,Caitlynn,Mike was werewolf.,Evidence,Neutral,Repeating the same public information. Neutral.
+04:31,Paul,What do you mean it's not illegal?,Interrogation,Neutral,A question.
+04:32,Mitchell,You were a Tanner.,Evidence,TRUE,Mitchell is speaking to Caitlynn. He is repeating the fact she stated at 04:17. This is a TRUE statement of the public record.
+04:33,Justin,It's not legal.,Defense,TRUE,Repeating his earlier (correct) statement about game rules.
+04:33,Mitchell,I don't-,No Strategy,Neutral,Incomplete.
+04:34,Justin,We can't have two drunks in the game.,No Strategy,TRUE,A correct statement of the game rules.
+04:37,Paul,Yeah. Like obviously one of us would be lying. Like I got that.,"Accusation, Defense",TRUE,"This is a correct logical deduction. If there are two Drunk claims (Paul and Mike), at least one is a lie. TRUE."
+04:40,Justin,Not lying. We're both telling the truth. That's the crazy thing.,"Defense, Evidence",FALSE,"Justin *knows* he is lying (about seeing a Drunk in the center). Therefore, his claim that ""We're both telling the truth"" is a lie."
+04:46,Mitchell,"Okay. I swapped you too, by the way.",Evidence,FALSE,Mitchell is speaking to Justin and Caitlynn (implied). His known fact is that he swapped **Paul and Caitlynn**. He is lying about who he swapped.
+04:48,Justin,Sick. High five.,No Strategy,Neutral,An expression.
+04:49,Mitchell,Come on.,No Strategy,Neutral,An expression.
+04:50,Justin,You're a seer now.,"Accusation, Evidence",FALSE,Justin is talking to Caitlynn (implied from the swap). His known fact is that he saw a **Seer** in the *center*. He is lying and claiming *Caitlynn* is now the Seer. This is a fabrication.
+04:51,Caitlynn,Don't kill Justin. Where'd it go?,"Interrogation, Call for Action",Neutral,"A command (""Don't kill"") and a question. Neutral."
+05:00,Justin,Ooh.,No Strategy,Neutral,An expression.
+05:00,Caitlynn,Sorry man. You're not dying tonight.,Defense,Neutral,A statement of future intent/prediction (Rule 4a).
+05:02,Justin,That's okay.,No Strategy,Neutral,An expression.
+05:03,Paul,I appreciate that that we found that out after Justin gave information that helped me.,Evidence,TRUE,"Paul *thinks* he is a Werewolf. Justin (as a fake Seer) *did* clear him (at 03:15, 03:38). So Justin *did* give information that 'helped' him. This statement is TRUE from Paul's perspective."
+05:07,Mike,"Ok wait, wait, wait, wait, so you are actually the troublemaker?","Interrogation, Defense",Neutral,A question (to Mitchell).
+05:08,Mitchell,Yes.,Defense,TRUE,Mitchell's known fact is that he is the Troublemaker. He is telling the truth.
+05:09,Justin,Here's the thing.,No Strategy,Neutral,Filler.
+05:09,Mitchell,You've got two people playing that role.,Evidence,TRUE,"Mitchell knows *he* is the Troublemaker. Caitlynn (01:45) and Mike (01:55) also claimed it. His statement refers to the two *fakers* ""playing"" the role. This is TRUE from his perspective."
+05:10,Justin,Did you look at Caitlynn and see a werewolf?,Interrogation,Neutral,A question (to Alysha).
+05:11,Mitchell,I stopped playing very well.,Defense,Neutral,A subjective opinion/meta-comment.
+05:12,Alysha,No.,No Strategy,TRUE,"Alysha is answering Justin's question. She (as a fake Seer) had claimed to see *Mike* as WW (02:29). So her answer ""No"" (I did not see Caitlynn as WW) is TRUE to her own lie's consistency."
+05:13,Justin,Mike?,Interrogation,Neutral,A question.
+05:14,Caitlynn,Yeah. She said that.,Evidence,TRUE,A true statement about the public record (Alysha said she saw Mike at 02:29).
+05:15,Justin,"Okay, cool. I was a werewolf to start, and I saw a seer right here. That's 100% the truth.","Identity Declaration, Defense, Evidence",TRUE,"Compound statement. 1) ""I was a werewolf to start"" (TRUE, his known fact). 2) ""and I saw a seer right here"" (TRUE, his known fact from his lone WW action). This entire statement is TRUE."
+05:21,Mike,"Oh, a hundred percent, I'm the seer then, because I was the drunk. I took that card.","Identity Declaration, Defense, Evidence",FALSE,"Compound statement. 1) ""I was the drunk"" (TRUE). 2) ""I took that card"" (Neutral assumption). 3) ""a hundred percent, I'm the seer then"" (FALSE. Mike does *not know* his new role. The Drunk does not look. He is lying by claiming to know his new identity with certainty.)"
+05:24,Mitchell,Okay. I'm sorry. I didn't actually swap you two. This is so f*cked.,"Defense, Evidence",TRUE,"He is retracting his lie from 04:46 (that he swapped Justin & Caitlynn). His statement ""I didn't actually swap you two"" is TRUE."
+05:26,Alysha,Oh no.,No Strategy,Neutral,An expression.
+05:29,Mitchell,"I actually did swap Caitlynn, but it wasn't with Justin.",Evidence,TRUE,This is 100% TRUE. His known fact is that he swapped **Caitlynn and Paul**. This statement is perfectly aligned with his knowledge.
+05:34,Caitlynn,"Oh sweet. Justin, you'll probably be dying tonight.","Call for Action, Defense",Neutral,"""Oh sweet"" is an emotional expression. ""Justin, you'll probably be dying"" is a prediction about a future event (Rule 4a). Neutral."
+05:37,Justin,"No, I don't think I'm the werewolf anymore.","Accusation, Defense",Neutral,"Justin's known fact is he *is* a Werewolf. But he's hearing all the swap claims. He is expressing a *doubt* or *opinion* (""I don't think""). This is a guess. Neutral (Rule 3c)."
+05:39,Caitlynn,Who did you swap me with?,Interrogation,Neutral,A question (to Mitchell).
+05:42,Mitchell,Let's just... Let's play over what happened here.,No Strategy,Neutral,A suggestion.
+05:44,Caitlynn,Did you swap me with Mike?,Interrogation,Neutral,A question (to Mitchell).
+05:44,Paul,I'm so confused.,Defense,Neutral,A statement of emotion.
+05:45,Mitchell,"It doesn't matter, because then it would have gone on the stand.",No Strategy,Neutral,A strategic opinion.
+05:47,Justin,"Paul, if you were the drunk, I don't know what you took.","Accusation, Defense",Neutral,"A hypothetical statement (""If..."") and a statement of (true) ignorance. Neutral."
+05:51,Mitchell,I think we're going to vote.,Call for Action,Neutral,"An opinion/suggestion (""I think"")."
+05:52,Mike,"You were a werewolf, though?","Accusation, Interrogation",Neutral,A question (to Justin).
+05:53,Justin,Nah.,Defense,FALSE,"Justin is answering the question. His known fact is that he *was* a Werewolf (from 05:15). ""Nah"" is a lie, contradicting his own ""100% truth"" statement."
+05:53,Mitchell,"Yeah, he was. We got to vote Justin.","Call for Action, Evidence",TRUE,"Mitchell is stating ""Yeah, he was"" (referring to Justin's admission at 05:15). This is a TRUE statement of the public record. The vote is a Neutral call to action."
+05:56,Mike,"Yeah, I think so.",Defense,Neutral,"An opinion (""I think"")."
+05:56,Mitchell,"Why would he do that otherwise, if he was a seer?",Interrogation,Neutral,A rhetorical question.
+06:00,Paul,"Okay, you're not a were, I don't know if you will help me, but you saw seer here?","Accusation, Interrogation",Neutral,A question (to Justin).
+06:02,Justin,Yep.,Evidence,TRUE,Answering Paul's question. Justin's known fact (from 05:15) is that he *did* see a Seer in the center. This is TRUE.
+06:02,Mike,No. He said he saw a seer here.,Defense,TRUE,Mike is (truthfully) stating that Justin *previously* (during his fake Seer lie) pointed elsewhere. This is a TRUE statement about the public conversation (Rule 1).
+06:02,Justin,"No, I saw it here.",Evidence,TRUE,Justin is reiterating his *true* claim from 05:15. This is TRUE.
+06:02,Mike,"No, he's changing his f*cking mind.",Defense,TRUE,Justin *did* change his story (from fake Seer claims to his '100% truth' claim). This is a TRUE statement about the public conversation.
+06:06,Justin,You think I'm going to go out on a limb and tell you the whole truth?,Interrogation,Neutral,A rhetorical question.
+06:10,Paul,"He did, though. He did say it was here, right?","Interrogation, Defense",Neutral,"A question, seeking confirmation about the public record."
+06:12,Mitchell,"He did, yeah.",Defense,TRUE,Confirming Justin's earlier statement. A true statement about the public record.
+06:12,Paul,Yeah.,No Strategy,Neutral,Acknowledgment.
+06:12,Mike,Yeah he did first.,Evidence,TRUE,Confirming Justin's earlier statement. A true statement about the public record.
+06:12,Caitlynn,But. I mean. We know Mike is a werewolf.,"Defense, Evidence",Neutral,"Caitlynn is stating ""We know..."", but this is based on Alysha's (unverified) claim. This is an opinion/overgeneralization. Neutral (Rule 3b/3c)."
+06:12,Mitchell,I think we could-,No Strategy,Neutral,Incomplete thought/opinion.
+06:12,Justin,They're both saying that everybody knows.,"Accusation, Evidence",Neutral,A statement about what *other* people are saying. Neutral.
+06:12,Caitlynn,Alysha said that...,No Strategy,TRUE,"An incomplete sentence, but the premise ""Alysha said that"" is TRUE (Alysha did say things)."
+06:19,Mike,But no one can prove her story.,Defense,TRUE,Mike is talking about Alysha. This is a factually TRUE statement. No one has corroborated her claim. TRUE.
+06:20,Caitlynn,That's true.,No Strategy,TRUE,Agreeing with Mike's (true) statement.
+06:21,Mitchell,"That's true. I think he outed himself, which is huge.",Defense,TRUE,"""That's true"" is TRUE. ""I think he outed himself"" is an opinion (Neutral). But the *key fact* is that Justin *did* out himself (at 05:15). So he outed himself"" is TRUE. This is a TRUE statement."""
+06:24,Justin,I think we kill Mitch.,Call for Action,Neutral,"An opinion/call to action (""I think"")."
+06:25,Caitlynn,Who did you swap me with?,Interrogation,Neutral,A question (to Mitchell).
+06:26,Mitchell,It's Paul.,Evidence,TRUE,Mitchell's known fact is that he swapped **Caitlynn and Paul**. He is telling the truth.
+06:27,Paul,I think we kill Justin.,Call for Action,Neutral,"An opinion/call to action (""I think"")."
+06:28,Caitlynn,What were you?,Interrogation,Neutral,A question (to Paul).
+06:29,Mike,I think we kill Justin.,Call for Action,Neutral,"An opinion/call to action (""I think"")."
+06:30,Mitchell,I think we kill Justin too.,Call for Action,Neutral,"An opinion/call to action (""I think"")."
+06:31,Paul,I was the drunk.,Identity Declaration,FALSE,Paul is answering Caitlynn's question. His known fact is that he is the Werewolf (he thinks). He is lying.
+06:32,Caitlynn,"Oh, right.",Defense,Neutral,Acknowledgment.
+06:32,Mike,"No, I was the drunk. Paul's also lying.","Identity Declaration, Accusation, Defense",TRUE,"Compound statement. 1) ""No, I was the drunk"" (TRUE, this was his starting role and action). 2) ""Paul's also lying"" (TRUE, Mike *knows* he was the Drunk, so Paul's claim *must* be a lie). This entire statement is TRUE based on Mike's knowledge."
+06:34,Paul,No.,Defense,FALSE,"Paul is refuting Mike's claim. By saying ""No"" (I'm not lying), he is reinforcing his own lie (of being the Drunk). This is FALSE."
+06:35,Alysha,I'm killing Mike.,Call for Action,Neutral,A statement of future intent (Rule 4a).
+06:36,Paul,"Okay, no, because I'm saying Mike is lying and Alysha is saying that Mike is a werewolf.","Defense, Evidence",Neutral,"Paul is explaining his reasoning. ""I'm saying Mike is lying"" (which is false, Mike is telling the truth) and ""Alysha is saying..."" (which is true, she did say that). This is strategic reasoning, not a statement of fact. Neutral."
+06:38,Alysha,Unless this card's this way.,Accusation,Neutral,A speculative/conditional statement.
+06:40,Mike,"No, we kill Paul. A hundred percent, I was the drunk.","Identity Declaration, Call for Action, Defense",TRUE,"This is a compound statement. ""we kill Paul"" (Neutral call to action). ""A hundred percent, I was the drunk"" (TRUE, this is his known fact)."
+06:43,Mitchell,Is it Justin or Mike?,Interrogation,Neutral,A question.
+06:44,Mike,Why would I-,No Strategy,Neutral,Incomplete rhetorical question.
+06:45,Alysha,I'm killing Mike.,Call for Action,Neutral,A statement of future intent.
+06:45,Justin,I'm killing Mike.,Call for Action,Neutral,A statement of future intent.
+06:46,Paul,Mike.,Defense,Neutral,A statement of intent (who he's voting for).
+06:47,Alysha,Time's up.,No Strategy,Neutral,A meta-game statement.

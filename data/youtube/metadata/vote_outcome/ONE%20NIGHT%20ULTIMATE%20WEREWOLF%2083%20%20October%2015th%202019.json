@@ -1,0 +1,120 @@
+{
+  "Game2": {
+    "startTime": "00:07:48",
+    "endTime": "00:14:17",
+    "playerNames": [
+      "Justin",
+      "Meghan",
+      "Caitlynn",
+      "Mike"
+    ],
+    "votingOutcome": [
+      2,
+      2,
+      0,
+      2
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Troublemaker",
+      "Robber",
+      "Tanner"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Troublemaker",
+      "Robber",
+      "Tanner"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Caitlynn",
+        "target": "Mike"
+      },
+      "troublemaker": {
+        "actor": "Meghan",
+        "targets": [
+          "Caitlynn",
+          "Mike"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game3": {
+    "startTime": "00:15:40",
+    "endTime": "00:21:38 ",
+    "playerNames": [
+      "Justin",
+      "Meghan",
+      "Caitlynn",
+      "Mike"
+    ],
+    "votingOutcome": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "startRoles": [
+      "Robber",
+      "Tanner",
+      "Werewolf",
+      "Troublemaker"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Werewolf",
+      "Tanner",
+      "Robber"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Justin",
+        "target": "Mike"
+      },
+      "troublemaker": {
+        "actor": "Mike",
+        "targets": [
+          "Meghan",
+          "Caitlynn"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "MetaData": {
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "numPlayers": 4
+  }
+}

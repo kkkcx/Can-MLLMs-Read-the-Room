@@ -1,0 +1,48 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:43,Kevin,Sounds a little bit like Muse.,No Strategy,Neutral,This is a subjective opinion about the music.
+00:44,Kaelan,I know. No. I see what part of it you could say sounds like Muse.,No Strategy,Neutral,This is a subjective opinion about the music.
+00:56,Kaelan,It still sounds like hold music to me.,No Strategy,Neutral,This is a subjective opinion about the music.
+00:56,Kevin,"Yes, obviously.",No Strategy,Neutral,This is a subjective opinion.
+02:46,Kaelan,"All right, I'll just go ahead. I was the Doppelgänger. I copied him, the Troublemaker.","Identity Declaration, Evidence",TRUE,This is a completely accurate account of his starting role and his night action.
+02:52,Kaelan,Yet again.,No Strategy,Neutral,A colloquial comment with no factual claim.
+02:53,Danieal,Who did you troublemake me with?,Interrogation,Neutral,This is a direct question.
+02:55,Kaelan,I troublemaked you two.,Evidence,TRUE,He is accurately reporting his Doppelgänger action of swapping Jessica and Daniel.
+02:58,Danieal,You know how I know that I was one of them?,No Strategy,Neutral,This is a rhetorical question.
+03:00,Kaelan,How?,No Strategy,Neutral,This is a direct question.
+03:00,Danieal,"Because when I robbed her, the Robber card was there.",Evidence,TRUE,"Daniel is accurately recounting his experience. After Kaelan swapped him and Jessica, Jessica held the Robber card. When Daniel then robbed her, he took back the Robber card."
+03:06,Kaelan,"So you just went back to the same new role? Okay, well, so...",No Strategy,Neutral,This is a deduction based on Daniel's statement.
+03:13,Kevin,"Okay, so you switched those two And then-",Evidence,Neutral,This is a clarification of other players' actions.
+03:16,Kaelan,And then it just switched back. So they're just the original roles.,Evidence,Neutral,This is a hypothesis about the outcome of the swaps; it is a guess.
+03:21,Jessica,Yeah.,No Strategy,Neutral,Agreement.
+03:22,Kaelan,"What is, what is...",No Strategy,Neutral,Incomplete thought.
+03:23,Kevin,What are you reaching for? And then I switched you two.,Interrogation,TRUE,"The second part, ""And then I switched you two,"" is an accurate report of his night action (swapping Kaelan and Daniel)."
+03:30,Kaelan,"Well, if you're the Drunk, which card did you take in the middle?",Interrogation,Neutral,This is a hypothetical question based on a misunderstanding; no one has claimed to be the Drunk.
+03:33,Danieal,So put the Drunk token there. So you switched us?,Interrogation,Neutral,This is a question directed at Kevin.
+03:38,Kevin,Yep.,Evidence,TRUE,This is a truthful confirmation that he switched Kaelan and Daniel.
+03:42,Danieal,"Wait, no, no,",No Strategy,Neutral,An expression of confusion.
+03:44,Kaelan,No. That's correct. Because I... Wait does the Robber or the Troublemaker go first?,No Strategy,Neutral,This is a question about game rules.
+03:49,Danieal,I think the Robber goes after. Okay. So let's let's set originals. So these were originals.,No Strategy,Neutral,This is a procedural suggestion for figuring out the timeline.
+03:57,Kaelan,Okay.,No Strategy,Neutral,Agreement.
+03:57,Danieal,I'm waiting for that.,No Strategy,Neutral,A colloquial comment.
+03:58,Kaelan,I went first. So I swapped you two.,Evidence,TRUE,"As the Doppelgänger, his action occurred first. He is accurately reporting that he swapped Jessica and Daniel."
+04:01,Danieal,Yep. Okay. So that puts us here. Then you went.,No Strategy,Neutral,A statement to help reconstruct the night phase.
+04:07,Kevin,Troublemaker goes towards the end.,No Strategy,Neutral,This is a statement of game rules.
+04:08,Danieal,"Robber is before Drunk, after Troublemaker.",No Strategy,Neutral,This is a statement of game rules.
+04:13,Kaelan,"Yeah. So, who did you...",Interrogation,Neutral,This is an incomplete question.
+04:15,Kevin,Then I switched you two..,Evidence,TRUE,He is accurately reporting his action of swapping Kaelan and Daniel.
+04:18,Danieal,And then I robbed my own card.,Evidence,TRUE,"This is a correct interpretation of the outcome from his perspective. He started with the Robber card, it was swapped away, and then he took it back from Jessica."
+04:25,Kevin,So we don't know what you are.,No Strategy,Neutral,"This is a deduction about Jessica's state, a guess."
+04:26,Jessica,"Yeah, I'm in the middle card.",No Strategy,FALSE,"This is a complete fabrication. Jessica's card was swapped, but not with the middle. She has no information to support this claim and is lying to appear innocent."
+04:33,Danieal,I mean it's 66 33.,No Strategy,Neutral,This is a statement of subjective probability/opinion.
+04:36,Kaelan,That's assuming that Jess is being truthful about being the Drunk.,Accusation,Neutral,"This is a strategic statement pointing out a flaw in the group's logic, based on another player's potential lie."
+00:03,Danieal,"So we don't know what Jess is, we don't know what these two are.",No Strategy,Neutral,This is a statement summarizing the group's uncertainty.
+00:06,Kaelan,Mm-hmm,No Strategy,Neutral,Agreement.
+00:08,Danieal,I feel pretty confident that we're all telling the truth here. It's a 66-33. I mean...,No Strategy,Neutral,This is a statement of subjective feeling and opinion.
+00:13,Kevin,"I mean, if we're willing to take the risk and shoot for the center.",No Strategy,Neutral,This is a strategic proposal.
+00:22,Jessica,Yeah.,No Strategy,Neutral,Agreement.
+00:26,Kevin,All right.,No Strategy,Neutral,Agreement.
+00:26,Danieal,So there it is. Let's...,No Strategy,Neutral,A procedural statement.
+00:31,Kevin,All right.,No Strategy,Neutral,Agreement.
+00:31,Danieal,"Wait, wait. Something's not right here.",No Strategy,Neutral,An expression of suspicion or confusion.
+00:35,Kevin,Uh-oh. Uh-oh.,No Strategy,Neutral,An expression of suspense.
+00:37,Kaelan,I fucking knew it. I should've gone with my gut. Damn it. I knew it.,No Strategy,Neutral,"This is a post-game emotional outburst. Claims of ""knowing"" are hindsight bias."

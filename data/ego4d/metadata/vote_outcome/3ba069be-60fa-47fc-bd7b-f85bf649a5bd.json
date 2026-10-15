@@ -1,0 +1,245 @@
+{
+  "Game1": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      4,
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Robber",
+      "Troublemaker",
+      "Werewolf",
+      "Drunk"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Robber",
+      "Troublemaker",
+      "Center card"
+    ],
+    "warning": "Daniels new card was not shown, it was from the center. player 1, 2 and 4 voted middle",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Kevin",
+        "target": "Kaelan"
+      },
+      "troublemaker": {
+        "actor": "Kaelan",
+        "targets": [
+          "Kevin",
+          "Jessica"
+        ]
+      },
+      "drunk": {
+        "actor": "Daniel",
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game2": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      "NA",
+      2,
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Robber",
+      "Minion",
+      "Villager"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Minion",
+      "Villager",
+      "Robber"
+    ],
+    "warning": "player 1, 2 and 3 voted middle",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Kaelan",
+        "target": "Jessica"
+      },
+      "troublemaker": {
+        "actor": "Kevin",
+        "targets": [
+          "Jessica",
+          "Daniel"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game3": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Minion",
+      "Troublemaker",
+      "Doppleganger",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Doppleganger",
+      "Troublemaker",
+      "Werewolf",
+      "Minion"
+    ],
+    "warning": "All players voted middle",
+    "nightActions": {
+      "doppelganger": {
+        "actor": "Jessica",
+        "target": "Kaelan",
+        "copied_role": "Troublemaker"
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": null,
+        "target": null
+      },
+      "troublemaker": {
+        "actor": "Kaelan",
+        "targets": [
+          "Kevin",
+          "Jessica"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game4": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Seer",
+      "Robber",
+      "Minion"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Minion",
+      "Seer",
+      "Robber"
+    ],
+    "warning": "All players voted middle"
+  },
+  "Game5": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      2,
+      3,
+      "NA",
+      4
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Drunk",
+      "Tanner",
+      "Robber"
+    ],
+    "endRoles": [
+      "Robber",
+      "Center Card",
+      "Troublemaker",
+      "Tanner"
+    ],
+    "warning": "Kaelans end role not mentioned. player 2 voted middle"
+  },
+  "Game6": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      "NA",
+      1,
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Doppleganger",
+      "Robber",
+      "Insomniac",
+      "Drunk"
+    ],
+    "endRoles": [
+      "Robber",
+      "Center card",
+      "Insomniac",
+      "Center card"
+    ],
+    "warning": "Kaelan and daniels end role not mentioned. player 1, 2 and 3 voted middle"
+  }
+}

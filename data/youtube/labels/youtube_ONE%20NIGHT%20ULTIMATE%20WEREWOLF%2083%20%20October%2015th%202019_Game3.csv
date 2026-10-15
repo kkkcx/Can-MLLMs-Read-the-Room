@@ -1,0 +1,107 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:04,Caitlynn,I'm just going to stew over here.,No Strategy,Neutral,A statement of emotion.
+00:04,Meghan,Must be mad.,No Strategy,Neutral,A subjective guess.
+00:04,Caitlynn,What is happening?,No Strategy,Neutral,A question.
+00:08,Mike,What do you mean what's happening?,No Strategy,Neutral,A question.
+00:09,Caitlynn,I don't know. Your hands were in front of a light and they were like causing shadows in my eyes.,No Strategy,Neutral,A meta-comment.
+00:13,Meghan,I thought you were going to say this dance for other places.,No Strategy,Neutral,A joke.
+00:15,Mike,"I'm dancing with my hands in my air, in the air,",No Strategy,Neutral,A meta-comment.
+00:17,Caitlynn,In my air?,No Strategy,Neutral,A meta-comment.
+00:18,Mike,Like you just don't care.,No Strategy,Neutral,A meta-comment.
+00:21,Mike,I just don't care.,No Strategy,Neutral,A meta-comment.
+00:23,Meghan,Just don't put your thumbs out unless you're the dream wolf. And then do it.,No Strategy,Neutral,Night-phase chatter.
+00:26,Mike,"I will certainly do it. If I am the dream wolf, I will stick out my thumb.",No Strategy,Neutral,Night-phase chatter.
+01:25,Mike,Wake up!,No Strategy,Neutral,A command.
+01:31,Justin,"Okay. All right. Cool, cool, cool. So before she even says, I'm going to be completely open and say what I am, because I'm confident that I was not in the middle. Not what she saw. And if she says I am, she saw what I am, she goes lying and we need to kill her immediately.","Accusation, Call for Action",TRUE,"Justin's known fact is that he *thinks* he is the Troublemaker (from robbing Mike). His new card was a player card, not a center card. This statement is 100% consistent with his known facts."
+01:48,Mike,Sounds good. I like this play.,No Strategy,Neutral,A subjective opinion.
+01:53,Justin,Convenient.,No Strategy,Neutral,A subjective opinion.
+01:54,Meghan,"Yeah. Checks out,",No Strategy,Neutral,A subjective opinion.
+01:54,Justin,"But now I've really is. Caitlynn, I'm going to start by asking, did you see any of our roles in the center that we're, that we've said,",Interrogation,Neutral,A question.
+02:03,Caitlynn,Yeah.,No Strategy,TRUE,Caitlynn's known fact is that she *did* see a card (Copycat) in the center. This is a true answer.
+02:04,Justin,Was it mine?,Interrogation,Neutral,A question.
+02:06,Caitlynn,No.,No Strategy,TRUE,Caitlynn's known fact is she saw 'Copycat'. Justin *thinks* he is 'Troublemaker'. His card was not Copycat. This is a true answer.
+02:06,Justin,Okay. Thank goodness. I'm going to assume it was...,No Strategy,Neutral,An expression and an incomplete thought.
+02:10,Mike,Meghan's...,No Strategy,Neutral,A guess about what Caitlynn saw.
+02:12,Meghan,Mike's..,No Strategy,Neutral,A guess about what Caitlynn saw.
+02:12,Mike,Meghan's.,No Strategy,Neutral,A guess about what Caitlynn saw.
+02:12,Meghan,Mike's,No Strategy,Neutral,A guess about what Caitlynn saw.
+02:14,Justin,And I'm going to sit on this for a bit because I do know which one of these two is lying and you know which one of these two is lying?,Interrogation,FALSE,This is a bluff. Justin (thinks he's Troublemaker) has no information about Meghan (Tanner). He is claiming knowledge he does not possess. This is a lie.
+02:20,Caitlynn,I do.,No Strategy,FALSE,Caitlynn (thinks she's Werewolf) has no information about Mike or Meghan. She is lying by playing along with Justin's bluff.
+02:20,Justin,So we have a lot of power here.,No Strategy,Neutral,A strategic opinion based on a false (bluffed) premise.
+02:24,Meghan,Excellent. They've got the power. They got the power.,No Strategy,Neutral,A sarcastic/meta comment.
+02:27,Mike,Sounds good. Have the power then.,No Strategy,Neutral,A sarcastic/meta comment.
+02:30,Meghan,So like what else happened?,Interrogation,Neutral,A question.
+02:31,Meghan,Regardless of whether Mike or I is lying.,No Strategy,Neutral,A non-falsifiable statement.
+02:34,Justin,How about you guys both talk through your actions? Because then we'll know once again.,No Strategy,Neutral,A command/suggestion.
+02:38,Mike,"Cause if you know which one is telling the truth and which one's lying, that means one of us did the session. One of us didn't.",No Strategy,Neutral,A logical deduction.
+02:44,Justin,"Yeah. But still I'd want to hear the stories you guys each make. To see even further, right? But here's the thing. You both know which of the other two was lying, right?",Interrogation,Neutral,A question/continuation of his bluff.
+02:54,Mike,Yes.,No Strategy,FALSE,Mike (thinks he's Troublemaker) has no information about Justin or Caitlynn. He is lying by playing along with Justin's bluff.
+02:54,Justin,"So you guys know what we all know, but we should still talk through everything.",No Strategy,Neutral,A strategic suggestion.
+02:57,Meghan,"Probably, yeah.",No Strategy,Neutral,Agreement.
+02:58,Justin,"Because this is how we can,",No Strategy,Neutral,Incomplete.
+02:58,Mike,So we all have the same information. We're just not saying it out loud.,No Strategy,Neutral,A strategic observation.
+03:00,Justin,"Yeah. But we can, But that's why we have to take it a step further to see who's better at playing with their fake potential information, right? And the fact that you don't want to talk,",No Strategy,Neutral,A strategic observation.
+03:09,Mike,All right. I'd love to talk.,No Strategy,Neutral,A statement of willingness.
+03:11,Justin,"Well, let's start with Meghan. Cause she went first.",No Strategy,Neutral,A suggestion.
+03:14,Meghan,"Wait, wait, wait. Mike just said he would talk and now you're like, let's start with Meghan.",No Strategy,Neutral,A meta-observation.
+03:17,Justin,"Well, we're just going in turn order.",No Strategy,Neutral,A statement of process.
+03:18,Meghan,"Great. Great, great, great, great, great.",No Strategy,Neutral,Acknowledgment.
+03:19,Justin,Alright. What did you see in the middle?,Interrogation,Neutral,A question (to Meghan).
+03:21,Meghan,I saw Mike's roll in the middle.,Evidence,FALSE,"Meghan's known fact is that she is the Tanner. She performed no night action and saw nothing. She is lying, claiming a Seer/Lone WW action."
+03:23,Justin,Spicy.,No Strategy,Neutral,An expression.
+03:24,Meghan,Right here.,Evidence,FALSE,Continuing her lie.
+03:24,Justin,All right. So then let's. What did you do during the troublemaker phase then?,Interrogation,FALSE,"Justin (who thinks *he* is the Troublemaker) is asking Meghan what *she* did as Troublemaker. This is a deceptive question, as he's implying a role for her that he knows (or thinks) is his own."
+03:28,Meghan,"Oh, that's too much information to share always.",Defense,Neutral,A deflection.
+03:30,Justin,"Sure. All right. Mike, what did you do?",Interrogation,Neutral,A question.
+03:31,Mike,I switched Meghan and Caitlynn.,Evidence,TRUE,Mike's known fact is that he *thinks* he is the Troublemaker and he *did* swap Meghan and Caitlynn. This is 100% TRUE based on his knowledge (Sub-rule 1a).
+03:32,Justin,All right there. That's rough. That's a rough news for somebody at this table.,No Strategy,TRUE,"Justin's known fact is that *he* is the Troublemaker. Hearing Mike *also* claim to be the Troublemaker and state an action is, in fact, ""rough news"". This is a TRUE reaction."
+03:47,Meghan,So what else happened guys?,Interrogation,Neutral,A question.
+03:50,Justin,"So now you know what, I'm not going to talk. I'm going to let someone else deduce what the best course of action is. Cause I know, but I don't want to say it.",Defense,FALSE,"Justin is claiming ""I know"" the answer. Given the *two* Troublemaker claims, he cannot possibly know the full picture. He is bluffing. This is a lie."
+03:57,Caitlynn,"Justin,",No Strategy,Neutral,Addressing him.
+03:57,Justin,Yeah?,No Strategy,Neutral,Acknowledgment.
+03:58,Caitlynn,What did you do? You're doing a lot of talking. He's not shared his information.,Interrogation,Neutral,A question and an observation.
+04:02,Justin,"I think the implication of the fact that I told you, you and I both know who was lying.",Accusation,Neutral,A meta-statement referring back to his earlier (false) bluff.
+04:07,Caitlynn,Yeah.,No Strategy,Neutral,Acknowledgment.
+04:07,Justin,And then also the fact that I reacted to one of the actions and not the other implies heavily what I did during the,No Strategy,Neutral,"A vague, strategic statement."
+04:14,Caitlynn,That's true. That's true. That's true. So you robbed from Meghan.,Accusation,Neutral,A guess based on Justin's vague statement.
+04:16,Justin,I did not rob for Meghan.,Defense,TRUE,Justin's known fact is that he robbed *Mike*. This statement is TRUE.
+04:18,Mike,"No, I think you robbed from me.",Accusation,Neutral,"Mike (thinks Troublemaker) has no info about the Robber. This is a guess. (Rule 3a, Lucky Guess)."
+04:18,Justin,I robbed from Mike. Mike is telling the truth.,"Defense, Evidence",TRUE,"Compound statement. 1) ""I robbed from Mike"" (TRUE, his known action). 2) ""Mike is telling the truth"" (TRUE, Justin knows Mike *started* as Troublemaker, so his claim at 03:31 is consistent with Justin's knowledge)."
+04:20,Caitlynn,"Oh, okay...",No Strategy,Neutral,Acknowledgment.
+04:21,Justin,And you should know that too. Cause you saw a copycat in the center.,Accusation,FALSE,"Justin's known fact is that *he* is the Troublemaker (he thinks). He has *zero* information about the center cards. He is fabricating this ""fact"". This is a lie."
+04:26,Caitlynn,I did.,Evidence,TRUE,Caitlynn's known fact is that she *did* see the Copycat. She is truthfully confirming this.
+04:32,Mike,"But whatever Meghan was, you are now.",Accusation,Neutral,Mike (thinks Troublemaker) has no knowledge of what Justin's new role is (from robbing him) or what Meghan's role was. This is a guess.
+04:36,Caitlynn,Cool.,No Strategy,Neutral,Acknowledgment.
+04:39,Meghan,For realsies?,Interrogation,Neutral,A question.
+04:40,Mike,For realsies.,Evidence,Neutral,Confirming his guess. Still Neutral.
+04:40,Meghan,For realsies?,Interrogation,Neutral,A question.
+04:44,Justin,Yeah.,Evidence,FALSE,Justin is confirming Mike's guess. Justin (thinks Troublemaker) has no idea what Meghan's role was. He is lying by confirming a fact he doesn't know.
+04:45,Meghan,She's what I was?,Interrogation,Neutral,A question.
+04:46,Justin,"Well, I mean, I don't know. I can confirm that Mike was a troublemaker. I can't confirm his action.",Evidence,TRUE,"Compound statement. 1) ""I don't know"" (TRUE, retracting his lie). 2) ""I can confirm that Mike was a troublemaker"" (TRUE, his known fact from robbing). 3) ""I can't confirm his action"" (TRUE, he has no info on Mike's action)."
+04:51,Meghan,Okay. We don't kill Caitlynn. She's a tanner.,Defense,FALSE,Meghan's known fact is that *she* is the Tanner. She is lying and accusing Caitlynn.
+04:55,Justin,So no one dies tonight.,No Strategy,Neutral,A strategic deduction based on Meghan's (false) claim.
+04:56,Caitlynn,We should probably kill Meghan. Cause I was not the apprentice seer.,"Call for Action, Evidence",TRUE,"Compound statement. 1) ""We should... kill Meghan"" (Neutral call to action). 2) ""Cause I was not the apprentice seer"" (TRUE, Caitlynn's known fact is that she *thinks* she is a Werewolf)."
+05:00,Meghan,F*ck you all!,No Strategy,Neutral,An expression.
+05:04,Justin,"Right. Explains why you are. Didn't believe, why you asked why you didn't believe me. That one point.",No Strategy,Neutral,A meta-observation/deduction.
+05:11,Caitlynn,That's funny. Were you a regular werewolf?,Interrogation,Neutral,A question.
+05:14,Mike,I was a regular werewolf.,Identity Declaration,FALSE,Mike's known fact is that he *thinks* he is the Troublemaker. This is a lie.
+05:16,Justin,And you saw apprentice seer in the middle?,Interrogation,Neutral,A question.
+05:16,Caitlynn,I saw the copycat.,Evidence,TRUE,Caitlynn's known fact is that she saw the Copycat. This is TRUE.
+05:16,Justin,Copycat in the middle.,Evidence,FALSE,"Justin is repeating Caitlynn's true statement, but he is presenting it as *his own* knowledge, which he first faked at 04:21. He has no such knowledge. This is a lie."
+05:18,Caitlynn,I took a guess.,No Strategy,FALSE,"Caitlynn is referring to her answer at 02:06 (""No""). She *knew* Justin's card wasn't Copycat. She is lying about 'guessing'."
+05:18,Justin,Yeah.,No Strategy,Neutral,Acknowledgment.
+05:18,Meghan,Okay.,No Strategy,Neutral,Acknowledgment.
+05:18,Caitlynn,I love you!,No Strategy,Neutral,An expression.
+05:24,Meghan,What would you guys say if I told you that she's now ratting out her fellow werewolf?,Interrogation,Neutral,A hypothetical question.
+05:29,Caitlynn,"No, because you didn't stick your thumb up.",No Strategy,TRUE,Caitlynn (thinks she's lone WW) knows Meghan is not her partner. This statement is TRUE.
+05:30,Mike,"Doesn't matter. We killed one of you, which we for sure just killed you anyway.",No Strategy,Neutral,A taunt/opinion.
+05:33,Caitlynn,And you couldn't have been the copycat. Because I saw the copycat in the center.,Evidence,TRUE,"Compound statement. 1) ""you couldn't have been the copycat"" (TRUE, a correct logical deduction). 2) ""Because I saw the copycat in the center"" (TRUE, her known fact)."
+05:38,Meghan,I definitely wasn't the copycat.,Defense,TRUE,Meghan's known fact is that she is the Tanner. This is TRUE.
+05:39,Caitlynn,Did not stick your thumb up.,Accusation,TRUE,Caitlynn (thinks she's lone WW) knows Meghan is not her partner. This is TRUE.
+05:42,Meghan,Caitlynn. Why?,Interrogation,Neutral,A question.
+05:43,Caitlynn,I love you!,No Strategy,Neutral,An expression.
+05:44,Meghan,Why are you doing this to me? Why? Why?,Interrogation,Neutral,A question.
+05:47,Caitlynn,It's a loss for me either way. I'm tanner now.,Identity Declaration,FALSE,Caitlynn's known fact (per Sub-rule 1a) is that she is a **Werewolf**. She is unaware she was swapped. This statement contradicts her known reality. This is a lie.
+05:50,Mike,It's true.,No Strategy,FALSE,Mike (thinks he's Troublemaker) has no information about Caitlynn's role. He is lying by confirming a fact he cannot possibly know.
+05:52,Meghan,Fine. Kill me. Go for it.,No Strategy,TRUE,Meghan's known fact is that she is the Tanner. Her win condition is to be executed. This statement aligns 100% with her known objective.
+05:56,Mike,"Okay, okay. She gave me approval.",No Strategy,Neutral,A meta-comment.

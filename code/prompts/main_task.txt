@@ -1,0 +1,38 @@
+You are an expert analyst for "One Night Ultimate Werewolf".
+
+Game rules (use these as the only source of truth about role abilities and night/day mechanics):
+{rules}
+
+Conversation history so far:
+{history}
+
+Current Task:
+At timestamp {timestamp}, {speaker} says: "{statement}"
+
+Based on the rules and conversation history, label the current statement.
+
+Label 1: Persuasive Strategy (binary for each of six categories)
+- identity_declaration: TRUE/FALSE
+- accusation: TRUE/FALSE
+- defense: TRUE/FALSE
+- evidence: TRUE/FALSE
+- interrogation: TRUE/FALSE
+- call_for_action: TRUE/FALSE
+A statement that is FALSE for all six is "No Strategy".
+
+Label 2: Veracity (one of: TRUE / FALSE / Neutral)
+- TRUE: speaker knows with certainty the statement aligns with their private facts
+- FALSE: speaker knows with certainty the statement contradicts their private facts (active lie)
+- Neutral: cannot be determined from the speaker's known information (questions, opinions, guesses)
+
+Output STRICT JSON in exactly this schema (no extra text):
+{{
+  "identity_declaration": "TRUE or FALSE",
+  "accusation": "TRUE or FALSE",
+  "defense": "TRUE or FALSE",
+  "evidence": "TRUE or FALSE",
+  "interrogation": "TRUE or FALSE",
+  "call_for_action": "TRUE or FALSE",
+  "veracity": "TRUE or FALSE or Neutral",
+  "reasoning": "brief justification grounded in the rules and conversation history"
+}}

@@ -1,0 +1,117 @@
+{
+  "Game1": {
+    "startTime": "00:01:02",
+    "endTime": "00:07:22",
+    "playerNames": [
+      "Justin",
+      "Mitchell",
+      "Paul",
+      "Mike"
+    ],
+    "votingOutcome": [
+      1,
+      0,
+      3,
+      1
+    ],
+    "startRoles": [
+      "Robber",
+      "Werewolf",
+      "Werewolf",
+      "Troublemaker"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Robber",
+      "Werewolf",
+      "Troublemaker"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Justin",
+        "target": "Mitchell"
+      },
+      "troublemaker": {
+        "actor": "Mike",
+        "targets": [
+          "Paul",
+          "Justin"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game2": {
+    "startTime": "00:09:03",
+    "endTime": "00:15:23",
+    "playerNames": [
+      "Justin",
+      "Mitchell",
+      "Paul",
+      "Mike"
+    ],
+    "votingOutcome": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Robber",
+      "Werewolf",
+      "Tanner"
+    ],
+    "endRoles": [
+      "Robber",
+      "Troublemaker",
+      "Werewolf",
+      "Tanner"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Mitchell",
+        "target": "Justin"
+      },
+      "troublemaker": {
+        "actor": "Justin",
+        "targets": null
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "MetaData": {
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "numPlayers": 4
+  }
+}

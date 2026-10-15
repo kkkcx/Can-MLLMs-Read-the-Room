@@ -1,0 +1,189 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:00,Brent,"Since it's just a social interaction study, I'm sure that any... Well, I already saw my card. Hopefully nobody else did.",No Strategy,Neutral,General pre-game chatter with no factual claims about the game state.
+00:09,Hailey,I didn't.,No Strategy,Neutral,General pre-game chatter.
+00:13,Hailey,I might need to have wine to steady my nerves. Dear god.,No Strategy,Neutral,This is a joke/personal comment.
+00:15,Jack,"It's a social interaction study, I imagine every part of the social interaction is probably...",No Strategy,Neutral,This is a subjective opinion.
+00:20,Brent,Yeah. Worthwhile.,No Strategy,Neutral,This is an agreement with an opinion.
+00:21,Erin,Are we ready?,No Strategy,Neutral,Moderator question.
+00:22,Sebastian,All right.,No Strategy,Neutral,Acknowledgement.
+00:22,Hailey,"I mean, they already got entertained by the fact that they got upstairs.",No Strategy,Neutral,Irrelevant small talk.
+00:24,Jack,"Are you ready, kids?",No Strategy,Neutral,This is a joking question.
+00:24,Sebastian,Yeah.,No Strategy,Neutral,Acknowledgement.
+00:26,Hailey,All right. Ready?,No Strategy,Neutral,This is a question.
+00:28,Erin,Are you ready?,No Strategy,Neutral,Moderator question.
+00:28,Hailey,Yes.,No Strategy,Neutral,Acknowledgement.
+00:29,Erin,Everyone close your eyes.,No Strategy,Neutral,Moderator command.
+00:33,Erin,"All right. Werewolves, wake up and look for other werewolves.",No Strategy,Neutral,Moderator instruction.
+00:37,Erin,All right. Close your eyes.,No Strategy,Neutral,Moderator command.
+00:39,Erin,"Seer, wake up. All righty. You may look at other player's cards or two of the center cards.",No Strategy,Neutral,Moderator instruction.
+00:49,Erin,"Seer, close your eyes.",No Strategy,Neutral,Moderator command.
+00:51,Erin,"Robber, wake up. You may exchange your card with another player's card and then view your new card.",No Strategy,Neutral,Moderator instruction.
+01:07,Erin,Robber. What do you want to do?,No Strategy,Neutral,Moderator question.
+01:39,Jack,I wonder if this like the 5G people are coming out to get it...,No Strategy,Neutral,This is a joke.
+01:46,Jack,Got all these technologies out on the table.,No Strategy,Neutral,Irrelevant observation.
+01:57,Erin,What are the kids up to these days?,No Strategy,Neutral,Moderator small talk.
+01:58,Sebastian,Yeah.,No Strategy,Neutral,Acknowledgement.
+01:59,Hailey,"I mean, we joked. We literally joked at the beginning, like when we were signing up, it's like our neighbors are going to think that we're involved in the mafia or something like that. ",No Strategy,Neutral,Irrelevant anecdote.
+02:11,Hailey,open spaces.,No Strategy,Neutral,Incomplete thought.
+02:13,Jack,"Yeah, actually sometimes.",No Strategy,Neutral,Vague comment.
+02:16,Erin,Okay.,No Strategy,Neutral,Moderator acknowledgement.
+02:17,Hailey,Did she think that they were like Jehovah's Witnesses or something like that? Who knows.,No Strategy,Neutral,Speculative question.
+02:21,Jack,"Maybe, maybe.",No Strategy,Neutral,Vague agreement.
+02:21,Erin,"Robber, you may wake the fuck up.",No Strategy,Neutral,Moderator instruction.
+02:24,Brent,"Wait, didn't we already do robber?",No Strategy,Neutral,This is a question about game procedure.
+02:25,Hailey,I thought we did robber.,No Strategy,Neutral,This is a statement of belief about game procedure.
+02:26,Erin,"Oh, my bad. My phone wasn't in place. ",No Strategy,Neutral,Moderator explanation.
+02:29,Sebastian,I guess robber sleep?,No Strategy,Neutral,This is a guess/question.
+02:32,Erin,"Troublemaker, who's next? You may wake up. You may exchange cards between two other players.",No Strategy,Neutral,Moderator instruction.
+02:43,Erin,"Troublemaker, close your eyes and everyone can wake up.",No Strategy,Neutral,Moderator command.
+02:48,Hailey,"You know what I realized, what we used to do with our larger werewolf games. Didn't used to make us clap? Like we all had to clap and close our eyes so that way, we could kind of...",No Strategy,Neutral,Anecdote about a different game.
+02:56,Jack,"Oh, so like the sound.",No Strategy,Neutral,Clarification.
+02:57,Hailey,"But also because we had to get up and stand and walk around and usually point, because it was such like a huge group.",No Strategy,Neutral,Anecdote about a different game.
+03:01,Brent,Yeah. It was a group when we would just sit in chairs.,No Strategy,Neutral,Agreement.
+03:03,Sebastian,"Yeah. In a circle, right? Or something.",No Strategy,Neutral,Clarifying question.
+03:05,Brent,Yeah.,No Strategy,Neutral,Agreement.
+03:05,Sebastian,Yeah.,No Strategy,Neutral,Agreement.
+03:06,Hailey,Timer. Sorry.,No Strategy,Neutral,Game administration.
+03:07,Brent,It's fine.,No Strategy,Neutral,Social pleasantry.
+03:08,Hailey,Go.,No Strategy,Neutral,Command.
+03:12,Jack,Go. Okay.,No Strategy,Neutral,Acknowledgement.
+03:13,Erin,Who do we think?,Interrogation,Neutral,Moderator question.
+03:14,Sebastian,All right.,No Strategy,Neutral,Acknowledgement.
+03:14,Hailey,I am innocent.,Defense,TRUE,"Hailey is unaware her card was swapped. Based on her knowledge (starting as a Villager), she is innocent. This is a truthful statement of her belief."
+03:15,Jack,What do we think? Who had the,Interrogation,Neutral,This is a question.
+03:16,Sebastian,"We're both innocent, because I switched your card and I'm ","Defense, Evidence",TRUE,Sebastian knows he took Hailey's Villager card (innocent) and is now a Villager himself (innocent). This is an accurate statement based on his private knowledge.
+03:18,Jack,Was there a seer in this game?,Interrogation,Neutral,This is a question.
+03:18,Hailey,Seer? Huh?,"Interrogation, Defense",Neutral,This is a question/expression of confusion.
+03:22,Jack,What was the information? I missed it.,Interrogation,Neutral,This is a question.
+03:23,Sebastian,So I switched your card because I was a robber.,"Identity Declaration, Defense, Evidence",TRUE,This is a completely accurate description of his starting role and his night action.
+03:26,Hailey,I'm going to have an identity crisis now. So...,Accusation,Neutral,This is a subjective statement about her emotional state.
+03:28,Jack,Y'all switched?,Interrogation,Neutral,This is a question.
+03:29,Sebastian,Yeah.,"Defense, Evidence",TRUE,A truthful confirmation that he performed a switch.
+03:31,Jack,Okay.,No Strategy,Neutral,Acknowledgement.
+03:31,Brent,I was a villager.,Identity Declaration,TRUE,"Brent was not affected by any night actions, so he is truthfully stating his role."
+03:31,Jack,"Well, what are you now?",Interrogation,Neutral,This is a question.
+03:31,Hailey,I was a villager too.,Identity Declaration,TRUE,Hailey is truthfully stating her starting role.
+03:34,Sebastian,So I'm a villager now.,"Defense, Evidence",TRUE,Sebastian looked at his new card after robbing Hailey (a Villager). He is truthfully stating his current role.
+03:35,Jack,You're a villager now?,Interrogation,Neutral,This is a question.
+03:36,Sebastian,"So she was a villager. At least.... And she has my card, which was a robber, so...",Evidence,TRUE,"The factual claim here is ""she was a villager,"" which Sebastian knows for a fact because he took her card. The rest is a correct logical deduction."
+03:40,Jack,Okay.,No Strategy,Neutral,Acknowledgement.
+03:43,Hailey,"Should you really be giving that information away though? Like, unless you wanted to save yourself? Like only yourself?","Interrogation, Defense",Neutral,This is a strategic question.
+03:49,Sebastian,I'm just trying to make sure we find the werewolf.,Defense,Neutral,"This is a statement of future intent, which is unverifiable."
+03:52,Hailey,Okay.,No Strategy,Neutral,Acknowledgement.
+03:52,Brent,Yeah.,No Strategy,Neutral,Agreement.
+03:54,Jack,So what were you?,Interrogation,Neutral,This is a question.
+03:55,Brent,I was villager. What were you?,"Identity Declaration, Interrogation",TRUE,Brent is truthfully stating his role. The second part is a question.
+03:57,Jack,"You were a villager? Well, I was a troublemaker.","Identity Declaration, Interrogation",FALSE,Jack knows he is the Werewolf. Claiming to be the Troublemaker is a direct lie.
+03:59,Brent,Okay.,No Strategy,Neutral,Acknowledgement.
+04:01,Jack,So...,No Strategy,Neutral,Incomplete thought.
+04:02,Hailey,Is there no werewolf?,Interrogation,Neutral,This is a question.
+04:03,Brent,Explain what happened then.,Call for Action,Neutral,This is a command.
+04:04,Jack,"Well, I swapped our cards. So I guess I'm a villager now.","Identity Declaration, Accusation, Evidence",FALSE,"This is a compound lie. He did not swap cards (a fabricated action), and he is not guessing his role (he knows he is the Werewolf)."
+04:08,Brent,"I don't think that's how troublemaker works, but we'll go with it.",No Strategy,Neutral,This is a subjective opinion on game rules.
+04:13,Jack,"Troublemaker just swaps randomly, right?",No Strategy,Neutral,This is a question about game rules.
+04:17,Brent,Sure.,No Strategy,Neutral,Vague agreement.
+04:18,Jack,Well like you swap face down cards. You don't know like what you swapped.,No Strategy,Neutral,This is an explanation of game rules.
+04:23,Brent,Yeah.,No Strategy,Neutral,Agreement.
+04:23,Sebastian,"Well, I don't know.",No Strategy,Neutral,Statement of uncertainty.
+04:24,Brent,"I thought they were supposed to swap other people's cards, but may... I guess, whatever. So you swapped us. So I'm the troublemaker now?",Accusation,Neutral,This is a statement of opinion followed by a question based on Jack's lie.
+04:30,Jack,Yeah. You would be the troublemaker.,"Defense, Evidence",FALSE,"This statement is a logical conclusion of his previous lie. Since it's presented as a fact to further his deception, it is also a lie."
+04:32,Brent,And you were a robber? And you swapped?,"Accusation, Interrogation",Neutral,This is a question.
+04:33,Hailey,And now I'm apparently the robber.,Defense,Neutral,"This is a deduction based on another player's claim, not a statement of fact from her own knowledge."
+04:34,Brent,Yeah.,No Strategy,Neutral,Agreement.
+04:34,Brent,And you're a villager.,Accusation,Neutral,This is an accusation/statement about another player's role that he cannot know for certain.
+04:35,Sebastian,Mm-hmm,No Strategy,Neutral,Acknowledgement.
+04:36,Brent,You're a villager.,"Accusation, Interrogation",Neutral,This is an accusation/statement about another player's role that he cannot know for certain.
+04:39,Jack,Yeah.,No Strategy,Neutral,Agreement.
+04:42,Hailey,So... Is one of us lying?,Interrogation,Neutral,This is a question.
+04:43,Jack,Yeah. That's the question.,No Strategy,Neutral,Statement of opinion.
+04:44,Brent,Yeah. So I'm...,No Strategy,Neutral,Incomplete thought.
+00:00,Jack,"Hm, yeah,",No Strategy,Neutral,Filler phrase.
+00:01,Sebastian,"You're saying, and then you switch.","Accusation, Defense",Neutral,This is a statement about another player's claim.
+00:01,Jack,And I swapped our cards.,"Defense, Evidence",FALSE,Jack is repeating his lie about having swapped cards with Brent.
+00:02,Sebastian,You were in...,No Strategy,Neutral,Incomplete thought.
+00:06,Jack,"I don't know what I am now. I assume Villager, if Brent like here is being truthful.","Accusation, Defense",FALSE,Jack knows he is the Werewolf. Claiming ignorance is a lie designed to support his false Troublemaker claim.
+00:14,Brent,"I mean, assuming I was the Werewolf...",Accusation,Neutral,This is the start of a hypothetical scenario.
+00:17,Jack,Assuming.,Accusation,Neutral,Agreement with a hypothetical.
+00:18,Brent,And I believed what you said.,Defense,Neutral,This is part of a hypothetical scenario.
+00:19,Jack,Yeah.,No Strategy,Neutral,Agreement.
+00:21,Brent,Then would've outed you immediately.,Call for Action,Neutral,This is part of a hypothetical scenario.
+00:23,Jack,You would've outed me immediately. Why?,Interrogation,Neutral,This is a question.
+00:25,Brent,Because then I would've been a Villager.,Accusation,Neutral,This is part of a hypothetical scenario.
+00:26,Hailey,"Oh, sorry resume. Resume.",No Strategy,Neutral,Command.
+00:29,Brent,"If you were the troublemaker, you said you swapped our cards.","Accusation, Defense",Neutral,This is part of a hypothetical scenario.
+00:30,Hailey,3 minutes,No Strategy,Neutral,Game administration.
+00:31,Jack,Yeah.,No Strategy,Neutral,Agreement.
+00:31,Brent,"After I had said I was the Villager, I would've been like, okay. Well I was lying. You're the Werewolf now. And then we could've gotten you. You get what I mean?","Accusation, Interrogation",Neutral,This is a complex hypothetical scenario.
+00:40,Jack,"Oh, yeah. Because you would've known you where the Werewolf. I understand. Yeah.",Defense,Neutral,This is a statement of understanding a hypothetical.
+00:44,Brent,But I didn't do that. Now my thought process on this is I can trust Jack and say that we're both clean. And then there is the potential that you two are the werewolves and that you're just colluding about the Robber thing.,Accusation,Neutral,This is a statement of opinion and strategic theorizing.
+01:04,Sebastian,Like there's one Werewolf card that we switched or two- there's,Accusation,Neutral,This is a speculative question.
+01:07,Jack,"No, no, no. That you're both Werewolves. And you're-","Accusation, Defense",Neutral,This is a speculative accusation.
+01:09,Sebastian,Oh that we're both Werewolves. Oh okay.,Evidence,Neutral,Clarification of a hypothesis.
+01:10,Brent,Said you were the Robber.,Accusation,Neutral,This is a statement about another player's claim.
+01:11,Jack,That is an interesting theory. I like that.,No Strategy,Neutral,This is a subjective opinion.
+01:13,Brent,"Or we could assume that you guys are on my side and that you were the Robber and she was a Villager and you swapped. And Jack is actually the Werewolf and said that he swapped our cards, but nothing actually changed.","Accusation, Defense",Neutral,"This is a speculative theory (which happens to be correct, but is still a guess per Rule 3a)."
+01:26,Hailey,That is true. I didn't really hear a whole lot.,"Accusation, Evidence",Neutral,Statement of opinion and personal experience.
+01:29,Sebastian,Right.,Defense,Neutral,Agreement.
+01:31,Hailey,Hmm.,No Strategy,Neutral,Filler sound.
+01:32,Brent,Yeah. But now it sounds like you're trying to get the heat off yourself.,Accusation,Neutral,This is a subjective accusation of intent.
+01:37,Jack,Are you?,Interrogation,Neutral,This is a question.
+01:37,Hailey,Are you? Or are you trying to get the heat off yourself? Because... So you can make the first accusation?,"Interrogation, Defense",Neutral,This is a series of questions.
+01:41,Brent,I mean there's heat on me.,Defense,Neutral,This is a subjective assessment of the social situation.
+01:42,Jack,"Well, no, I- I think he has a decent like theory for why he's cleaned him himself. Because if we... because I swapped our cards and if I had claimed... like he would've known he was the Werewolf beforehand. And after I said I swapped, he would've immediately like spun it on me because he would've known that I was the Werewolf and that's how he wins.","Accusation, Defense",Neutral,"This is an analysis of a hypothetical scenario. It hinges on his lie (""I swapped our cards"") but is presented as strategic reasoning."
+01:59,Hailey,It's not yours.,No Strategy,Neutral,Incomplete statement.
+02:00,Jack,So I think that that puts it towards like-,No Strategy,Neutral,Statement of opinion.
+02:04,Erin,Is that time going?,No Strategy,Neutral,Moderator question.
+02:05,Jack,-the other three of us. I guess.,No Strategy,Neutral,This is a guess.
+02:08,Hailey,"Um, well, I can actually say for once... oh sorry. My thing. Okay. I'm not... I won't worry about it.",No Strategy,Neutral,Incomplete thoughts and self-correction.
+02:18,Jack,Okay.,No Strategy,Neutral,Acknowledgement.
+02:19,Hailey,"Um, well, I'm actually being truthful because I'm too stressed right now about the previous interaction to try and be deceptive. So I am actually being honest. Like I was the Villager, so.","Identity Declaration, Defense",TRUE,"The core claim is ""I was the Villager,"" which is a truthful statement of her starting role. The surrounding text is an attempt to justify her honesty."
+02:28,Jack,Okay.,No Strategy,Neutral,Acknowledgement.
+02:29,Sebastian,And I can-,No Strategy,Neutral,Incomplete thought.
+02:30,Jack,Did you swap?,Interrogation,Neutral,This is a question.
+02:30,Sebastian,Corroborate that.,No Strategy,Neutral,Incomplete thought.
+02:31,Jack,Did you really swap?,Interrogation,Neutral,This is a question.
+02:32,Sebastian,I swapped.,Evidence,TRUE,He is truthfully stating that he performed his night action.
+02:32,Jack,You swapped.,Interrogation,Neutral,This is a statement repeating another's claim for confirmation.
+02:33,Hailey,"You did? But you were really, you were really fast. Like we had barely opened our eyes and you were like, yep. I swapped Hailey's card. So. Yeah.","Interrogation, Defense",Neutral,This is a question followed by a subjective observation of timing.
+02:41,Sebastian,I waited cause no one else was going to say anything. I was just saying.,Defense,Neutral,This is a subjective explanation for his actions.
+02:44,Brent,I'm pretty sure I offered that I was a Villager first. And then you said you were a Robber in that you swapped.,"Accusation, Defense",Neutral,"This is a statement about the order of conversation, not private game knowledge."
+02:48,Sebastian,"Yeah, I think.",No Strategy,Neutral,Vague agreement.
+02:51,Hailey,I guess so.,No Strategy,Neutral,Vague agreement.
+02:52,Brent,"But. So if that were the case, then we would have to come to the collective decision to not-",Call for Action,Neutral,This is a strategic proposal.
+03:01,Hailey,Persecute anyone.,Call for Action,Neutral,This is a strategic proposal.
+03:02,Brent,Yes.,No Strategy,Neutral,Agreement.
+03:04,Jack,So what do we feel?,Interrogation,Neutral,This is a question.
+03:06,Hailey,Do we want to do that?,Interrogation,Neutral,This is a question.
+03:06,Jack,Do we think there's no Werewolf? Like is the Werewolf cards all right here?,"Interrogation, Defense",Neutral,These are strategic questions.
+03:09,Brent,"The problem with that being that if one of my two theories about you guys potentially being sus or Jack potentially being sus is true, then the Werewolves win.","Accusation, Defense",Neutral,This is strategic analysis.
+03:21,Sebastian,Mm.,No Strategy,Neutral,Filler sound.
+03:22,Jack,So what do we feel? Do we want to... it feels like it's like a dice roll one way or the other. Do we want to take the dice roll in like killing one of us or do we want to take the dice roll in...,"Interrogation, Call for Action",Neutral,This is a strategic proposal framed with questions and opinions.
+03:30,Hailey,Do we want to flip the Werewolf coin and see?,"Interrogation, Call for Action",Neutral,This is a strategic question.
+03:34,Brent,I think I'm willing to say.,No Strategy,Neutral,Incomplete thought.
+03:44,Sebastian,And we also got to do another game too.,No Strategy,Neutral,Irrelevant comment.
+03:44,Jack,Yeah. Yeah. That's fine.,No Strategy,Neutral,Agreement.
+03:44,Sebastian,At some point.,No Strategy,Neutral,Vague comment.
+03:44,Brent,Where are we at?,Interrogation,Neutral,This is a question.
+03:44,Sebastian,"Time for it. I don't know if we're time for pressure, time sensitive.",No Strategy,Neutral,Statement of uncertainty.
+03:46,Jack,Where are y'all feeling?,Interrogation,Neutral,This is a question.
+03:47,Brent,I think I'm willing to believe everyone.,"Defense, Evidence",Neutral,This is a statement of subjective feeling/intent.
+03:50,Jack,Okay.,No Strategy,Neutral,Acknowledgement.
+03:51,Hailey,As am I.,No Strategy,Neutral,Statement of agreement.
+03:52,Jack,So are we going to vote? No killing.,"Interrogation, Call for Action",Neutral,This is a question and a proposal.
+03:54,Sebastian,No killing.,Call for Action,Neutral,This is a proposal.
+03:54,Hailey,No killing. I guess we point up if we're not going to be killing.,Call for Action,Neutral,This is a proposal.
+03:55,Sebastian,Point up.,Call for Action,Neutral,This is a proposal.
+03:56,Hailey,"One, two, three.",No Strategy,Neutral,Countdown.
+03:57,Jack,You ready.,No Strategy,Neutral,This is a question.
+03:59,Hailey,Okay.,No Strategy,Neutral,Acknowledgement.
+04:00,Jack,All right. Rough life. Y'all everyone died.,No Strategy,Neutral,Post-game comment on the result.
+04:05,Erin,"I moved to the thing so fast. I was like, I don't think I even give the Troublemaker like a chance to switch cards if you wanted to.",No Strategy,Neutral,Post-game comment from the moderator.
+04:11,Brent,So I was right.,No Strategy,Neutral,Post-game comment.
+04:15,Jack,You were right. Yeah.,No Strategy,Neutral,Post-game comment.
+04:16,Sebastian,Yeah.,No Strategy,Neutral,Post-game comment.
+04:16,Hailey,"And you were right with me because I'm the Robber now. So,",No Strategy,Neutral,Post-game comment reflecting on her final role.
+04:18,Sebastian,Yeah.,No Strategy,Neutral,Post-game comment.
+04:20,Brent,Well.,No Strategy,Neutral,Post-game comment.
+04:21,Hailey,Well.,No Strategy,Neutral,Post-game comment.
+04:21,Jack,All right.,No Strategy,Neutral,Post-game comment.
+04:24,Hailey,Not great.,No Strategy,Neutral,Post-game comment.

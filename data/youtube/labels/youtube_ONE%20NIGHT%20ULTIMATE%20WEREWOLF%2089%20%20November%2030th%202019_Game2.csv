@@ -1,0 +1,130 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:18,Justin,So much better.,No Strategy,Neutral,A subjective meta-comment about the game settings.
+00:18,James,This feels slower.,No Strategy,Neutral,A subjective meta-comment about the game settings.
+00:21,Justin,"It's because the timer, I haven't changed the timer. I should do that.",No Strategy,Neutral,A meta-comment about the game timer.
+00:26,Paul,Cause it is.,No Strategy,Neutral,A meta-comment about the game timer.
+00:27,Justin,"Yeah, James you're right it is a hundred percent.",No Strategy,Neutral,A meta-comment about the game timer.
+00:34,James,"Wait, a little bit of the panic is gone.",No Strategy,Neutral,A subjective feeling.
+00:35,Mitchell,Yeah.,No Strategy,Neutral,Agreement with a subjective feeling.
+00:35,Paul,I miss that panic.,No Strategy,Neutral,A subjective feeling.
+00:45,Justin,"So all three of you guys were trying to lie last game, right?",No Strategy,Neutral,A question about a previous game.
+00:50,Paul,Yeah.,No Strategy,Neutral,An answer about a previous game.
+00:51,Justin,Good. Can't believe I won.,No Strategy,Neutral,A statement about a previous game.
+00:51,Mitchell,You just knew who was funniest and that was all you knew.,No Strategy,Neutral,A statement about a previous game.
+01:07,James,Troublemaker.,No Strategy,Neutral,"A comment made during the night phase, not a day-phase claim."
+01:17,Justin,Don't let me start the next game without changing the timer.,No Strategy,Neutral,A command/request about a future game.
+01:20,James,"Yeah, I'll try.",No Strategy,Neutral,A response to a meta-request.
+01:21,Paul,No promises.,No Strategy,Neutral,A joke/response to a meta-request.
+01:23,Justin,"Troublemaker, close your eyes. Everyone keep your eyes closed and reach out and move your card around slightly.",No Strategy,Neutral,A joke/command during the wake-up phase.
+01:32,Mitchell,"All of us, just panicked, we're not used to that. We lost... oh god that was funny.",No Strategy,Neutral,A comment about the previous joke.
+01:39,Mitchell,"Oh my God, that was funny.",No Strategy,Neutral,A comment about the previous joke.
+01:39,Paul,Oh my God! A year later.,No Strategy,Neutral,A joke.
+01:42,Mitchell,"Holy shit. Woo! James, what were you? Go.",Interrogation,Neutral,A question.
+01:48,Justin,I'm ready to confirm James' story because he's my friend and I'll trust until the ends of the earth.,Defense,Neutral,"A statement of future intent/strategy, not a falsifiable fact (Rule 4a)."
+01:53,Paul,why is my shirt weird.,No Strategy,Neutral,An irrelevant personal comment.
+01:54,James,Yo. I was the troublemaker.,Identity Declaration,TRUE,James's known fact is that he is the Troublemaker. This is a 100% true statement.
+01:56,Mitchell,Wow. Can't confirm.,No Strategy,TRUE,"Mitchell's known fact is he's a Werewolf. He has no information on James's role, so his statement ""Can't confirm"" is TRUE."
+01:57,James,Slick.,No Strategy,Neutral,An expression.
+01:59,Justin,"Cool. I can't confirm, but I believe you to the ends of the earth.",No Strategy,TRUE,"The factual part of this statement, ""I can't confirm,"" is TRUE. Justin (who thinks he's a Werewolf) has no information about James's action. The ""I believe you"" part is a Neutral opinion."
+02:01,James,I love you.,No Strategy,Neutral,A joke.
+02:02,Justin,Yeah.,No Strategy,Neutral,Acknowledgment.
+02:03,James,I'd kiss you right now.,No Strategy,Neutral,A joke.
+02:04,Justin,Okay.,No Strategy,Neutral,Acknowledgment.
+02:08,Mitchell,"You're not the troublemaker anymore, my friend.",Accusation,Neutral,Mitchell (who thinks he's a Werewolf) has no information about any swaps. This is a guess stated as fact (Rule 3a).
+02:10,James,"Oh, oh. Checks out.",No Strategy,Neutral,A sarcastic/joking response.
+02:16,Paul,Who was the witch?,Interrogation,Neutral,A question. (The 'Witch' role is not in this game.)
+02:18,Mitchell,Which one?,Interrogation,Neutral,A question.
+02:20,James,Which witch?,Interrogation,Neutral,A question.
+02:21,Paul,This witch.,No Strategy,Neutral,A joke.
+02:24,Justin,I'm going to assume I've been switched.,Accusation,Neutral,"A statement of assumption/opinion (""I'm going to assume"") (Rule 3c)."
+02:29,Paul,I didn't switch you Justin.,Defense,TRUE,"Paul's known action was Robber, not Troublemaker (a ""switch"" role). Therefore, his statement that he ""didn't switch"" Justin is factually TRUE (even if misleading)."
+02:31,Justin,Fuck. James? I have a good chance. I have a 66% chance of being switched by James.,"Accusation, Interrogation",TRUE,"This is a correct statement of mathematical probability based on the public information (James=Troublemaker, 3 other players). (2/3 = 66%)"
+02:39,James,Why?,Interrogation,Neutral,A question.
+02:40,Justin,Because you have to switch two of us.,No Strategy,TRUE,"A correct statement of the Troublemaker's rules, which is a known fact."
+02:41,James,What makes you think I choose you? Why is that percent so high?,Interrogation,Neutral,A question.
+02:46,Justin,"Well, well because it's just math. It's just, it's just math.",Defense,TRUE,Justin is (correctly) defending his mathematical claim from 02:31.
+02:49,Paul,Just the math that makes me think.,No Strategy,Neutral,A joke.
+02:51,James,What makes you think I'd pick you?,Interrogation,Neutral,A question.
+02:53,Paul,"The math, the math makes me think.",No Strategy,Neutral,A joke.
+02:58,James,Vote left.,Call for Action,Neutral,A command/strategic suggestion.
+03:00,Mitchell,Can you tell us someone you didn't switch?,Interrogation,Neutral,A question.
+03:05,Paul,You probably almost could have got him.,No Strategy,Neutral,"A vague, subjective opinion."
+03:10,James,"Yeah, let's vote left.",Call for Action,Neutral,A command/strategic suggestion.
+03:12,Paul,You serious?,Interrogation,Neutral,A question.
+03:13,James,We're all villagers.,Defense,Neutral,James's known fact is that he is a Troublemaker (Villager). He has no information about the other 3 players' roles. This is an overgeneralization (Rule 3b).
+03:15,Paul,I haven't said who I witched yet.,No Strategy,FALSE,Paul's known fact is that he *thinks* he is a Werewolf (after robbing Justin). He is lying and claiming to be a 'Witch' (a role not in play).
+03:18,James,Oh God did you make someone a werewolf?,Interrogation,Neutral,A question.
+03:20,Mitchell,"What's the order? If he does it, then troublemaker. Oh.",Interrogation,Neutral,A question about the order of operations.
+03:23,James,Tell us.,Interrogation,Neutral,A command.
+03:25,Paul,I didn't make somebody a werewolf. I made somebody the apprentice seer.,Evidence,FALSE,Paul (thinks WW) is continuing his lie about being a 'Witch' and fabricating an action and result.
+03:27,James,"Okay, vote left.",No Strategy,Neutral,A command/strategic suggestion.
+03:30,Justin,I would rather you all vote for me.,Call for Action,FALSE,Justin's known fact is that he *thinks* he is a Werewolf. His objective is *not* to be executed. This statement contradicts his known goal.
+03:32,James,Why? Let's vote left. It doesn't fucking matter who switched who and who robbed from what.,"Interrogation, Call for Action",Neutral,"A question, a command, and a statement of opinion."
+03:42,Mitchell,What if he's reverse fucking psychology-ing us right now?,Interrogation,Neutral,A hypothetical question (Rule 4b).
+03:46,James,And he's a werewolf?,Interrogation,Neutral,A question.
+03:48,Mitchell,Yeah. Just straight up that's what he's doing.,Accusation,Neutral,Mitchell (thinks WW) has no facts to support this accusation against Justin (his partner). This is a guess/opinion (Rule 3c).
+03:50,James,"Well, he's got a 50/50% chance of being either.",No Strategy,Neutral,A statement of mathematical probability (which is also a guess).
+03:53,Justin,"That's math, that's math. Well actually technically right now I have a 66% chance of being a werewolf.",Accusation,FALSE,"Justin's known fact is that he *thinks* he is 100% a Werewolf (from seeing Mitchell). By stating he has a ""66% chance"", he is misrepresenting his own certain knowledge."
+03:57,James,"Okay, don't know math.",No Strategy,Neutral,A subjective opinion.
+03:59,Justin,"No, it's 50/50. But I have a tanner. I'm okay with voting left if that's the case, if we're all good honest people. I feel like Paul might have turned himself into a werewolf though.","Identity Declaration, Accusation",FALSE,"Compound statement. The factual claim ""I have a tanner"" is a lie. Justin's known fact is that he *thinks* he is a Werewolf. The ""I feel like"" part is Neutral."
+04:09,Paul,"I didn't, I switched Mitchell into the apprentice seer.","Defense, Evidence",FALSE,Paul is continuing his fabricated 'Witch' story. He knows he (thinks he) is a Werewolf and did not do this.
+04:12,Justin,Cool.,No Strategy,Neutral,Acknowledgment.
+04:12,James,And you robbed from me.,Accusation,Neutral,James's known fact is that he is the Troublemaker. He has no information about a Robber. This is a guess (Rule 3a).
+04:15,Mitchell,Yeah.,No Strategy,Neutral,Acknowledgment.
+04:18,James,I really was about to look at my card to confirm his story.,No Strategy,Neutral,A meta-comment about his own (un-taken) action.
+04:25,Mitchell,"Paul, who are you voting for? I'm curious.",Interrogation,Neutral,A question.
+04:28,James,Fuck me. Why are we playing?,Interrogation,Neutral,A rhetorical question/expression of frustration.
+04:30,Paul,"Probably left, probably James I guess.",No Strategy,Neutral,A statement of future intent (Rule 4a).
+04:33,James,Great. I hate you. I'll vote Paul.,Call for Action,Neutral,A statement of emotion and a statement of future intent (Rule 4a).
+04:35,Mitchell,And I'll vote James.,Call for Action,Neutral,A statement of future intent (Rule 4a).
+04:38,Paul,Let's just note that Mitchell said vote James as opposed to vote left.,Accusation,TRUE,"This is a correct observation about the public dialogue (Mitchell did say ""vote James""). (Rule 1)"
+04:44,James,Technically he said all that-,No Strategy,Neutral,Incomplete sentence.
+04:45,Paul,I'm cool with winning or if we lose but we kill James.,Call for Action,Neutral,A statement of strategic preference/emotion.
+04:50,James,All right,No Strategy,Neutral,Acknowledgment.
+04:51,Mitchell,I just feel like something fishy is going on here.,Accusation,Neutral,"A statement of feeling (""I just feel...""). (Rule 3c)"
+04:53,Paul,Who did you switch?,Interrogation,Neutral,A question (to James).
+04:54,Justin,I think Paul turned himself into a werewolf.,Accusation,Neutral,"A statement of opinion (""I think""). (Rule 3c)"
+04:55,James,Doesn't matter.,No Strategy,Neutral,A subjective opinion.
+04:55,Justin,That's what I think happened 100%.,Accusation,Neutral,"A statement of opinion (""I think""). (Rule 3c)"
+04:57,Mitchell,I think he also did turn himself into a werewolf.,Accusation,Neutral,"A statement of opinion (""I think""). (Rule 3c)"
+04:59,Justin,"But I vote you vote for me. James, who did you switch? Does it matter?","Interrogation, Call for Action",Neutral,A command and a question.
+05:04,James,No.,No Strategy,Neutral,An answer to a question.
+05:04,Justin,"I don't care, unless you switched me. In which case, you should not kill that other person.",No Strategy,Neutral,A conditional/hypothetical statement. (Rule 4b)
+05:09,Mitchell,"James, I trust you until the ends of the earth.",No Strategy,Neutral,A statement of feeling/opinion.
+05:12,James,Yeah.,No Strategy,Neutral,Acknowledgment.
+05:12,Mitchell,"I think he switched himself into a werewolf. If that's the case, did he give the werewolf to someone?","Accusation, Interrogation",Neutral,"A statement of opinion (""I think"") and a question."
+05:16,James,How would he switch himself into a werewolf?,No Strategy,Neutral,A question.
+05:19,Paul,As the witch.,No Strategy,FALSE,"Paul is reinforcing his 'Witch' lie, which he knows is false."
+05:21,James,You switched yourself into a werewolf?,Interrogation,Neutral,A question.
+05:22,Paul,That's what they're saying. I didn't.,Defense,TRUE,"Paul's known fact is that he *thinks* he became a Werewolf by *robbing*, not by a 'Witch' action. Therefore, his statement ""I didn't"" (witch myself) is TRUE."
+05:22,Justin,A witch can switch with themselves as well.,No Strategy,Neutral,A statement about the rules of a role that is not in the game.
+05:25,James,Why would you make yourself a werewolf?,Interrogation,Neutral,A question.
+05:26,Justin,Because you can potentially win. Did you believe him when he said he turned someone into the apprentice seer?,Interrogation,Neutral,A statement of opinion and a question.
+05:32,James,Yeah.,No Strategy,Neutral,An answer to a question.
+05:33,Paul,"Let's not focus on the ""why"" or the hypothetical. What did you do?",Interrogation,Neutral,A command and a question (to James).
+05:37,Mitchell,"If he did that, did he give the werewolf to someone?",Interrogation,Neutral,A hypothetical question (Rule 4b).
+05:40,James,I don't know.,No Strategy,Neutral,An answer.
+05:40,Mitchell,One second.,No Strategy,Neutral,Meta-comment.
+05:44,Paul,"James, can you tell at least one person?",Interrogation,Neutral,A question.
+05:45,James,I switched you.,Evidence,TRUE,"James is speaking to Paul. His known fact is that he swapped Paul and Justin. Therefore, the statement ""I switched you"" (Paul) is TRUE."
+05:48,Mitchell,Fuck.,No Strategy,Neutral,An expression.
+05:49,Paul,Really?,Interrogation,Neutral,A question.
+05:49,James,Yeah.,Evidence,TRUE,Confirming his previous TRUE statement.
+05:53,Mitchell,Okay.,No Strategy,Neutral,Acknowledgment.
+05:54,James,Okay. Swap Justin and Paul.,Evidence,TRUE,James's known fact is that he is the Troublemaker and he swapped Justin and Paul. This is 100% TRUE.
+05:57,Justin,"Oh, so we don't vote for Paul?",Interrogation,Neutral,A question.
+06:02,James,We vote left.,Call for Action,Neutral,A command.
+06:03,Justin,No.,No Strategy,Neutral,Disagreement.
+06:04,James,Why?,Interrogation,Neutral,A question.
+06:07,Justin,Because now I'm a were... I'm okay with being a,No Strategy,Neutral,Incomplete thought.
+06:11,James,You're a werewolf?,Interrogation,Neutral,A question.
+06:11,Justin,I think so now.,Identity Declaration,FALSE,Justin's known fact is that he *already* believed he was a Werewolf (from seeing Mitchell). He is lying by implying this is new information based on the swap.
+06:12,Paul,What do you mean? You think so?,Interrogation,Neutral,A question.
+06:13,Justin,Because I think you witched yourself into a werewolf.,Accusation,FALSE,"This is a fabrication. Justin's known fact is that he *thinks* he is a Werewolf because he saw Mitchell at the start of the night, not because of Paul's 'Witch' action."
+06:17,Paul,"So we kill Justin? Because if you think I witched myself into a werewolf. You switched us. So if you think I witched myself into a werewolf, then we kill you.","Interrogation, Call for Action",Neutral,A complex conditional/hypothetical statement used for deduction (Rule 4b).
+06:27,Justin,"Yeah, sure. You can lose. That's fine.",No Strategy,Neutral,A taunt/statement of opinion.
+06:30,James,What?,Interrogation,Neutral,A question.
+06:33,Paul,"Oh, hello? I'm voting. I'm so confused.",No Strategy,Neutral,A statement of emotion.
+06:41,Paul,We're killing Justin?,Interrogation,Neutral,A question.
+06:41,Mitchell,Justin's a werewolf.,Accusation,TRUE,Mitchell's known fact is that he is a Werewolf and his partner is Justin. This statement aligns with his private knowledge.
+06:41,James,Justin's the werewolf.,Accusation,Neutral,James's known fact is that he is the Troublemaker. He has no information on Justin's role. This is a guess (Rule 3a).

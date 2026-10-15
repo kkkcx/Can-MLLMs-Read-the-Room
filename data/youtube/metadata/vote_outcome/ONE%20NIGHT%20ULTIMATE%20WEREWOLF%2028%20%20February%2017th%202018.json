@@ -1,0 +1,146 @@
+{
+  "Game1": {
+    "startTime": "00:01:09",
+    "endTime": "00:08:00",
+    "playerNames": [
+      "Justin",
+      "Caitlynn",
+      "Paul",
+      "Alysha",
+      "Mitchell",
+      "Mike"
+    ],
+    "votingOutcome": [
+      4,
+      3,
+      3,
+      4,
+      3,
+      4
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Robber",
+      "Seer",
+      "Werewolf",
+      "Drunk",
+      "Tanner"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Drunk",
+      "Robber",
+      "Werewolf",
+      "Werewolf",
+      "Tanner"
+    ],
+    "warning": "N/A"
+  },
+  "Game2": {
+    "startTime": "00:11:27",
+    "endTime": "00:18:17",
+    "playerNames": [
+      "Justin",
+      "Caitlynn",
+      "Paul",
+      "Alysha",
+      "Mitchell",
+      "Mike"
+    ],
+    "votingOutcome": [
+      4,
+      5,
+      5,
+      5,
+      5,
+      2
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Tanner",
+      "Robber",
+      "Minion",
+      "Troublemaker",
+      "Drunk"
+    ],
+    "endRoles": [
+      "Robber",
+      "Werewolf",
+      "Tanner",
+      "Minion",
+      "Troublemaker",
+      "Seer"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Paul",
+        "target": "Justin"
+      },
+      "troublemaker": {
+        "actor": "Mitchell",
+        "targets": [
+          "Paul",
+          "Caitlynn"
+        ]
+      },
+      "drunk": {
+        "actor": "Mike",
+        "center_card_swapped": "Seer"
+      }
+    }
+  },
+  "Game3": {
+    "startTime": "00:20:11",
+    "endTime": "00:27:02",
+    "playerNames": [
+      "Justin",
+      "Caitlynn",
+      "Paul",
+      "Alysha",
+      "Mitchell",
+      "Mike"
+    ],
+    "votingOutcome": [
+      5,
+      5,
+      0,
+      0,
+      5,
+      2
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Tanner",
+      "Robber",
+      "Minion",
+      "Troublemaker",
+      "Drunk"
+    ],
+    "endRoles": [
+      "Robber",
+      "Werewolf",
+      "Tanner",
+      "Minion",
+      "Troublemaker",
+      "Seer"
+    ],
+    "warning": "N/A"
+  },
+  "MetaData": {
+    "width": 640,
+    "height": 360,
+    "fps": 30,
+    "numPlayers": 6
+  }
+}

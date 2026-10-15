@@ -1,0 +1,88 @@
+{
+  "Game1": {
+    "playerNames": [
+      "Erin",
+      "Sebastian",
+      "Jack",
+      "Brent",
+      "Hailey"
+    ],
+    "votingOutcome": [
+      2,
+      1,
+      "NA",
+      1,
+      2
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Robber",
+      "Moderator",
+      "Seer",
+      "Troublemaker"
+    ],
+    "endRoles": [
+      "Robber",
+      "Seer",
+      "Moderator",
+      "Werewolf",
+      "Troublemaker"
+    ],
+    "warning": "Jack is the moderator and so did not vote"
+  },
+  "Game2": {
+    "playerNames": [
+      "Erin",
+      "Sebastian",
+      "Jack",
+      "Brent",
+      "Hailey"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Moderator",
+      "Robber",
+      "Werewolf",
+      "Villager",
+      "Villager"
+    ],
+    "endRoles": [
+      "Moderator",
+      "Villager",
+      "Werewolf",
+      "Villager",
+      "Robber"
+    ],
+    "warning": "Erin is the moderator. No one voted anyone",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Sebastian",
+        "target": "Hailey"
+      },
+      "troublemaker": {
+        "actor": null,
+        "targets": null
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  }
+}

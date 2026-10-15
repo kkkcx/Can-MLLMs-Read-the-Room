@@ -1,0 +1,14 @@
+Raw YouTube videos are NOT redistributed. Please obtain them from the original
+uploaders on YouTube. Video IDs follow Werewolf Among Us (Lai et al., 2023):
+https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/blob/main/Youtube/youtube_urls_released.json
+
+Per-game start/end times within each video are given in vote_outcome/<recording>.json.
+
+<recording file stem>	<video title>	<url>
+Flashback%20%20ONE%20NIGHT%20ULTIMATE%20WEREWOLF%20%20Retro%209	Flashback  ONE NIGHT ULTIMATE WEREWOLF  Retro 9	https://www.youtube.com/watch?v=vAgW7HOEnvA
+ONE%20NIGHT%20ULTIMATE%20WEREWOLF%2014%20%20August%2026th%202017	ONE NIGHT ULTIMATE WEREWOLF 14  August 26th 2017	https://www.youtube.com/watch?v=OxupN1wJFac
+ONE%20NIGHT%20ULTIMATE%20WEREWOLF%2026%20%20January%2020th%202018	ONE NIGHT ULTIMATE WEREWOLF 26  January 20th 2018	https://www.youtube.com/watch?v=ElvsKnJjj58
+ONE%20NIGHT%20ULTIMATE%20WEREWOLF%2028%20%20February%2017th%202018	ONE NIGHT ULTIMATE WEREWOLF 28  February 17th 2018	https://www.youtube.com/watch?v=O1kw7lbvwb4
+ONE%20NIGHT%20ULTIMATE%20WEREWOLF%2083%20%20October%2015th%202019	ONE NIGHT ULTIMATE WEREWOLF 83  October 15th 2019	https://www.youtube.com/watch?v=_xwTgTCEqWw
+ONE%20NIGHT%20ULTIMATE%20WEREWOLF%2087%20%20November%209th%202019	ONE NIGHT ULTIMATE WEREWOLF 87  November 9th 2019	https://www.youtube.com/watch?v=uzwvA_9Ob1A
+ONE%20NIGHT%20ULTIMATE%20WEREWOLF%2089%20%20November%2030th%202019	ONE NIGHT ULTIMATE WEREWOLF 89  November 30th 2019	https://www.youtube.com/watch?v=S0oZJrzmb1k

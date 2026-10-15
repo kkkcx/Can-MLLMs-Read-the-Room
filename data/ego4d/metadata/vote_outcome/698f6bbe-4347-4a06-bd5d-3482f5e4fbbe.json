@@ -1,0 +1,161 @@
+{
+  "Game1": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      1,
+      1,
+      4,
+      1,
+      1,
+      1
+    ],
+    "startRoles": [
+      "Robber",
+      "Werewolf",
+      "Werewolf",
+      "Minion",
+      "Troublemaker",
+      "Drunk"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Werewolf",
+      "Robber",
+      "Drunk",
+      "Troublemaker",
+      "Seer"
+    ],
+    "warning": "Sian incorrectly votes for self",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Elliot",
+        "target": "James"
+      },
+      "troublemaker": {
+        "actor": "Sukeshi",
+        "targets": [
+          "Chris",
+          "Sian"
+        ]
+      },
+      "drunk": {
+        "actor": "Sian",
+        "center_card_swapped": "Seer"
+      }
+    }
+  },
+  "Game2": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      5,
+      5,
+      5,
+      2,
+      2,
+      2
+    ],
+    "startRoles": [
+      "Villager",
+      "Troublemaker",
+      "Robber",
+      "Seer",
+      "Werewolf",
+      "Hunter"
+    ],
+    "endRoles": [
+      "Seer",
+      "Troublemaker",
+      "Hunter",
+      "Villager",
+      "Werewolf",
+      "Robber"
+    ],
+    "warning": "N/A"
+  },
+  "Game3": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      2,
+      2,
+      0,
+      2,
+      2,
+      2
+    ],
+    "startRoles": [
+      "Hunter",
+      "Troublemaker",
+      "Drunk",
+      "Robber",
+      "Seer",
+      "Villager"
+    ],
+    "endRoles": [
+      "Robber",
+      "Troublemaker",
+      "Werewolf",
+      "Hunter",
+      "Villager",
+      "Seer"
+    ],
+    "warning": "N/A",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": "Sukeshi",
+        "action_type": "center_cards",
+        "targets": null
+      },
+      "robber": {
+        "actor": "Chris",
+        "target": "Elliot"
+      },
+      "troublemaker": {
+        "actor": "Ashley",
+        "targets": [
+          "Sukeshi",
+          "Sian"
+        ]
+      },
+      "drunk": {
+        "actor": "James",
+        "center_card_swapped": "Werewolf"
+      }
+    }
+  }
+}

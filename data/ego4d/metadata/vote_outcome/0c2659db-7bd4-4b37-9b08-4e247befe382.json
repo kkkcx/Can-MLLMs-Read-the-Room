@@ -1,0 +1,212 @@
+{
+  "Game4": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      0,
+      1,
+      5,
+      5,
+      1,
+      3
+    ],
+    "startRoles": [
+      "Robber",
+      "Werewolf",
+      "Insomniac",
+      "Seer",
+      "Werewolf",
+      "Tanner"
+    ],
+    "endRoles": [
+      "Tanner",
+      "Werewolf",
+      "Insomniac",
+      "Seer",
+      "Werewolf",
+      "Robber"
+    ],
+    "warning": "N/A"
+  },
+  "Game5": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      0,
+      3,
+      3,
+      4,
+      3,
+      3
+    ],
+    "startRoles": [
+      "Seer",
+      "Werewolf",
+      "Doppelganger",
+      "Werewolf",
+      "Insomniac",
+      "Villager"
+    ],
+    "endRoles": [
+      "Seer",
+      "Werewolf",
+      "Doppelganger",
+      "Werewolf",
+      "Insomniac",
+      "Villager"
+    ],
+    "warning": "Doppelganger becomes Insomniac and Ashley incorrecly votes for self"
+  },
+  "Game6": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      2,
+      4,
+      4,
+      4,
+      4,
+      2
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Seer",
+      "Troublemaker",
+      "Hunter",
+      "Robber",
+      "Tanner"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Robber",
+      "Troublemaker",
+      "Seer",
+      "Hunter",
+      "Tanner"
+    ],
+    "warning": "N/A"
+  },
+  "Game7": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      1,
+      2,
+      0,
+      5,
+      1,
+      4
+    ],
+    "startRoles": [
+      "Robber",
+      "Minion",
+      "Doppelganger",
+      "Troublemaker",
+      "Tanner",
+      "Seer"
+    ],
+    "endRoles": [
+      "Tanner",
+      "Doppelganger",
+      "Seer",
+      "Troublemaker",
+      "Robber",
+      "Minion"
+    ],
+    "warning": "Doppelganger becomes Robber"
+  },
+  "Game8": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Robber",
+      "Doppelganger",
+      "Hunter",
+      "Minion",
+      "Tanner"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Hunter",
+      "Robber",
+      "Doppelganger",
+      "Minion",
+      "Tanner"
+    ],
+    "warning": "Doppelganger becomes Robber"
+  },
+  "Game9": {
+    "playerNames": [
+      "Elliot",
+      "Ashley",
+      "James",
+      "Chris",
+      "Sukeshi",
+      "Sian"
+    ],
+    "votingOutcome": [
+      0,
+      0,
+      4,
+      3,
+      0,
+      4
+    ],
+    "startRoles": [
+      "Villager",
+      "Hunter",
+      "Robber",
+      "Werewolf",
+      "Villager",
+      "Seer"
+    ],
+    "endRoles": [
+      "Villager",
+      "Hunter",
+      "Villager",
+      "Werewolf",
+      "Robber",
+      "Seer"
+    ],
+    "warning": "N/A"
+  }
+}

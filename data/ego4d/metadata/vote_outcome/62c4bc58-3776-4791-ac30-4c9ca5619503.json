@@ -1,0 +1,218 @@
+{
+  "Game7": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      2,
+      2,
+      "NA",
+      3
+    ],
+    "startRoles": [
+      "Seer",
+      "Drunk",
+      "Werewolf",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Seer",
+      "Center card",
+      "Werewolf",
+      "Werewolf"
+    ],
+    "warning": "Kaelans end role not mentioned and player 2 voted middle"
+  },
+  "Game8": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      "NA",
+      3,
+      "NA",
+      3
+    ],
+    "startRoles": [
+      "Seer",
+      "Robber",
+      "Minion",
+      "Drunk"
+    ],
+    "endRoles": [
+      "Seer",
+      "Drunk",
+      "Minion",
+      "Center card"
+    ],
+    "warning": "Daniels end role not mentioned, player 2 and 3 voted middle"
+  },
+  "Game9": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Troublemaker",
+      "Doppleganger",
+      "Werewolf",
+      "Robber"
+    ],
+    "endRoles": [
+      "Troublemaker",
+      "Robber",
+      "Werewolf",
+      "Doppleganger"
+    ],
+    "warning": "All players voted middle",
+    "nightActions": {
+      "doppelganger": {
+        "actor": "Kaelan",
+        "target": "Kevin",
+        "copied_role": "Troublemaker"
+      },
+      "seer": {
+        "actor": null,
+        "action_type": null,
+        "targets": null
+      },
+      "robber": {
+        "actor": "Daniel",
+        "target": "Jessica"
+      },
+      "troublemaker": {
+        "actor": "Kevin",
+        "targets": [
+          "Kaelan",
+          "Daniel"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  },
+  "Game10": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Minion",
+      "Villager",
+      "Villager",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Minion",
+      "Villager",
+      "Villager",
+      "Werewolf"
+    ],
+    "warning": "All players voted middle"
+  },
+  "Game11": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      2,
+      1,
+      "NA",
+      "NA"
+    ],
+    "startRoles": [
+      "Villager",
+      "Villager",
+      "Minion",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Villager",
+      "Villager",
+      "Minion",
+      "Werewolf"
+    ],
+    "warning": "Player 1 and 2 voted middle"
+  },
+  "Game12": {
+    "playerNames": [
+      "Kevin",
+      "Kaelan",
+      "Jessica",
+      "Daniel"
+    ],
+    "votingOutcome": [
+      2,
+      2,
+      "NA",
+      2
+    ],
+    "startRoles": [
+      "Mason",
+      "Troublemaker",
+      "Minion",
+      "Seer"
+    ],
+    "endRoles": [
+      "Seer",
+      "Troublemaker",
+      "Minion",
+      "Mason"
+    ],
+    "warning": "Player 2 did not vote",
+    "nightActions": {
+      "doppelganger": {
+        "actor": null,
+        "target": null,
+        "copied_role": null
+      },
+      "seer": {
+        "actor": "Daniel",
+        "action_type": "Kevin",
+        "targets": null
+      },
+      "robber": {
+        "actor": null,
+        "target": null
+      },
+      "troublemaker": {
+        "actor": "Kaelan",
+        "targets": [
+          "Kevin",
+          "Daniel"
+        ]
+      },
+      "drunk": {
+        "actor": null,
+        "center_card_swapped": null
+      }
+    }
+  }
+}

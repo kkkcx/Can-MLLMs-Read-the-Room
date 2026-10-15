@@ -1,0 +1,137 @@
+{
+  "Game6": {
+    "playerNames": [
+      "Tyler",
+      "Margaret",
+      "Erin",
+      "Clint"
+    ],
+    "votingOutcome": [
+      2,
+      3,
+      3,
+      2
+    ],
+    "startRoles": [
+      "Drunk",
+      "Troublemaker",
+      "Robber",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Robber",
+      "Drunk",
+      "Werewolf"
+    ],
+    "warning": "N/A"
+  },
+  "Game7": {
+    "playerNames": [
+      "Tyler",
+      "Margaret",
+      "Erin",
+      "Clint"
+    ],
+    "votingOutcome": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "startRoles": [
+      "Insomniac",
+      "Robber",
+      "Drunk",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Robber",
+      "Insomniac",
+      "Hunter",
+      "Werewolf"
+    ],
+    "warning": "N/A"
+  },
+  "Game8": {
+    "playerNames": [
+      "Tyler",
+      "Margaret",
+      "Erin",
+      "Clint"
+    ],
+    "votingOutcome": [
+      3,
+      2,
+      0,
+      3
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Hunter",
+      "Drunk",
+      "Werewolf"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Hunter",
+      "Troublemaker",
+      "Werewolf"
+    ],
+    "warning": "N/A"
+  },
+  "Game9": {
+    "playerNames": [
+      "Tyler",
+      "Margaret",
+      "Erin",
+      "Clint"
+    ],
+    "votingOutcome": [
+      2,
+      0,
+      0,
+      3
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Robber",
+      "Insomniac",
+      "Hunter"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Hunter",
+      "Insomniac",
+      "Robber"
+    ],
+    "warning": "N/A"
+  },
+  "Game10": {
+    "playerNames": [
+      "Tyler",
+      "Margaret",
+      "Erin",
+      "Clint"
+    ],
+    "votingOutcome": [
+      2,
+      0,
+      2,
+      3
+    ],
+    "startRoles": [
+      "Werewolf",
+      "Tanner",
+      "Werewolf",
+      "Robber"
+    ],
+    "endRoles": [
+      "Werewolf",
+      "Robber",
+      "Werewolf",
+      "Tanner"
+    ],
+    "warning": "N/A"
+  }
+}

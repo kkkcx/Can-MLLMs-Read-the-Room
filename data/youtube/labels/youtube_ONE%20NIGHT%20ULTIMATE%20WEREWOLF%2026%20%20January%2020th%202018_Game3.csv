@@ -1,0 +1,127 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:00,Meghan,"Wait, what am I?",No Strategy,Neutral,"A question, which is inherently non-falsifiable."
+00:00,Mike,It's a little loud let me turn it up.,No Strategy,Neutral,Meta-game comment unrelated to the game's factual state.
+01:14,Justin,Face up.,No Strategy,Neutral,"A command, not a statement of fact."
+01:20,Justin,Face down.,No Strategy,Neutral,"A command, not a statement of fact."
+01:31,Justin,Spicy?,No Strategy,Neutral,An irrelevant question.
+01:32,Mitchell,Meat.,No Strategy,Neutral,An irrelevant response.
+01:34,Justin,Robber?,Interrogation,Neutral,A question.
+01:35,Mike,Yeah.,Identity Declaration,FALSE,Mike's last known fact is that he became a Werewolf after robbing Justin. He is lying to conceal his (presumed) Werewolf identity.
+01:35,Meghan,Who'd you switch?,Interrogation,Neutral,A question.
+01:36,Mike,I want to know the information first.,Defense,Neutral,"A statement of desire/strategy, not a falsifiable fact."
+01:40,Meghan,You're all of the place.,No Strategy,Neutral,A subjective opinion.
+01:41,Mitchell,Justin gave you a lot of information.,No Strategy,Neutral,A subjective interpretation of the conversation.
+01:42,Justin,"I'm just going to be real. I'm alone again, probably. So just don't even ask my opinion. I don't matter in this game.",Evidence,FALSE,"Justin's known fact is that he is a Werewolf and saw his partner, Mitchell. Claiming to be ""alone"" is a direct contradiction of his knowledge."
+01:51,Paul,Okay.,No Strategy,Neutral,A simple acknowledgment.
+01:52,Justin,"Yeah. That's fine. Just, just...yeah.",No Strategy,Neutral,"Filler/agreement, not a factual statement."
+01:57,Meghan,"For reals this time guys. Like, honestly.",No Strategy,Neutral,"An appeal, not a factual claim."
+01:59,Justin,So do we have a seer that looked at two in the center?,Interrogation,Neutral,A question.
+02:05,Mike,"I was going to look at Mitch, but then he looked at you. So I looked at you.",Defense,FALSE,"Mike knows his role was Robber, not Seer. He is fabricating a Seer action and a rationale for it. This is a lie."
+02:09,Paul,I was both of these werewolves.,Accusation,FALSE,Paul knows his role is Troublemaker. This is a lie (likely a joke).
+02:12,Mike,God damn it.,No Strategy,Neutral,An expression of emotion.
+02:13,Meghan,"All the werewolves. Oh, you were the seer?","Interrogation, Defense",Neutral,A question.
+02:17,Mitchell,I was the seer.,Identity Declaration,FALSE,Mitchell knows his role is Werewolf. This is a lie.
+02:17,Meghan,So what'd you see?,Interrogation,Neutral,A question.
+02:17,Mitchell,I'm going to hold off on that for a bit.,Defense,Neutral,A statement of future intent/strategy.
+02:18,Paul,Can we know if it was center or a player?,Interrogation,Neutral,A question.
+02:19,Mike,Can you say if you look at a player?,Interrogation,Neutral,A question.
+02:21,Mitchell,It was center this time.,Evidence,FALSE,Mitchell is continuing his lie of being the Seer. He did not perform a Seer action and has no knowledge of the center cards.
+02:22,Paul,Okay.,No Strategy,Neutral,Acknowledgment.
+02:23,Justin,"Which is the correct choice in my opinion, the drunk is in the game.",No Strategy,Neutral,A statement of subjective opinion and strategy.
+02:26,Mitchell,"Yes. You taught me last game. I realized... Oh no, actually I was lying that last game. All right. Never mind.",No Strategy,Neutral,"Meta-commentary about a previous game, not a falsifiable fact about the current game."
+02:36,Meghan,I forgot I was lying.,Defense,Neutral,Meta-commentary/joke. Cannot be fact-checked.
+02:37,Mike,I'm lying again.,Defense,Neutral,A self-referential paradox (liar's paradox) that is unverifiable.
+02:39,Mitchell,It's hard to get my story straight.,Defense,Neutral,Meta-commentary/joke.
+02:41,Paul,Do we want to guess out of these four which one I am?,Interrogation,Neutral,A question/suggestion.
+02:43,Justin,Definitely troublemaker always.,No Strategy,Neutral,"This is a guess about Paul's role. It happens to be correct, but Justin has no factual basis for this knowledge (Rule 3a)."
+02:44,Meghan,Hands down.,No Strategy,Neutral,Agreement with an opinion.
+02:45,Paul,Yeah.,No Strategy,Neutral,Acknowledgment.
+02:47,Meghan,So who would you switch?,Interrogation,Neutral,A question.
+02:50,Mitchell,So he's going to tell us an answer-,No Strategy,Neutral,A statement about a future action.
+02:52,Justin,And it's not true.,No Strategy,Neutral,A prediction/opinion about Paul's future statement.
+02:53,Mitchell,It's not true.,No Strategy,Neutral,Agreement with Justin's opinion.
+02:55,Paul,"No, on round three, I say what the truth was very first.",Evidence,Neutral,"A statement about a personal ""rule"" or future intent. Not a fact about the current game state."
+02:59,Justin,"Yeah, did not know the rules of Paul?",Interrogation,Neutral,A rhetorical question/joke.
+03:00,Paul,"Yeah, there's this system.",No Strategy,Neutral,A joke/meta-comment.
+03:02,Mike,Did you not figure this out yet?,Interrogation,Neutral,A rhetorical question/joke.
+03:03,Justin,"Mike could have just stealed from me, didn't you?","Accusation, Interrogation",Neutral,A guess phrased as a question. Justin does not know he was robbed.
+03:07,Mike,"No, I didn't.","Defense, Evidence",FALSE,Mike knows he *did* steal (Rob) from Justin. This is a direct lie to conceal his night action.
+03:08,Justin,"Oh, thank f*ck.",No Strategy,Neutral,An expression of emotion.
+03:09,Paul,I will tell you a total honesty about my trouble making. I switched diagonal. So either switched Mike and Meghan or I switched Mitch and Justin.,"Accusation, Defense, Evidence",FALSE,Paul knows he is the Troublemaker and he knows with certainty that he *switched Mike and Meghan*. Claiming he *either* did that *or* switched Mitch and Justin is an intentional lie to misrepresent his certain knowledge.
+03:18,Mike,That's interesting.,No Strategy,Neutral,A subjective opinion.
+03:18,Meghan,Ok.,No Strategy,Neutral,Acknowledgment.
+03:19,Mitchell,All right.,No Strategy,Neutral,Acknowledgment.
+03:20,Justin,"Not looking good for you, Meg.",Defense,Neutral,A subjective opinion/accusation.
+03:21,Mike,Um.,No Strategy,Neutral,Filler.
+03:22,Meghan,"It's really not. So more than likely, well I mean...I could be-",No Strategy,Neutral,A statement of opinion/speculation.
+03:27,Justin,"So Mitch, what did you see at the center?",Interrogation,Neutral,A question (based on Mitchell's lie).
+03:27,Meghan,... could be the revealer.,Accusation,Neutral,"A guess. ""Revealer"" is not a role in this game; this is likely speculation and is unverifiable."
+03:31,Mitchell,I did see-,No Strategy,Neutral,Incomplete sentence.
+03:32,Paul,Which one did you look at?,Interrogation,Neutral,A question.
+03:33,Mitchell,... one werewolf in the center.,"Defense, Evidence",FALSE,Mitchell is continuing his Seer lie. He has no knowledge of the center cards. This is a fabrication.
+03:34,Justin,One werewolf in the center.,Evidence,Neutral,"Repeating Mitchell's statement, likely in thought. Not a claim of his own knowledge."
+03:36,Mike,I stole from Meghan.,"Defense, Evidence",FALSE,Mike knows he stole from *Justin*. This is a direct lie.
+03:37,Meghan,Oh!,No Strategy,Neutral,An expression of surprise.
+03:39,Mitchell,What's the order there?,Interrogation,Neutral,A question.
+03:40,Mike,So I can confirm she was the drunk at one point. She might not be now.,"Defense, Evidence",FALSE,This is a fabrication built on his previous lie (that he stole from Meghan). He has no information about Meghan's card.
+03:48,Justin,"I mean I want you guys to kill me, so-","Call for Action, Defense",FALSE,Justin's known fact is that he is a Werewolf. His win condition is *not* to be executed. This statement contradicts his (known) objective.
+03:52,Mike,"No,",No Strategy,Neutral,Disagreement.
+03:52,Justin,I'm not doing a good job. Am I? I don't care.,Interrogation,Neutral,Rhetorical question and statement of emotion.
+03:55,Meghan,I feel like Justin is just playing this game. Weird.,Accusation,Neutral,"A subjective opinion (""I feel..."")."
+04:00,Justin,I had the soul sucked out of me in the first two rounds.,No Strategy,Neutral,Meta-commentary/hyperbole.
+04:02,Mike,"I would say, getting rid of the revealer for next round would be good.",No Strategy,Neutral,A strategic opinion about a future game.
+04:06,Justin,"Well the revealer did nothing, this round.",Evidence,Neutral,A subjective opinion on the impact of a (non-existent) role.
+04:07,Paul,"Mitch, you didn't see anything that anyone is-",Interrogation,Neutral,Incomplete question.
+04:09,Meghan,So more than likely-,No Strategy,Neutral,Incomplete thought.
+04:10,Paul,... claiming to be in the center?,Interrogation,Neutral,A question.
+04:11,Meghan,"... that, and then that. So I'm something still from the middle.",Defense,FALSE,Meghan's known fact is that she is the Tanner. She is lying and claiming to be the Drunk (who would have swapped with the middle).
+04:14,Mike,You're still something from the middle.,Interrogation,Neutral,Repeating/confirming Meghan's claim.
+04:16,Meghan,Okay.,No Strategy,Neutral,Acknowledgment.
+04:17,Mitchell,"Which one did you take from the middle, Meghan?",Interrogation,Neutral,A question (following up on Meghan's lie).
+04:21,Meghan,I took this one. I swapped the closest two.,"Defense, Evidence",FALSE,Meghan is continuing her Drunk lie. Her known fact is that she is the Tanner and performed no night action.
+04:22,Mike,"But I think Justin, I think Justin was a werewolf. He woke up alone as a werewolf and now he just doesn't want to talk to anybody.",Accusation,TRUE,"Mike's known fact is that he robbed Justin and saw Justin's card was **Werewolf**. His statement ""Justin was a werewolf"" is 100% TRUE based on his knowledge. The rest (""woke up alone"") is a Neutral guess, but the core factual claim is TRUE."
+04:27,Justin,I saw a werewolf in the center.,Evidence,FALSE,"Justin's known fact is that he is a Werewolf and he saw his partner, Mitchell. He *knows* he was not a lone werewolf (who would look at the center). This is a fabrication."
+04:28,Mike,Yeah. That's exactly what happened.,No Strategy,TRUE,"Mike is agreeing with *his own* theory (that Justin was a lone werewolf), which is based on his TRUE knowledge that Justin's card was ""Werewolf""."
+04:29,Justin,That's not what happened.,No Strategy,TRUE,"Justin is refuting Mike's claim that he was a *lone* werewolf. Justin *knows* he was not a lone werewolf (he saw Mitchell). Therefore, this statement is TRUE."
+04:30,Paul,I hate when this happens?,No Strategy,Neutral,Statement of emotion.
+04:33,Mitchell,Um I can...I think I can safely say with a lot of info that there was a werewolf here and that is the one she took for what that's worth.,No Strategy,FALSE,This is part of Mitchell's Seer lie. He has no info about the center cards. This is a fabrication.
+04:40,Mike,Wait there was...You saw two you said two in the center or just one? I can't remember.,"Interrogation, Defense",Neutral,A question asking for clarification on a lie.
+04:44,Mitchell,All I'm saying is I saw one.,Defense,FALSE,Continuing the Seer lie. He saw zero.
+04:44,Justin,I mean you can really throw me a bone and just say you saw two werewolves because I'm the fucking tanner and this is just my luck.,"Identity Declaration, Accusation, Defense",FALSE,Justin knows he is a Werewolf. He is lying and claiming to be the Tanner.
+04:53,Mike,"No, I think you're the werewolf.","Accusation, Defense",TRUE,"Mike's knowledge is that he robbed Justin and got a Werewolf card. Therefore, his belief ""you're the werewolf"" (or at least *were*) is 100% consistent with his known facts."
+04:57,Mitchell,Can anyone corroborate me?,Interrogation,Neutral,A question.
+05:00,Mike,No. I stole-,Defense,Neutral,Incomplete statement.
+05:01,Paul,"Justin, you promise that you're the tanner?",Interrogation,Neutral,A question.
+05:03,Justin,Yes.,No Strategy,FALSE,"A direct answer to a question. He is confirming his lie that he is the Tanner, but he knows he is a Werewolf."
+05:04,Mike,I don't believe him. Don't believe him.,Accusation,TRUE,"Mike's statement ""I don't believe him"" is TRUE, as his known fact (Justin=Werewolf) directly contradicts Justin's claim (Justin=Tanner)."
+05:05,Paul,"If you are the tanner and you're still the tanner, I will kill you if you're telling me the truth. If you promise you're telling me the truth right now. Like I will vote for you at the end. If knowing what I know, I know that you are still what you're telling us.","Accusation, Call for Action, Defense",Neutral,This entire statement is a complex hypothetical and a statement of future intent. It is not falsifiable.
+05:19,Mike,"So you picked which one in the center, Meghan?",Interrogation,Neutral,A question.
+05:20,Meghan,This one.,Evidence,FALSE,She is continuing her lie of being the Drunk. She knows she is the Tanner and picked no card.
+05:21,Justin,Okay. So you didn't switch me is what you're saying? I'm confused.,Interrogation,Neutral,A question seeking clarification.
+05:23,Mike,"So this is...,",No Strategy,Neutral,Incomplete thought.
+05:24,Meghan,"There, yeah.",No Strategy,Neutral,Acknowledgment.
+05:24,Mike,Then you for sure saw werewolf at this spot?,Interrogation,Neutral,A question directed at Mitchell.
+05:28,Mitchell,Yes. So 100% there was a werewolf here and she's a drunk and she took it.,"Defense, Evidence",FALSE,"This is a compound lie. He is lying about being the Seer (""saw werewolf"") and lying by confirming Meghan's lie (""she's a drunk""). He knows neither of these things."
+05:32,Mike,"Okay. But how, was there another werewolf on the table?",Interrogation,Neutral,A question.
+05:34,Paul,I switched you.,Evidence,FALSE,Paul knows he switched *Meghan and Mike*. He is lying and claiming he switched Justin.
+05:35,Justin,You switched me?,Interrogation,Neutral,A question.
+05:36,Paul,Yeah.,Defense,FALSE,He is confirming his previous lie.
+05:37,Mike,With?,Interrogation,Neutral,A question.
+05:38,Mitchell,So I'm Tanner?,"Accusation, Interrogation",Neutral,This is a question/hypothetical based on Paul's (false) claim. Mitchell's known fact is that he is a Werewolf.
+05:39,Justin,Then don't fucking kill Mitchell.,Call for Action,TRUE,"Justin *thinks* Mitchell is his Werewolf partner. His goal is ""no werewolves are executed."" This command aligns perfectly with his known facts and objective."
+05:41,Meghan,"It looks like you have to kill me honestly, the way this is playing out.",Call for Action,TRUE,Meghan's known fact is that she is the Tanner. Her win condition is to be executed. This statement is a strategic move to *achieve* her known objective. It aligns with her knowledge/goal.
+05:44,Mike,I don't think he was the Tanner.,Accusation,Neutral,"A statement of opinion (""I don't think..."")."
+05:46,Justin,I was the Tanner and he switched me. So don't fucking kill Mitchell.,"Identity Declaration, Call for Action, Defense, Evidence",FALSE,"This is a compound statement. ""I was the Tanner"" is a **FALSE** (he knows he's a Werewolf). ""he switched me"" is a **FALSE** (this is a fabrication based on Paul's lie). The entire factual basis is false."
+05:50,Meghan,It doesn't matter unless there's two werewolves. That's the only other thing is if somehow Justin had something that was in the middle-,No Strategy,Neutral,This is strategic speculation and a hypothetical.
+05:56,Paul,Why are you like convincing us to kill you?,Interrogation,Neutral,A question (directed at Meghan).
+05:58,Justin,Because she knows the odds are in her favor.,No Strategy,Neutral,A subjective guess about Meghan's motives.
+06:00,Mike,I don't think so. I think these two were werewolves together or something. And they're pointing it off on Meghan.,No Strategy,Neutral,"A statement of opinion (""I don't think"") and a guess (""I think..."")."
+06:07,Paul,"No, I am inclined to believe Mitchell, and if I'm wrong, then good job Mitchell.","Accusation, Defense",Neutral,"A statement of belief/inclination, not a statement of fact."
+06:12,Mike,"No, I don't don't trust Justin in this. For some reason-","Accusation, Defense",TRUE,"Mike's known fact is that Justin *was* a Werewolf. His statement ""I don't trust Justin"" is a direct, logical consequence of this known fact."
+06:15,Mitchell,I think we have to vote Meghan. I saw werewolf here. She said she was a drunk.,"Accusation, Call for Action",FALSE,"This is a compound statement. ""I think we have to vote Meghan"" is Neutral (opinion), but ""I saw werewolf here"" is a **FALSE** (his Seer lie). The statement's factual basis is a lie."
+06:17,Paul,Yeah.,No Strategy,Neutral,Agreement.
+06:18,Justin,"You just don't kill Mitchell, because he's now a tanner.","Call for Action, Defense",FALSE,"The call to action (""don't kill Mitchell"") is TRUE based on his partner knowledge. But the reason given (""because he's now a tanner"") is a **FALSE** fabrication. He knows Mitchell is a Werewolf."
+06:20,Mike,"But Mitchell's story, doesn't, it can't get.",No Strategy,Neutral,Incomplete sentence/opinion.
+06:22,Mitchell,It can't. I will give you that. But I mean the only-,No Strategy,Neutral,Acknowledgment/opinion.
+06:26,Mike,"For my own sense. Yeah. Now he's a Tanner, so-",Accusation,Neutral,This is speculation based on Justin's lie. Mike has no facts about this.
+06:29,Paul,"Yeah, I think we've over Meghan.",Accusation,Neutral,"A statement of opinion/strategy (""I think..."")."

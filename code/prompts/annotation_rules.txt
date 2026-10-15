@@ -1,0 +1,268 @@
+Role: Game Analyst for AI Deception Detection
+================================================
+
+Objective: Your task is to generate a high-precision "Ground Truth" dataset
+for assessing deception. You will analyze game data and a full dialogue
+transcript from a single game and label each statement with its Truthfulness.
+The core principle of your analysis is: all judgments must be strictly based
+on the private information the speaker possessed at the moment they made the
+statement.
+
+Inputs:
+- Game State Data (JSON): (1) Contains decisive information such as the list
+  of players, each player's starting and final role, the voting outcome, and
+  the exact nightActions that occurred. (2) Interpretation of the
+  votingOutcome array: the array index represents the voter (in the order of
+  playerNames), and the number in the array represents the person who was
+  voted for (e.g., the first number, 2, means player 0 "Justin" voted for
+  player 2 "Paul").
+- Game Dialogue Transcript (CSV): a complete record including timestamps,
+  speaker, and dialogue content. (Note: the data may be spliced from two
+  video segments, so the timer resets once.)
+
+
+One Night Ultimate Werewolf: Game Rules
+=======================================
+
+Game Overview
+-------------
+One Night Ultimate Werewolf is a social deduction game where players secretly
+take on the roles of either Villagers, Werewolves, or special characters. The
+goal is to identify and execute the Werewolves. The game is extremely
+fast-paced, consisting of a single night phase and a single day phase.
+
+Game Setup
+----------
+- Card Selection: The number of game cards used should be three more than the
+  number of players.
+- Dealing: Cards are shuffled face down, and each player is dealt one card.
+- Center Cards: The three remaining cards, along with tokens that match all
+  roles in play, are placed face down in the center of the table.
+- Viewing Roles: Each player secretly looks at their own card and places it
+  face down in front of them.
+
+Faction Objectives
+------------------
+Werewolf Team
+- Werewolf: The Werewolves win if no Werewolves are executed. If all players
+  survive, or if the only player executed is not a Werewolf, the Werewolf
+  wins.
+- Minion: The Minion wins if at least one Werewolf survives. If the Minion
+  successfully protects all Werewolves and a good role (e.g., Villager,
+  Hunter) is executed, the Minion wins. If all Werewolves are executed
+  (including those who became Werewolves via the Robber or Troublemaker), the
+  Minion loses.
+
+Village Team
+- Villager, Seer, Robber, Troublemaker, Drunk, Insomniac, Hunter: The
+  Villagers win if they successfully execute at least one Werewolf.
+
+Unique Roles
+- Tanner: The Tanner wins if they are executed. This is the Tanner's only
+  objective. They will pretend to be a Villager or a Werewolf, doing
+  everything they can to convince other players to vote for them.
+- Doppelganger: The Doppelganger's win condition depends on the role they
+  copy. (1) If they copy a Village team role (e.g., Seer), their win
+  condition becomes "execute a Werewolf." (2) If they copy a Werewolf, their
+  win condition becomes "no Werewolves are executed." (3) If they copy the
+  Tanner, their win condition becomes "get executed."
+
+Key Rule 1: Because of the Robber and Troublemaker, a player's initial role
+and final role may change during the night. Therefore, each player's final
+win condition is determined by the card they hold at the end of the game.
+This makes the game's deception, deduction, and betrayal more complex.
+
+The Night Phase
+---------------
+During the night phase, all players close their eyes. A designated player,
+the Announcer, calls out each role in a specific order, silently counting to
+ten to allow that role to perform their night action. Roles without a special
+night action (such as Villager, Tanner, Hunter) do not wake up at night.
+
+Night Action Order:
+- Doppelganger: Wakes up first and looks at another player's face-down card,
+  immediately gaining that role's identity and abilities. If they copy a role
+  with a night action, the Doppelganger immediately performs that action.
+- Werewolves: Wake up and secretly identify their fellow Werewolves. If there
+  is only one Werewolf, they can look at one of the center cards.
+- Minion: The Minion wakes up, and the Werewolves extend their thumbs to let
+  the Minion know who they are.
+- Masons: Masons wake up and confirm each other's identities.
+- Seer: The Seer wakes up and can choose to look at another player's card or
+  at two of the center cards.
+- Robber: The Robber wakes up and can swap their card with another player's
+  card, then look at their new card.
+- Troublemaker: The Troublemaker wakes up and can swap the cards of two other
+  players without looking at them.
+- Drunk: The Drunk wakes up and must exchange their card with one of the
+  center cards without looking at it.
+- Insomniac: The Insomniac wakes up last and looks at their card to confirm
+  whether their role was changed during the night.
+
+The Day Phase
+-------------
+After players wake up, they begin a discussion to deduce the Werewolves.
+- Players are free to speak, but they cannot show their card to anyone.
+- Due to the actions of certain roles, a player's final identity may be
+  different from their initially dealt card.
+
+Voting and Game End
+-------------------
+After a few minutes of discussion, all players simultaneously vote by
+pointing.
+
+Execution: The player with the most votes is executed and their role card is
+revealed. In case of a tie, all players who received the most votes are
+executed.
+
+Win Conditions:
+- Village Team Wins: If at least one Werewolf is executed. The Village team
+  still wins even if innocent players are executed alongside a Werewolf. The
+  Village team also wins if there are no Werewolves in the game and no one
+  is executed.
+- Werewolf Team Wins: If at least one player is a Werewolf and no Werewolves
+  are executed.
+- Tanner Wins: The Tanner only wins if they are executed. The Tanner's
+  victory is independent of the Werewolf or Village team's victory.
+
+
+Core Task & Labeling Rules
+==========================
+
+You need to analyze the dialogue transcript line by line and add a new
+Truthfulness label to each statement. The labels must adhere to the following
+definitions.
+
+TRUE
+----
+- Definition: The speaker knows with certainty that what they are saying
+  aligns with the facts they currently possess.
+- Applicable Scenarios:
+  (1) Honestly stating one's own role (e.g., a Villager whose card was not
+      swapped says, "I'm a Villager").
+  (2) Accurately describing a night action they performed (e.g., a Seer
+      says, "I looked at the two center cards, and they were the Villager
+      and the Robber").
+  (3) Making a correct logical statement based on one's own certain
+      information (e.g., an Insomniac confirms their role hasn't changed and
+      says, "I'm still me").
+
+FALSE
+-----
+- Definition: The speaker knows with certainty that what they are saying
+  contradicts the facts they currently possess, i.e., they are actively
+  lying.
+- Applicable Scenarios:
+  (1) Lying about one's role or actions (e.g., a Werewolf says, "I am a
+      Villager").
+  (2) Fabricating false information to mislead others (e.g., a Villager
+      falsely claims to be the Seer and checked someone).
+  (3) Knowingly making a false accusation (e.g., Werewolf A accuses a good
+      player to protect Werewolf B).
+
+NEUTRAL
+-------
+- Definition: The truthfulness of the statement cannot be determined based
+  on the speaker's known information.
+- Applicable Scenarios:
+  (1) Asking questions, joking, or making irrelevant small talk.
+  (2) Expressing subjective guesses or opinions (e.g., "I feel like Laura
+      is suspicious," or "I think we should vote for Mitchell").
+  (3) Proposing a possibility or strategic hypothesis (e.g., "If Justin is
+      a Werewolf, then who would the other Werewolf be?").
+
+
+Key Rules 2 -- I. Core Principles for Factual Statements
+=========================================================
+
+These rules apply to any statement that makes a claim about a past or present
+game fact.
+
+Rule 1: Statements Aligning with Known Facts are TRUE.
+- Explanation: If a speaker makes a statement that is consistent with their
+  private knowledge of the game state, it is labeled TRUE.
+- Example: A Villager who was not swapped by any night action says, "I am a
+  Villager." This is TRUE.
+- Sub-rule 1a (the "Outdated Information" Rule): This includes statements
+  based on information that was factually correct when acquired, even if the
+  game state has since changed unbeknownst to the speaker. For instance, a
+  Seer views Player A's card and sees "Villager." If Player A is later
+  swapped, the Seer's statement "I saw Player A and they are a Villager" is
+  still TRUE because it accurately reflects the information they possess.
+
+Rule 2: Statements Contradicting Known Facts are FALSE.
+- Explanation: If a speaker makes a statement that they know to be
+  inconsistent with their private knowledge, it is an intentional lie and is
+  labeled FALSE.
+- Example: A Werewolf says, "I am the Seer." This is FALSE.
+- Sub-rule 2a (the "Failed Lie" Rule): This applies even if the lie
+  accidentally corresponds to some other unknown truth in the game. For
+  instance, a Werewolf lies and claims "I am the Robber" to hide their
+  identity. Even if another player's card is the Robber, the Werewolf's
+  statement is FALSE because their intent was to misrepresent their own
+  known reality.
+
+
+Key Rules 2 -- II. The Falsifiability Principle for Non-Factual Statements
+==========================================================================
+
+This principle serves as the final adjudication rule for statements that are
+not direct claims of past or present fact. To maintain objectivity, if a
+statement's truthfulness cannot be fact-checked against the speaker's known
+reality, it must be labeled Neutral, regardless of any perceived deceptive
+intent.
+
+Rule 3: Statements Lacking a Factual Basis are Neutral.
+- Explanation: A statement made without sufficient information is a guess,
+  opinion, or hypothesis.
+- Sub-rule 3a (the "Lucky Guess" Rule): A guess that happens to be correct
+  is still Neutral. For example, a Villager with no information randomly
+  accuses Player A of being a Werewolf. Even if Player A is the Werewolf,
+  the statement is Neutral.
+- Sub-rule 3b (the "Overgeneralization" Rule): Extrapolating from incomplete
+  information is also Neutral. For example, a lone Werewolf sees one
+  "Villager" card in the center and claims, "The center cards are all
+  safe." This is an overgeneralization and therefore Neutral.
+- Sub-rule 3c (the "Strategic Opinion" Rule): A subjective opinion ("I
+  think," "I feel") is Neutral, even if its purpose is to mislead. For
+  example, a Werewolf says, "I don't think Kaelan is a Werewolf" to protect
+  their partner. This is a strategic opinion, not a factual lie, and is
+  therefore Neutral.
+
+Rule 4: Inherently Unverifiable Statements are Neutral.
+- Explanation: Certain types of statements are impossible to verify at the
+  moment they are uttered.
+- Sub-rule 4a (the "Future Intent" Rule): Statements about a future action
+  ("I will vote for...") are Neutral because intent can change.
+- Sub-rule 4b (the "Hypothetical" Rule): Conditional statements ("If...
+  then...") used for deduction are Neutral.
+- Sub-rule 4c (Questions and Commands): All questions and direct commands
+  are inherently non-factual and are therefore Neutral.
+
+
+Suggested Workflow
+==================
+
+1. Reconstruct and Document Night Events: Your first and most critical task
+   is to use the provided nightActions data, in conjunction with the strict
+   Order of Night Actions, to deterministically reconstruct the step-by-step
+   events of the night. The nightActions data is the ground truth of what
+   happened. This summary must detail each action and the resulting change
+   in card positions and player knowledge.
+2. Line-by-Line Judgment: With this "god's-eye view" from the global
+   analysis, read the dialogue transcript line by line. For each statement,
+   ask yourself: "What were the 'facts' in the speaker's mind when they said
+   this? Is this statement based on their known facts, a lie, or a guess?"
+3. Assign Labels: Assign a TRUE, FALSE, or NEUTRAL label and provide an
+   explanation.
+
+
+Final Output Format
+===================
+
+Your final output should be a CSV table, including at least the following
+core columns:
+
+- Timestamp / Speaker / Line / Truthfulness (TRUE, FALSE, or NEUTRAL)
+- Explanation: a concise explanation for the assigned Truthfulness label,
+  connecting it to game facts and the speaker's knowledge.

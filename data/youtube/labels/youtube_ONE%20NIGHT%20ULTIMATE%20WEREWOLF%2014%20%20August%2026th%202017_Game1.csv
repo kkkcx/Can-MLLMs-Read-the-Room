@@ -1,0 +1,136 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:00,Caitlynn,Is there an option to do no music?,No Strategy,Neutral,A non-game-related question (Rule 4c).
+00:00,Mike,Yep.,No Strategy,Neutral,An answer to a non-game-related question.
+00:25,Mike,"I can also turn down the volume of the music, which is probably what I'm going to do.",No Strategy,Neutral,A statement of future intent (Rule 4a).
+00:25,Mitchell,So just sit in silence as the guy just whispers to us?,No Strategy,Neutral,"A rhetorical, joking question."
+00:29,Caitlynn,I mean...,No Strategy,Neutral,An incomplete thought.
+00:29,Justin,Man this fucking.,No Strategy,Neutral,An incomplete exclamation.
+00:29,Justin,The speaker on this phone.,No Strategy,Neutral,A subjective complaint.
+00:55,Justin,And the quality of the song is a nightmare. I feel like I'm in hadays.,No Strategy,Neutral,A subjective opinion.
+00:58,Mike,Right?,No Strategy,Neutral,An agreement/question.
+00:58,Caitlynn,Why do you keep calling it hadays? Where did that come from?,No Strategy,Neutral,A question (Rule 4c).
+01:05,Justin,It's just funnier to say in my mind.,No Strategy,Neutral,A subjective statement about his own humor.
+01:17,Justin,PuppyTutor is the werewolf. Case closed. Vote.,No Strategy,Neutral,A joke; an accusation against a non-player.
+01:21,Mitchell,Vote PuppyTutors.,No Strategy,Neutral,Continuing the joke.
+01:24,Caitlynn,Do we have? Is that a 3.5 to.,No Strategy,Neutral,A non-game-related question.
+01:26,Mike,Yeah. If you have.,No Strategy,Neutral,An answer to a non-game-related question.
+01:29,Justin,Two werewolves.,No Strategy,Neutral,A statement of public knowledge (game setup).
+01:30,Caitlynn,I've got a cable in my car.,No Strategy,Neutral,Irrelevant chatter.
+01:30,Mitchell,"Two werewolves, yeah.",No Strategy,Neutral,A statement of public knowledge.
+01:30,Justin,Yeah. All right.,No Strategy,Neutral,An agreement.
+01:32,Mike,Two werewolves?,Interrogation,Neutral,A question (Rule 4c).
+01:32,Justin,"No. You guys because you guys were talking about the sound stuff. We were saying as a joke because you guys were wasting time in the thing that you were werewolves, but we know that's not the case.",No Strategy,FALSE,"Justin (Tanner) has no information about who the werewolves are. His statement ""we know that's not the case"" is a fabrication of knowledge he does not possess."
+01:40,Mike,That's a good strategy though. We can just keep talking about this.,No Strategy,Neutral,A strategic opinion.
+01:43,Caitlynn,Keep talking about it.,No Strategy,Neutral,A suggestion.
+01:44,Mitchell,Justin's actually employing that strategy right now as one of the two werewolves.,No Strategy,Neutral,A subjective accusation/opinion (Rule 3c).
+01:47,Mike,Yeah.,No Strategy,Neutral,An agreement.
+01:48,Caitlynn,Two werewolves.,No Strategy,Neutral,A statement of public knowledge.
+01:49,Mitchell,"Yeah, yeah. So now we can.",No Strategy,Neutral,An agreement.
+01:50,Mike,Blaming other people as the werewolves.,No Strategy,Neutral,A statement about a strategy.
+01:51,Caitlynn,Okay so.,No Strategy,Neutral,A conversational filler.
+01:51,Mitchell,All right.,No Strategy,Neutral,A conversational filler.
+01:51,Justin,So we have no revealer or.,No Strategy,Neutral,A question about the roles in play.
+01:51,Mitchell,So we're 40 seconds in.,No Strategy,TRUE,A factual statement about the game's timer.
+01:54,Justin,"Or I saw something bad. Just kidding, I'm not going to reveal it. I wish I got fun roles.",No Strategy,Neutral,"A joke. The ""just kidding"" retracts the claim, and the rest is a subjective opinion."
+02:00,Mitchell,Who is the revealer?,Interrogation,Neutral,A question (Rule 4c).
+02:00,Justin,Is there a revealer?,Interrogation,Neutral,A question (Rule 4c).
+02:05,Mike,No. I guess not.,Defense,Neutral,A guess based on no one speaking up.
+02:06,Mitchell,"Hey, that's another way of starting the game. We never do that. We ask people to tell us what they are but now we can.",No Strategy,Neutral,A strategic observation.
+02:10,Justin,What are you?,Interrogation,Neutral,A question (Rule 4c).
+02:11,Mitchell,Oh I don't want to say.,Defense,Neutral,A statement of preference.
+02:12,Mike,I think he's the werewolf.,Accusation,FALSE,Mike knows he and Caitlynn are the Werewolves. He is knowingly making a false accusation against Mitchell.
+02:13,Mitchell,I am the insomniac.,Identity Declaration,TRUE,Mitchell knows with 100% certainty that he is the Insomniac.
+02:15,Justin,Oh.,No Strategy,Neutral,An exclamation.
+02:17,Mike,Did you wake up as what you were?,Interrogation,Neutral,A question (Rule 4c).
+02:19,Mitchell,I can hold off on that info for a moment.,Defense,Neutral,A statement of strategic intent.
+02:21,Mike,I don't think he did.,Accusation,Neutral,Mike (Werewolf) has no information about this. This is a strategic guess/opinion (Rule 3c).
+02:21,Caitlynn,"Do we have anything that switches things? Oh, we have a troublemaker.","Interrogation, Defense",TRUE,A correct observation of the roles available in this game.
+02:23,Justin,Oh yeah. Trouble okay so.,"Defense, Evidence",TRUE,A correct observation of the roles.
+02:24,Caitlynn,Yeah.,No Strategy,Neutral,An agreement.
+02:24,Mitchell,I could have been a trouble made.,Accusation,TRUE,"Mitchell knows he is the Insomniac, but he (correctly) does not know if a Troublemaker was in play and swapped him. This is a true statement of a possibility from his perspective."
+02:25,Justin,So Mitch is now saying insomniac.,Accusation,TRUE,A correct summary of Mitchell's claim.
+02:27,Caitlynn,Insomniac.,Defense,TRUE,Repeating Mitchell's claim.
+02:27,Justin,I'm going to say that I am the rest of these ones.,Accusation,FALSE,"Justin (Tanner) is lying, claiming to be multiple roles he is not."
+02:30,Caitlynn,All of them.,No Strategy,Neutral,A clarifying question.
+02:31,Mike,I can guarantee you I'm one of the ones that Justin just said.,No Strategy,FALSE,Mike (Werewolf) is lying. He is not one of the roles Justin (jokingly) claimed.
+02:33,Justin,Except for these two.,Evidence,Neutral,Clarifying his joke.
+02:35,Caitlynn,But you could be one of the werewolves but definitely.,Accusation,Neutral,A strategic observation.
+02:37,Justin,"Yes, but I can't be both of them.",Defense,TRUE,A correct statement of the game's rules.
+02:38,Caitlynn,Definitely not that werewolf.,Accusation,Neutral,A deduction based on Justin's joke.
+02:39,Justin,Yeah.,No Strategy,Neutral,An agreement.
+02:41,Mike,And not the tanner either.,Defense,FALSE,"Mike (Werewolf) has no information about the Tanner, but is making a factual-sounding claim to mislead."
+02:42,Justin,No.,No Strategy,FALSE,Justin knows he is the Tanner. He is lying by agreeing with Mike.
+02:43,Mike,"Just, tanner's straight out.",No Strategy,FALSE,Mike (Werewolf) is stating as fact something he does not know.
+02:44,Justin,"Oh no, did I take the tanner out.? Just let's keep it a mystery. I'm going to throw this one back in.","Interrogation, Evidence",FALSE,Justin knows he is the Tanner. This entire display is an act of deception.
+02:52,Mitchell,All right.,No Strategy,Neutral,A conversational filler.
+02:52,Justin,All right. What about the other side of the table? Because I've actually put some roles down in front of my cards to show that I'm going to.,"Interrogation, Defense",Neutral,A question followed by a subjective statement of his own strategy.
+03:02,Mike,Yeah. Sure.,No Strategy,Neutral,An agreement.
+03:03,Caitlynn,Right.,No Strategy,Neutral,An agreement.
+03:03,Mike,There you go.,No Strategy,Neutral,A conversational filler.
+03:03,Justin,"Nice, Mike.",No Strategy,Neutral,A conversational filler.
+03:03,Mitchell,Passed them around.,No Strategy,Neutral,An observation.
+03:03,Justin,I trust Mike. Yep. All right.,No Strategy,Neutral,A statement of opinion (Rule 3c).
+03:03,Mike,Caitlynn's the werewolf.,Accusation,TRUE,"Mike knows Caitlynn is his Werewolf partner. He is stating a known fact, even if his intent is to make it sound like a joke (Rule 1)."
+03:03,Caitlynn,I am the werewolf.,Identity Declaration,TRUE,Caitlynn knows she is a Werewolf. She is stating a known fact (Rule 1).
+03:03,Mitchell,Okay. So I'm very sure we have a werewolf here.,"Defense, Evidence",TRUE,A correct deduction based on the claims (and public role info).
+03:04,Mike,Well yeah.,No Strategy,TRUE,Mike knows there is a werewolf (himself).
+03:05,Caitlynn,Sure. Sure.,No Strategy,Neutral,An agreement.
+03:06,Justin,I think we definitely have two.,Accusation,Neutral,"A guess, even if it's correct (Rule 3a)."
+03:07,Mike,I think we yeah.,No Strategy,TRUE,Mike knows for a fact there are two werewolves (himself and Caitlynn).
+03:09,Mitchell,I think Caitlynn's a werewolf because she's held off so long on.,"Accusation, Defense",Neutral,"A subjective guess based on behavior, which happens to be correct (""Lucky Guess"" Rule 3a)."
+03:13,Caitlynn,Put it back in.,No Strategy,Neutral,A command.
+03:13,Mitchell,Okay. Jesus Christ.,No Strategy,Neutral,An exclamation.
+03:14,Justin,She's repping one of those two.,No Strategy,Neutral,A strategic observation.
+03:16,Mitchell,That's dangerous.,No Strategy,Neutral,A strategic opinion.
+03:17,Justin,So do we have no good people? Because I'm one of these ones.,"Interrogation, Defense",FALSE,Justin (Tanner) is lying about being one of the other roles.
+03:21,Mitchell,"I mean, I'm good.",No Strategy,TRUE,"Mitchell knows he is the Insomniac, which is on the Village (""good"") team."
+03:24,Justin,Okay. What did you see?,Interrogation,Neutral,A question (Rule 4c).
+03:26,Mitchell,"What do you mean, what did I see?",Interrogation,Neutral,A question (Rule 4c).
+03:28,Mike,Yeah. Are you still the insomniac?,"Accusation, Interrogation",Neutral,A question (Rule 4c).
+03:28,Caitlynn,Insomniac?,Interrogation,Neutral,A question (Rule 4c).
+03:30,Mitchell,"If you guys reveal that one of you are a troublemaker, that would.","Defense, Evidence",Neutral,A conditional statement (Rule 4b).
+03:34,Mike,Explain something?,Defense,Neutral,A question (Rule 4c).
+03:35,Mitchell,That would explain something. You guys haven't given me anything to work with here yet. God dammit.,Defense,TRUE,Mitchell knows he is the Insomniac and (because no one claimed Troublemaker) he woke up as himself. He is truthfully stating he needs more information.
+03:42,Mike,I don't think he woke up as.,Accusation,Neutral,A strategic guess (Rule 3c). Mike (Werewolf) has no info on this.
+03:44,Justin,Yeah.,No Strategy,Neutral,An agreement with a guess.
+03:45,Mitchell,"Well then who's the troublemaker? That's the only way I can switch. Then you must be the troublemaker. If you're not the troublemaker, he's the troublemaker. I don't think he's the troublemaker.","Accusation, Interrogation",Neutral,A series of logical deductions and questions based on public information.
+03:56,Justin,What about her?,Interrogation,Neutral,A question (Rule 4c).
+03:56,Mitchell,"Nah, she's not the troublemaker. Maybe I'm the troublemaker. I'm the troublemaker.","Identity Declaration, Accusation, Defense",FALSE,Mitchell knows he is the Insomniac. He is lying.
+03:59,Mike,"Oh well sweet, okay. Who'd you switch?",Interrogation,Neutral,A question (Rule 4c).
+04:01,Mitchell,I switched nobody. So now you know I woke up as an insomniac.,"Identity Declaration, Defense, Evidence",TRUE,"He retracts his lie (Troublemaker) to prove his truth (Insomniac). He knows he woke up as the Insomniac, and his ""Troublemaker"" action of ""switching nobody"" is a logical proof he's offering. The core claim (""I woke up as an insomniac"") is true."
+04:08,Justin,Okay. Well.,No Strategy,Neutral,A conversational filler.
+04:10,Caitlynn,Spamonite has officially lost it.,No Strategy,Neutral,"A subjective, joking opinion about Mitchell."
+04:11,Justin,I'm going to go.,No Strategy,Neutral,An incomplete thought.
+04:13,Mitchell,I know. Spamonite has gone crazy.,No Strategy,Neutral,"A subjective, joking self-assessment."
+04:14,Justin,I'm going to go out on a leg and I'm going to say that I was a werewolf when we started.,"Accusation, Defense, Evidence",FALSE,Justin knows he is the Tanner. He is lying to get executed.
+04:20,Mike,That's a good leg. I like that leg.,No Strategy,Neutral,A subjective opinion.
+04:21,Mitchell,Okay.,No Strategy,Neutral,A conversational filler.
+04:22,Mike,I like that leg.,No Strategy,Neutral,A subjective opinion.
+04:24,Justin,Because I feel like Mitch wants to start seeing some action and I'll commit to this action.,"Accusation, Defense",Neutral,A subjective explanation for his (false) claim.
+04:29,Mike,Yeah. I'll commit to some action.,No Strategy,Neutral,A statement of intent.
+04:30,Mitchell,Okay.,No Strategy,Neutral,A conversational filler.
+04:30,Justin,And I'll confirm that she was not a werewolf with me. So she is a tanner attempting suicide.,"Accusation, Evidence",FALSE,Justin (Tanner) is lying. He has no werewolf partner and is fabricating evidence to accuse Caitlynn.
+04:36,Mitchell,Do you want to defend yourself against this? Were you perhaps the werewolf and he's lying?,"Interrogation, Defense",Neutral,A question (Rule 4c).
+04:47,Caitlynn,I'm going to plead the fifth.,Defense,Neutral,A strategic statement of intent to stay silent.
+04:47,Mitchell,Pleading the fifth. What a strategy. That actually is an interesting strategy in this game.,Interrogation,Neutral,A strategic opinion.
+04:51,Justin,"The fifth is, you have the right to an attorney.",No Strategy,Neutral,"A non-game, factual statement."
+04:55,Caitlynn,I have.,No Strategy,Neutral,An incomplete thought.
+04:56,Mitchell,"And if you cannot afford one, one will be provided for you.",No Strategy,Neutral,Continuing the joke.
+04:57,Justin,"So Mike, what did you see in the middle?",Interrogation,Neutral,A question (Rule 4c).
+04:59,Mike,I saw a revealer.,"Defense, Evidence",FALSE,Mike (Werewolf) had no night action. He is lying and fabricating a Seer claim.
+05:00,Justin,Ooh that makes sense because no one was revealed.,Evidence,Neutral,A logical deduction based on Mike's lie.
+05:05,Mike,And there's no drunk so it doesn't really matter where.,No Strategy,TRUE,A correct statement about the roles in play.
+05:06,Justin,So then did you wake up with the insomniac?,Interrogation,Neutral,A question directed at Mitchell.
+05:08,Mitchell,"Yes. So you're the werewolf, but he might be the tanner, and you need to save us Ms. Werewolf. I have a feeling she's the werewolf and he's a tanner. This is my guess.","Accusation, Defense",TRUE,"The ""Yes"" is a direct, factual answer. He knows he woke up as the Insomniac. The rest of the statement is Neutral deduction and guessing."
+05:20,Mike,Oh he could be a tanner.,Accusation,Neutral,A strategic possibility (Rule 3c).
+05:21,Mitchell,I think he recognizes.,Accusation,Neutral,An incomplete thought.
+05:21,Mike,He could be a tanner.,Accusation,Neutral,A strategic possibility (Rule 3c).
+05:23,Mitchell,That there is no troublemaker.,Evidence,TRUE,"A correct deduction, as no one has believably claimed it and his own Insomniac ability confirms he wasn't switched."
+05:24,Justin,No I don't.,No Strategy,Neutral,A response.
+05:25,Mitchell,No wait. That's opposite logic I'm using here. I have no clue what Justin is doing.,No Strategy,TRUE,A true statement of his own confusion.
+05:30,Justin,I put it out there because I was expecting Mike to be the troublemaker because of the way he was talking. You can kill Caitlynn if you want to lose. But that's just the bottom line. She's a tanner.,"Accusation, Call for Action, Defense",FALSE,Justin (Tanner) is lying. His claim that Caitlynn is the Tanner is a fabrication.
+05:41,Mike,Yeah. I think she might be the tanner too.,Accusation,FALSE,Mike knows Caitlynn is his Werewolf partner. He is lying to protect her.
+05:45,Mitchell,So everything's pointing to Justin. Is it possible he did a good job at being tanner?,"Interrogation, Evidence",Neutral,A question and a hypothesis (Rule 3a/4b).
+05:50,Mike,It's possible.,No Strategy,Neutral,A strategic agreement.
+05:51,Mitchell,"Would he do these moves? How? Caitlynn, speak up. You are more important than anyone here. I'm going to be voting Justin.","Interrogation, Call for Action, Defense",Neutral,"Questions (Rule 4c), a command (Rule 4c), an opinion, and a statement of future intent (Rule 4a)."
+06:03,Justin,This is a problem that I took a. This is mine. I made a bad decision.,No Strategy,TRUE,"A true subjective statement. As the Tanner, his goal was to get killed, but the vote is going to him. He is lamenting his ""bad decision"" (claiming Werewolf), which is exactly the play a Tanner would make."

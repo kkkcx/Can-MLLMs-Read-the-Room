@@ -1,0 +1,36 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+01:09,Danieal,"Gosh, Kevin, quit with the squeaky chair.",No Strategy,Neutral,This is a personal comment unrelated to game facts.
+01:42,Kaelan,"Okay, Kevin, you can't keep your hands on the table right by your fucking guard. All right.",Accusation,Neutral,"This is an accusation about player behavior, not a claim about the game state."
+01:48,Kevin,Brother. Where's my brother. Brother!,No Strategy,TRUE,Kevin knows he is a Mason who woke up and saw no partner. This is a thematic and accurate way of communicating his role and experience.
+01:54,Kaelan,"Okay, well...",No Strategy,Neutral,Filler phrase.
+01:55,Danieal,I'll confirm that he was the Mason. Okay.,Evidence,TRUE,Daniel knows he is the Seer and saw Kevin's Mason card. He is truthfully reporting the information he gained during his night action.
+01:58,Kaelan,"Okay, but I swapped you two as the Troublemaker.","Identity Declaration, Evidence",TRUE,Kaelan is accurately stating both his role and the action he performed (swapping Kevin and Daniel).
+02:00,Danieal,Okay.,No Strategy,Neutral,Acknowledgement.
+02:02,Kevin,I see where your brother is.,No Strategy,Neutral,"This is a joke/taunt directed at Daniel, not a factual claim."
+02:06,Danieal,"Where did you drunk? Where did you stumble, which bar?",Interrogation,Neutral,This is a question based on a mistaken assumption that a Drunk is in play.
+02:13,Kaelan,You stumble in the middle.,Interrogation,Neutral,"This is a statement of game rules, not a claim."
+02:14,Danieal,You're so drunk that you don't remember which bar you stumbled into.,No Strategy,Neutral,This is a speculative statement directed at another player.
+02:18,Jessica,Yeah.,No Strategy,Neutral,Agreement.
+02:20,Danieal,"I mean, well, okay, well let's... So you did not see any other Masons?",Interrogation,Neutral,This is a direct question to Kevin.
+02:28,Kevin,"I did not, no.",Evidence,TRUE,Kevin is truthfully reporting his experience during his night action as a lone Mason.
+02:28,Danieal,Okay.,No Strategy,Neutral,Acknowledgement.
+02:29,Kaelan,So I'm the one who know something in the middle of the game.,No Strategy,Neutral,"This is a vague, subjective claim about his own importance."
+02:30,Kevin,Disappointingly I didn't see anyone else.,Evidence,TRUE,Kevin is truthfully restating the result of his Mason action.
+02:32,Danieal,I also don't want to like immediately vote for survey since this is the last round.,No Strategy,Neutral,This is a statement of strategic opinion.
+02:37,Kevin,Yes. Yeah.,No Strategy,Neutral,Agreement.
+00:05,Danieal,Okay.,No Strategy,Neutral,Acknowledgement.
+00:07,Danieal,Any remembrance of which bar you stumbled into drunk?,Interrogation,Neutral,The players are incorrectly assuming a Drunk is in play. This is a question based on that false premise.
+00:14,Jessica,"Um, Kaelan's bar.",Evidence,FALSE,"Jessica knows she is the Minion. She is playing along with the incorrect ""Drunk"" theory and fabricating an answer. This is a direct lie."
+00:14,Kaelan,That's not an option.,No Strategy,Neutral,A statement about game rules.
+00:14,Jessica,Oh. Whoops.,No Strategy,Neutral,An exclamation.
+00:15,Kevin,That's not how this Drunk works.,No Strategy,Neutral,A statement about game rules.
+00:19,Danieal,"Okay. I'd double check, make sure there wasn't a Tanner.",No Strategy,Neutral,A statement of strategic intent.
+00:23,Kevin,"All right. Well, let's take a quick look at the center here. Hm. Oh, brother.",No Strategy,Neutral,This signals the end of the game and the card reveal. It is not a factual claim made during gameplay.
+00:30,Danieal,Oh.,No Strategy,Neutral,An exclamation during the card reveal.
+00:30,Kevin,"Oh. Oh, well, okay.",No Strategy,Neutral,An exclamation during the card reveal.
+00:33,Kaelan,Okay. Wow.,No Strategy,Neutral,An exclamation during the card reveal.
+00:33,Kevin,We still win. Town wins.,No Strategy,Neutral,"This is a post-game interpretation of the win conditions, not a claim based on private knowledge during the game."
+00:35,Kaelan,"No, no.",No Strategy,Neutral,Disagreement with the post-game analysis.
+00:36,Kevin,Damn it!,No Strategy,Neutral,An exclamation.
+00:37,Danieal,Nope. Werewolves win. The minion is supposed to draw a sus on themselves.,No Strategy,Neutral,"This is a post-game interpretation of the win conditions, not a claim based on private knowledge during the game."
+00:40,Kaelan,Yeah.,No Strategy,Neutral,Agreement with the post-game analysis.

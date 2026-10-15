@@ -1,0 +1,50 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:03,Kaelan and Danieal,Spaghetti Western!,No Strategy,Neutral,Irrelevant pre-game chatter.
+01:47,Kevin,Watch me move it.,Call for Action,Neutral,"Ambiguous statement, likely a joke."
+01:50,Danieal,"Okay, we got three minutes.",No Strategy,Neutral,A statement about the game timer.
+01:51,Kevin,I was the Troublemaker.,Identity Declaration,TRUE,"Kevin is accurately stating his role, which he knows has not changed."
+01:52,Kaelan,"Yeah, I can confirm that. I could hear you moving around in your chair. You're so freaking loud.","Defense, Evidence",FALSE,"Kaelan has no private knowledge of Kevin's role. He is fabricating a reason (hearing movement) to support Kevin's claim, which is a lie about the source of his information."
+01:55,Danieal,Who did you trouble?,Interrogation,Neutral,This is a direct question.
+01:57,Kevin,You two.,Evidence,TRUE,Kevin is accurately reporting his night action of swapping Jessica and Daniel's cards.
+01:57,Kaelan,Okay. You're the Robber.,Identity Declaration,Neutral,"This is an ambiguous and fragmented statement, possibly a slip of the tongue, that is immediately contradicted by his next claim. It cannot be factually judged."
+02:00,Danieal,"Okay, so you robbed Jess?",Interrogation,Neutral,This is a direct question to clarify Kaelan's action.
+02:03,Kaelan,"No, I'm the Minion.","Identity Declaration, Defense, Evidence",TRUE,Kaelan robbed Jessica (Minion) and looked at his new card. He is accurately stating his current role based on his certain knowledge.
+02:06,Danieal,"Okay, so Robber goes before the Trouble. So she was Minion...","Defense, Evidence",Neutral,"This is a logical deduction based on the claims of other players, not on his own private information."
+02:10,Jessica,I was minion.,Identity Declaration,TRUE,Jessica is truthfully stating her starting role.
+02:12,Kaelan,"You were minion, I swapped these two. So she was Robber, and if he swapped those two, you're now the Robber.","Defense, Evidence",FALSE,"He incorrectly states ""I swapped these two."" He knows he was the Robber, not the Troublemaker. He is misattributing Kevin's action to himself."
+02:17,Danieal,And she's the Villager.,Defense,Neutral,"This is a guess based on his deduction of the chain of events (Rule 3a). It happens to be correct, but he doesn't know it for a fact."
+02:19,Kevin,Okay.,No Strategy,Neutral,Acknowledgement.
+02:19,Kaelan,Okay.,No Strategy,Neutral,Acknowledgement.
+02:20,Kevin,So you were the Minion?,Interrogation,Neutral,This is a question seeking confirmation.
+02:21,Jessica,Mm-hmm and I didn't see anyone's thumbs.,"Identity Declaration, Defense, Evidence",TRUE,"This is a completely accurate description of her experience during the Minion's night action, as there were no Werewolves to give a thumbs-up."
+02:24,Kevin,I don't fucking trust you anymore.,Accusation,Neutral,This is a statement of subjective feeling and opinion.
+02:26,Kaelan,All right.,No Strategy,Neutral,Acknowledgement.
+02:31,Kevin,What notification?,Interrogation,Neutral,This is a question.
+02:32,Danieal,It was not a survey. So we got two minutes. I say,No Strategy,Neutral,Irrelevant comment and statement about the timer.
+02:40,Jessica,Yeah.,No Strategy,Neutral,Agreement.
+02:40,Kaelan,Fuck you!,Defense,Neutral,This is an insult with no factual content.
+02:41,Jessica,That was last game. I promise I'm the Minion.,Identity Declaration,TRUE,"Jessica is unaware her card was swapped. She is truthfully stating the role she believes she is, based on her starting card (Rule 1a)."
+02:45,Kaelan,"No, no, no. I'm the Minion now.","Identity Declaration, Defense, Evidence",TRUE,Kaelan knows he took the Minion card from Jessica. He is accurately stating his current role.
+00:00,Danieal,"Resume. Okay, so-",No Strategy,Neutral,Game administration.
+00:01,Jessica,I'm voting for the middle.,Call for Action,Neutral,This is a statement of future intent and is unverifiable (Rule 4a).
+00:02,Danieal,Actually.,No Strategy,Neutral,Incomplete thought.
+00:04,Jessica,Why?,Interrogation,Neutral,This is a question.
+00:06,Danieal,No.,Defense,Neutral,Simple negation.
+00:06,Danieal,I don't know. I'm feeling weird about these two.,No Strategy,Neutral,This is a statement of subjective feeling and opinion.
+00:10,Jessica,"Well, I don't-",No Strategy,Neutral,Incomplete thought.
+00:10,Danieal,But the thing is-,No Strategy,Neutral,Incomplete thought.
+00:11,Jessica,You only feel that way after the last game.,No Strategy,Neutral,This is a subjective accusation about another player's motive.
+00:12,Danieal,That would also mean that I would have to be bad.,No Strategy,Neutral,This is a hypothetical deduction.
+00:16,Kevin,Yeah. All right. Hold on. Hold on. Okay. Let's.. Let's start from the beginning.,No Strategy,Neutral,This is a procedural suggestion.
+00:23,Jessica,What were... Okay.,No Strategy,Neutral,Incomplete thought.
+00:23,Kevin,You were the Robber.,"Accusation, Interrogation",TRUE,"Kevin is addressing Kaelan. Based on Kaelan's own claims, it has been established that Kaelan started as the Robber. Kevin is stating this established fact."
+00:24,Kaelan,"Yes. And I robbed that, and I got to look at my card as the Robber, so I know I'm the Minion.","Identity Declaration, Defense, Evidence",TRUE,This is a full and accurate account of Kaelan's actions and the knowledge he gained from them. Every part of the statement is true.
+00:28,Kevin,Okay. So you know that you're the Minion.,"Defense, Evidence",TRUE,Kevin is accurately summarizing the certain information that Kaelan just provided.
+00:29,Danieal,Were you the Werewolf?,Interrogation,Neutral,This is a direct question to Jessica.
+00:31,Jessica,"No, I was the Minion, and I didn't see any Werewolves.","Identity Declaration, Defense, Evidence",TRUE,"Both parts of this statement are correct based on her knowledge. She started as the Minion, and her night action confirmed there were no Werewolves in play."
+00:35,Kevin,"And I was the Troublemaker. So then I switched you two. So now you're you're the Robber, and you're the Villager.","Identity Declaration, Evidence",TRUE,"The first two clauses (""I was the Troublemaker"" and ""I switched you two"") are accurate statements of his known role and action. The conclusion is a direct, logical outcome of his action."
+00:41,Danieal,Okay. I'm shooting center.,Call for Action,Neutral,This is a statement of future intent.
+00:41,Jessica,Yeah.,No Strategy,Neutral,Agreement.
+00:43,Kevin,Unless you're lying about your role.,Accusation,Neutral,This is a hypothetical statement.
+00:45,Danieal,"I mean, I'm not lying about my role because I was a Villager. I did nothing. I'm shooting the center.","Defense, Evidence",TRUE,"Daniel is unaware his card was swapped. He is truthfully stating his starting role (""I was a Villager"") and that he had no action (""I did nothing""), which is correct."
+00:53,Kevin,I'll go with center. Drunk. Seer.,Call for Action,Neutral,"The first part is a statement of intent, and the second part is a guess about the cards in the center."

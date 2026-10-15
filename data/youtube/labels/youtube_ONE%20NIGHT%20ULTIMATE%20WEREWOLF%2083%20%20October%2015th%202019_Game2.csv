@@ -1,0 +1,130 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:00,Meghan,Okay guys.,No Strategy,Neutral,A non-falsifiable phrase to start the game.
+00:10,Mike,"Whoa, whoa.",No Strategy,Neutral,An expression.
+00:11,Meghan,Whoa.,No Strategy,Neutral,An expression.
+00:13,Meghan,Midnight snacking.,No Strategy,Neutral,Night-phase chatter.
+00:16,Mike,Who's in the kitchen? Making so much noise.,No Strategy,Neutral,Night-phase chatter.
+00:18,Meghan,Close your eyes copy cat.,No Strategy,Neutral,Night-phase chatter/command.
+00:26,Mike,Dream Wolf never wakes up. He's so lazy.,No Strategy,Neutral,Night-phase chatter/joke.
+00:29,Meghan,"Well, he's sleepy.",No Strategy,Neutral,Night-phase chatter/joke.
+00:30,Mike,He's lazy.,No Strategy,Neutral,Night-phase chatter/joke.
+00:30,Meghan,He's dreaming.,No Strategy,Neutral,Night-phase chatter/joke.
+00:34,Mike,Lazy.,No Strategy,Neutral,Night-phase chatter/joke.
+00:34,Mike,He's still sticking out his thumb though.,No Strategy,Neutral,Night-phase chatter.
+00:37,Meghan,"Well you know, some people suck their thumb in their sleep, maybe the Dream Wolf does.",No Strategy,Neutral,Night-phase chatter/joke.
+00:40,Meghan,Just pops out for a moment.,No Strategy,Neutral,Night-phase chatter/joke.
+00:40,Caitlynn,It's a wolf after my own heart,No Strategy,Neutral,Night-phase chatter/joke.
+00:47,Caitlynn,"Mike, open your eyes.",No Strategy,Neutral,Night-phase chatter/command.
+00:48,Meghan,"Yeah, Mike. It's your turn.",No Strategy,Neutral,Night-phase chatter/command.
+00:51,Mike,Yeah. Okay. I saw a bad one in the center.,No Strategy,FALSE,"Mike's known fact is that he is the Tanner. He performed no night action and saw no cards. This is a lie, claiming a Seer/Lone WW action."
+00:55,Caitlynn,Shit.,No Strategy,Neutral,An expression.
+00:58,Mike,Let's just get that information out now instead of dealing with it later.,No Strategy,Neutral,A statement of strategic opinion.
+00:59,Meghan,Robert!,No Strategy,Neutral,Night-phase chatter.
+01:10,Meghan,So quiet.,No Strategy,Neutral,Night-phase chatter.
+01:11,Mike,Quiet.,No Strategy,Neutral,Night-phase chatter.
+01:21,Meghan,"Still, so quiet.",No Strategy,Neutral,Night-phase chatter.
+01:30,Justin,Bold strategy.,No Strategy,Neutral,A subjective opinion.
+01:32,Meghan,"Okay, I'll take it. Justin's going to kill me anyways, might as well pick a good role.",Accusation,Neutral,A statement of opinion/prediction.
+01:40,Justin,"Cool, all right.",No Strategy,Neutral,Acknowledgment.
+01:43,Justin,All right.,No Strategy,Neutral,Acknowledgment.
+01:44,Caitlynn,I just assume.,No Strategy,Neutral,An incomplete thought/opinion.
+01:55,Mike,You know she robbed from you.,Accusation,Neutral,Mike (thinks he's Tanner) has no info. This is a guess (Rule 3a).
+02:01,Justin,I just. That's always suspect. That's not a 'Mike' thing to do.,No Strategy,Neutral,A subjective opinion on Mike's playstyle.
+02:05,Meghan,"It's true. It's not his game. It's my game, if anything.",No Strategy,Neutral,A subjective opinion.
+02:07,Mike,"It's fair, it's fair. All right.",No Strategy,Neutral,Acknowledgment.
+02:11,Meghan,Much more Mike. Now we can address here.,No Strategy,Neutral,A subjective opinion.
+02:13,Caitlynn,Much better.,No Strategy,Neutral,A subjective opinion.
+02:15,Justin,Cool.,No Strategy,Neutral,Acknowledgment.
+02:15,Mike,It's not Tanner in the center. See if anyone else takes it.,Evidence,FALSE,"Mike's known fact is that he is the Tanner and saw no cards. He is continuing his lie from 00:51, fabricating a Seer/WW 'result'."
+02:21,Meghan,"Sure, sure, sure, sure, sure.",No Strategy,Neutral,Filler/acknowledgment.
+02:27,Meghan,"So, you're a werewolf.",Interrogation,Neutral,A question/accusation.
+02:29,Justin,I was not. This was forced onto me.,Defense,FALSE,Justin's known fact is that he *is* a Werewolf (and started as one). This is a lie.
+02:31,Meghan,"Sure, sure, sure.",No Strategy,Neutral,Acknowledgment.
+02:38,Justin,There's a lot of people I don't trust at this table.,No Strategy,Neutral,A subjective feeling.
+02:41,Caitlynn,Cool.,No Strategy,Neutral,Acknowledgment.
+02:42,Justin,Mike is one of them.,Accusation,Neutral,A subjective statement of distrust (Rule 3c).
+02:43,Mike,"Were you this, because I wasn't it?","Interrogation, Defense",TRUE,"Mike (thinks he's Tanner) is asking Justin if he was the Seer/WW who looked, because ""I wasn't it"". The claim ""I wasn't it"" is 100% TRUE to Mike's knowledge."
+02:45,Meghan,Cause I wasn't it.,No Strategy,TRUE,"Meghan's known fact is she is the Troublemaker, so she *also* ""wasn't it"" (the Seer/WW). This is TRUE."
+02:50,Justin,No.,No Strategy,FALSE,"Justin is answering ""Were you this...?"". His known fact is that he *was* the one who looked (as a lone Werewolf). He is lying."
+02:50,Mike,"Oh, I guess you were.",No Strategy,Neutral,A guess.
+02:50,Justin,"I faked the a Korean \vsco so yes, I was the apprentice seer.",Identity Declaration,FALSE,Justin's known fact is that he is a Werewolf. He is lying and claiming to be the Apprentice Seer.
+02:53,Meghan,What'd you see Justin?,Interrogation,Neutral,A question.
+02:54,Justin,I saw copycat in the middle.,Evidence,FALSE,"Justin is continuing his Apprentice Seer lie. While he *did* see one card as a WW, this statement is presented as evidence for his false role. It's a fabrication in support of a lie."
+02:56,Meghan,"That's cool. Well, nobody took it except you, so.",Accusation,Neutral,A logical deduction based on Justin's (false) claim.
+02:59,Justin,"Yes. Well, I mean, it was forced onto me. All my roles have been forced onto me.",Defense,FALSE,"Justin's known fact is that he started as a Werewolf. The claim ""it was forced onto me"" is a lie."
+03:04,Mike,We're just trying to make assumptions about you.,No Strategy,Neutral,A subjective statement.
+03:06,Justin,"But you guys aren't talking, you're just putting-",No Strategy,Neutral,A subjective observation.
+03:08,Mike,I have no information.,Defense,TRUE,Mike's known fact is that he is the Tanner. He (truthfully) has no information. He is abandoning his Seer lie.
+03:09,Justin,You have tons of information because you're still lying about that.,Accusation,TRUE,"Justin is accusing Mike of lying about his Seer claim (02:15). Justin *knows* Mike is lying, because Justin *knows* he is the lone WW and Mike can't *also* have seen the center. This is a TRUE accusation."
+03:14,Mike,I think I got switched. Just saying.,Accusation,Neutral,"A statement of opinion/guess (""I think...""). Rule 3c."
+03:16,Justin,Yep.,No Strategy,Neutral,Acknowledgment.
+03:17,Meghan,I can confirm Mike got switched with someone.,Evidence,TRUE,Meghan's known fact is that she is the Troublemaker and she *did* swap Mike (with Caitlynn). This is 100% TRUE.
+03:19,Mike,"Oh, she did it.",Accusation,Neutral,A guess. Mike doesn't know *who* switched him.
+03:22,Meghan,I did switch you with someone.,Evidence,TRUE,Meghan's known fact is that she is the Troublemaker and swapped Mike and Caitlynn. This is 100% TRUE.
+03:23,Mike,Then maybe I wasn't the tanner.,Defense,Neutral,"A speculative hypothesis (""maybe..."") based on new (true) information. Rule 4b."
+03:30,Justin,Okay then where did you rob from?,Interrogation,Neutral,A question (to Caitlynn).
+03:32,Caitlynn,Humans.,Defense,Neutral,"A vague, joking answer."
+03:33,Meghan,Not animals. Great.,No Strategy,Neutral,A joke.
+03:36,Caitlynn,You don't know that.,Defense,Neutral,A joke.
+03:37,Meghan,Is it a person?,Interrogation,Neutral,A question.
+03:38,Caitlynn,It's anthropomorphic.,Evidence,Neutral,A joke.
+03:43,Meghan,Just Michelle's tan. Great.,No Strategy,Neutral,A joke.
+03:46,Caitlynn,So is Jose Brad. So is,No Strategy,Neutral,A joke.
+03:48,Meghan,I am Spartacus. Great.,No Strategy,Neutral,A joke.
+03:53,Justin,"All right. Well, if no one else wants to help. We could just go to vote.",Call for Action,Neutral,A strategic suggestion.
+03:57,Meghan,"Whoa, whoa, whoa. I switched Mike and Kate. Offer up information. Am I alone here?","Interrogation, Evidence",TRUE,"Meghan's known fact is that she is the Troublemaker and she swapped Mike and Caitlynn (""Kate""). This is 100% TRUE."
+04:04,Justin,This is all I know.,No Strategy,Neutral,A vague statement of knowledge.
+04:07,Mike,Caitlynn's the only one who has other information.,Accusation,Neutral,A guess/deduction about Caitlynn's role. Mike has no facts.
+04:09,Meghan,"Guys, I think I'm alone.",No Strategy,Neutral,"A statement of opinion (""I think..."")."
+04:10,Justin,You are definitely not.,No Strategy,Neutral,A statement of opinion (in response to Meghan).
+04:12,Meghan,I don't know that I believe Justin.,No Strategy,Neutral,"A statement of opinion (""I don't know that I believe"")."
+04:13,Caitlynn,"No, but I don't help you much because I robbed from Mike. So you just put them back.",Evidence,TRUE,"Compound statement. 1) ""I robbed from Mike"" (TRUE, her known action). 2) ""So you just put them back"" (TRUE, a correct logical deduction based on Meghan's *and* her own information)."
+04:17,Meghan,Cool.,No Strategy,Neutral,Acknowledgment.
+04:17,Caitlynn,Yes.,No Strategy,Neutral,Acknowledgment.
+04:18,Meghan,So you're robber and you're whatever you started as?,Interrogation,Neutral,A question.
+04:19,Caitlynn,So don't kill Mike he was the tanner.,Defense,TRUE,"Caitlynn's known fact is that she robbed Mike and saw ""Tanner"". This statement is 100% TRUE based on her acquired knowledge (Sub-rule 1a)."
+04:21,Mike,"No, I was the werewolf. She doesn't believe that you switched.","Identity Declaration, Accusation",FALSE,"Compound statement. 1) ""No, I was the werewolf"" (FALSE, Mike knows he is Tanner). 2) ""She doesn't believe..."" (Neutral guess)."
+04:26,Caitlynn,We could kill Justin.,Call for Action,Neutral,"A strategic suggestion (""We could..."")."
+04:27,Mike,Nope.,No Strategy,Neutral,Disagreement.
+04:28,Meghan,Why would we kill Justin?,Interrogation,Neutral,A question.
+04:29,Caitlynn,Because he could be a werewolf.,Accusation,Neutral,"A statement of possibility (""could be""). Neutral."
+04:30,Mike,"No, I don't think he could.",Defense,FALSE,Mike's known fact is that he is the Tanner. He is lying (claiming to be WW at 04:21) and now protecting Justin. This is a strategic opinion *designed to mislead* but based on a false premise. This is a lie.
+04:31,Meghan,He could be.,Accusation,Neutral,"A statement of possibility (""could be""). Neutral."
+04:33,Meghan,He did do the thing where he takes a role and then...,No Strategy,Neutral,"A vague, speculative observation."
+04:37,Meghan,But he was really sure about Mike not being the apprentice seer.,No Strategy,TRUE,A correct observation about the public dialogue (Justin *did* challenge Mike).
+04:39,Mike,"Yes, he was really sure.",No Strategy,TRUE,A correct observation about the public dialogue.
+04:41,Caitlynn,But he also-,No Strategy,Neutral,Incomplete.
+04:42,Justin,And all my rules this round were forced unto me.,No Strategy,FALSE,Reiteration of his lie from 02:59. He knows he started as Werewolf.
+04:44,Mike,You know what? He didn't say anything beforehand.,Accusation,Neutral,A subjective observation.
+04:46,Caitlynn,That's why I think he might be the werewolf.,Accusation,Neutral,"A statement of opinion (""I think...""). Rule 3c."
+04:48,Mike,"No, I was the werewolf. You don't think that the switch happened.",Identity Declaration,FALSE,Reiteration of his lie. He knows he is the Tanner.
+04:52,Meghan,Mike is Haiti.,No Strategy,Neutral,A joke.
+04:54,Mike,You robbed for me. She's the werewolf. We kill Caitlynn.,"Accusation, Call for Action",FALSE,"Compound statement. ""You robbed for me"" (FALSE, he has no knowledge of this). ""She's [Caitlynn] the werewolf"" (FALSE, he has no knowledge of this). This is a fabrication."
+04:57,Meghan,I don't wanna.,No Strategy,Neutral,A statement of preference.
+05:02,Caitlynn,"Sure, kill me.",Call for Action,TRUE,Caitlynn's last known fact is that she is the **Tanner** (from robbing Mike). Her win condition is to be executed. This statement aligns 100% with her known role/objective.
+05:03,Meghan,"What do you think happened, Justin? Tell me your story.",Interrogation,Neutral,A question.
+05:05,Justin,"I don't know. I have very little to go on, that's why I'm not talking here. You switched these two?",Interrogation,FALSE,"Compound statement. ""I don't know. I have very little to go on..."" (FALSE, he knows he's the lone WW). ""You switched these two?"" (Neutral question)."
+05:10,Meghan,Yep.,Evidence,TRUE,Confirming her true Troublemaker action.
+05:14,Mike,"Oh, I'm Haiti.",No Strategy,Neutral,A joke.
+05:15,Meghan,Yep. We saw that joke already.,No Strategy,Neutral,Meta-comment.
+05:18,Justin,"Oh my God. We have to kill one of them, but I don't know which one. Because if Caitlynn robbed from me, I don't care.",Call for Action,FALSE,This is a lie. Justin (Werewolf) *knows* he is the lone WW and that neither Caitlynn nor Mike is his partner. He is fabricating a scenario to sow confusion.
+05:28,Justin,"But she wouldn't be acting coy about this if there was a switch, which makes you think she did rob from Mike and now there's a tanner. I don't think Mike was a werewolf.","Accusation, Defense",TRUE,"This is a complex deduction. ""she did rob from Mike"" (Neutral guess). ""now there's a tanner"" (Neutral guess). ""I don't think Mike was a werewolf"" (TRUE, Justin *knows* he is the lone WW, so this aligns with his facts)."
+05:40,Mike,I was a werewolf.,Identity Declaration,FALSE,A lie. Mike knows he is the Tanner.
+05:41,Caitlynn,"No, I saw the tanner on Mike which means Mike has it back if Meghan did switch us.",Accusation,TRUE,"Compound statement. 1) ""I saw the tanner on Mike"" (TRUE, her known action). 2) ""which means Mike has it back if Meghan did switch us"" (TRUE, a correct logical deduction based on the public info)."
+05:45,Mike,Nope.,Defense,FALSE,"Mike is refuting Caitlynn's (correct) logic. By saying ""Nope"", he is implying he is *not* the Tanner, which contradicts his known fact."
+05:47,Meghan,Can you confirm that?,Interrogation,Neutral,A question (to Caitlynn).
+05:49,Caitlynn,Yes.,Evidence,TRUE,"Caitlynn is confirming her known action (""I saw the tanner on Mike""). This is TRUE."
+05:49,Meghan,"Okay, then we move left. I trust that. Sure. I accept either they're double werewolves and they're playing us...",Call for Action,Neutral,A statement of strategy/opinion.
+05:57,Justin,I think Caitlynn is playing too coy.,Accusation,Neutral,"A subjective opinion (""I think...""). Rule 3c."
+06:00,Meghan,Or I vote both. I feel alone guys.,No Strategy,Neutral,"A statement of feeling (""I feel..."")."
+06:00,Mike,I was the werewolf. I say vote for Caitlynn.,"Identity Declaration, Call for Action",FALSE,"Compound statement. ""I was the werewolf"" (FALSE, he knows he's Tanner). ""I say vote for Caitlynn"" (Neutral opinion)."
+06:01,Meghan,I feel alone guys.,No Strategy,Neutral,A statement of feeling.
+06:03,Mike,We vote for Caitlynn.,Call for Action,Neutral,A call to action.
+06:03,Caitlynn,No.,Defense,FALSE,"Caitlynn's last known fact is that she is the Tanner. Her objective is to be killed. By saying ""No"" (don't kill me), she is acting *against* her known objective, which is a form of deception. FALSE."
+06:05,Meghan,"That works for me, because she's still to my left.",No Strategy,Neutral,A statement of strategy.
+06:07,Mike,"If I was the tanner, why would I be saying, ""Vote for Caitlynn""?",Interrogation,TRUE,"Mike *knows* he is the Tanner. He is posing a rhetorical question. The question itself is a logical statement: ""[A Tanner] would not [say vote for someone else]"". This aligns with his true knowledge/objective. It's a truthful (though deceptive) argument."
+06:12,Justin,"I don't know. That's an excellent point, Mike.",No Strategy,Neutral,A subjective opinion.
+06:15,Meghan,"15 seconds. I don't trust Justin, but I think I'm alone. I think I'm honestly alone.",Accusation,Neutral,"A statement of opinion/feeling (""I don't trust..."", ""I think..."")."
+06:22,Mike,I don't think you're alone. I think Justin is telling the truth.,Defense,FALSE,"Compound statement. 1) ""I don't think you're alone"" (Neutral opinion). 2) ""I think Justin is telling the truth"" (FALSE. Mike *knows* Justin's core claim of ""Apprentice Seer"" is a lie, because Mike is lying about being Seer/WW himself. He knows there's a web of lies.)"
+06:24,Meghan,"Either that or he just has no info because he saw the copy cat possibly, definitely possible.",Accusation,Neutral,A speculative hypothesis.
+06:28,Meghan,I'm voting for Caitlynn-,Call for Action,Neutral,A statement of future intent (Rule 4a).

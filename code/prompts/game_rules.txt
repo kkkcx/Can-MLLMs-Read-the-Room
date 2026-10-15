@@ -1,0 +1,59 @@
+One Night Ultimate Werewolf: Core Rules
+=======================================
+
+1. Core Objective
+   - Village Team Wins: If at least one Werewolf is executed.
+   - Werewolf Team Wins: If no Werewolves are executed (and at least one
+     Werewolf is in play).
+   - Tanner Wins: If the Tanner is executed, the Tanner wins.
+
+2. Key Principles
+   - Final Role Matters: A player's role can change during the night. The
+     final win condition is determined by the card a player holds at the END
+     of the game, not the start.
+   - Information is Private: A player only knows what their own role's
+     action allowed them to see or do. Everything else is deduction.
+   - Deception is Allowed: Any player can lie about their role or actions.
+
+3. Role Descriptions by Faction
+
+   Werewolf Team
+   - Werewolf: At night, wakes up to see fellow Werewolves. A lone Werewolf
+     may view one center card. Wins if no Werewolves are executed.
+   - Minion: At night, wakes up to see who the Werewolves are. The
+     Werewolves do not know the Minion. Wins if at least one Werewolf
+     survives (Minion is not executed).
+
+   Village Team
+   - Villager: No special night actions. Goal is to help execute a Werewolf.
+   - Seer: At night, may look at one other player's card or at two of the
+     center cards.
+   - Robber: At night, may swap their card with another player's card, and
+     then looks at their new card.
+   - Troublemaker: At night, may swap the cards of two other players without
+     looking at them.
+   - Drunk: At night, must exchange their card with one of the center cards
+     without looking at it.
+   - Insomniac: Wakes up at the end of the night phase to look at their own
+     card to see if their role was changed.
+   - Hunter: If the Hunter is executed, the player they are pointing at is
+     also executed.
+   - Mason: At night, wakes up to see the other Mason (if one is in play).
+
+   Unique Roles
+   - Tanner: Is on their own team. Wins only if they are executed. They are
+     not on the Village or Werewolf team.
+   - Doppelganger: At night, looks at another player's card and becomes that
+     role, immediately performing that role's night action. The
+     Doppelganger's win condition becomes that of the role they copied.
+
+4. The Night Phase: Strict Action Order
+
+   All night actions happen in a fixed, silent sequence. The order is:
+   Doppelganger, Werewolves, Minion, Masons, Seer, Robber, Troublemaker,
+   Drunk, Insomniac.
+
+5. The Day Phase & Voting
+   - After the Night Phase, all players discuss.
+   - The player(s) with the most votes is executed and their final role card
+     is revealed.

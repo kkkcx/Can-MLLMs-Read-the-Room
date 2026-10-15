@@ -1,0 +1,108 @@
+Timestamp,Speaker,Line,true_category,Truthfulness,Explanation
+00:14,James,Is this disco-Halloween?,No Strategy,Neutral,A joke; a non-factual question about the surroundings.
+01:18,Justin,Man. Did anyone else feel like they were falling when their eyes were closed?,No Strategy,Neutral,A question about a subjective physical sensation.
+01:21,James,No.,No Strategy,Neutral,A subjective answer.
+01:21,Mitchell,Did we ever figure...,No Strategy,Neutral,An incomplete question.
+01:23,Paul,"No, but that does have that happened to me once here.",No Strategy,Neutral,A subjective anecdote.
+01:25,James,"Did we ever figure out why he says, one night fever.",No Strategy,Neutral,A question about the game's theme song.
+01:28,Justin,Just Easter eggs. All right. So these are the tokens we can use to represent people. So Paul is saying he was a villager.,Evidence,TRUE,This is a correct summary of what Paul is about to say/has just indicated.
+01:32,Paul,I was the villager. I have no information.,Identity Declaration,TRUE,Paul believes he is a Villager. His statement aligns with his known information (Rule 1a).
+01:34,Mitchell,I was insomniac.,Identity Declaration,TRUE,Mitchell knows he is the Insomniac.
+01:36,Laura,I was villager.,Identity Declaration,TRUE,Laura knows she is a Villager.
+01:38,Mitchell,Dude. I can hear you move quite a bit during the night.,Evidence,Neutral,"A subjective claim about what he heard, which is unverifiable."
+01:39,James,"Yeah, well that's cause I was dancing.",Defense,Neutral,A joke used as a defense.
+01:42,Justin,I tend to move the whole time.,Defense,TRUE,A statement about his personal habits.
+01:45,Paul,I'm erratic.,Defense,Neutral,A subjective self-assessment.
+01:47,Justin,"So James and I, what did you, did you wake up? We'll wait to see what James and I say.",Interrogation,Neutral,A question and a strategic suggestion.
+01:52,Mitchell,"Well, I can tell you.",No Strategy,Neutral,A statement of intent to speak.
+01:53,Paul,"Mitch, if you want to talk, now you go ahead.",No Strategy,Neutral,A suggestion.
+01:54,James,Last I saw that was the situation.,No Strategy,Neutral,"A vague, non-committal statement."
+02:00,Justin,So you were the Robber.,Accusation,Neutral,A guess directed at James.
+02:01,James,I was.,Identity Declaration,TRUE,James knows he started as the Robber.
+02:02,Justin,And you stole from him.,Accusation,Neutral,"A logical deduction based on James's claim, not a known fact for Justin."
+02:03,James,"I did. And I was disappointed and I was like fuck, witness protection.",Evidence,TRUE,James knows he robbed Paul and saw a Villager card. His expressed disappointment is consistent with this known information.
+02:08,Justin,"All right. Well, I can confirm James's story that he was the Robber.","Defense, Evidence",FALSE,"Justin knows he is a Werewolf. He is lying by fabricating a Seer ability to ""confirm"" James's story."
+02:16,Mitchell,All right. I woke up as myself.,Evidence,TRUE,Mitchell knows he is the Insomniac and was not swapped.
+02:18,James,Boring.,No Strategy,Neutral,A subjective opinion.
+02:19,Justin,Boring. Is this really?,No Strategy,Neutral,A subjective opinion and a question.
+02:21,James,Is this real life because is this just a fuzzy wuzzy?,No Strategy,Neutral,"A rhetorical, joking question."
+02:24,Justin,This is a fuzzy wuzzy?,No Strategy,Neutral,A question.
+02:25,Mitchell,Here's what could happen? I could be Werewolf because I have no alibi. He also could be.,"Accusation, Defense",Neutral,A statement of strategic possibilities.
+02:31,Justin,I could be.,Defense,TRUE,"Justin knows he is a Werewolf, so acknowledging the possibility is a deceptive truth."
+02:32,Mitchell,Who else could be.,Interrogation,Neutral,A question.
+02:33,Justin,James and I could both be Werewolves.,Accusation,FALSE,Justin knows he is the only Werewolf among the players. He is lying to create a false scenario.
+02:34,Laura,Technically I could also be a Werewolf.,Accusation,TRUE,"Laura knows she is a Villager, but her statement is a correct assessment of her strategic position from the others' point of view."
+02:37,Justin,Basically.,No Strategy,Neutral,An agreement.
+02:38,Mitchell,Is there anyone who has an alibi?,Interrogation,Neutral,A question.
+02:39,Paul,I'm the only one who was definitely villager.,Identity Declaration,TRUE,"Paul believes he is a Villager, and based on his knowledge, he has no reason to think otherwise. This is true from his perspective (Rule 1a)."
+02:40,Mitchell,"Oh yeah, he is.",No Strategy,Neutral,An agreement based on Paul's claim.
+02:41,James,"Well, I know Paul's telling the truth cause I stole his card and...","Defense, Evidence",TRUE,James knows he took Paul's Villager card. This statement is a fact based on his own action.
+02:45,Justin,And I believe James's story because...,Defense,Neutral,A statement of belief.
+02:48,James,You saw Paul's card?,Interrogation,Neutral,A question.
+02:49,Justin,I saw your card.,Evidence,FALSE,Justin is a Werewolf and did not see James's card. This is part of his fake Seer claim.
+02:50,Paul,I shouldn't have given the villager.,No Strategy,Neutral,A subjective regret.
+02:52,Justin,I know as a seer. I saw you as the robber.,"Identity Declaration, Evidence",FALSE,"Justin knows he is a Werewolf, not the Seer. This entire claim is a lie."
+02:54,James,"Oh. Gotcha, gotcha.",No Strategy,Neutral,An acknowledgment.
+02:56,Mitchell,Hmm. We've got a pickle.,No Strategy,Neutral,A subjective opinion on the game state.
+02:58,Justin,"No, uh, someone else won. I think it was David or whatever. I'm not sure if his name was on top of",No Strategy,Neutral,Irrelevant chatter about a previous game.
+03:03,Paul,I have some suspicions about Mitchell because he gave away that he was the insomniac so fast. I think he might have seen the insomniac.,Accusation,Neutral,A strategic hypothesis based on Mitchell's behavior.
+03:09,Justin,"I feel like maybe, or he is saying that because he was the insomniac and he woke up the insomniac. So he is essentially a villager. Because an insomniac who doesn't change, just basically nothing. They know nothing. They just know about themselves.",Accusation,Neutral,A strategic opinion and analysis of the Insomniac role.
+03:24,Paul,"Right. But I'm saying if he was a Werewolf and saw the insomniac in the middle, that would be really good.",Accusation,Neutral,A hypothetical scenario used for deduction (Rule 4b).
+03:27,Justin,It would be a safe thing.,No Strategy,Neutral,A strategic opinion.
+03:28,Paul,That exactly what would be good story.,No Strategy,Neutral,A strategic opinion.
+03:30,James,So this is what we're saying right now. No troublemaker shifted us up. Right? That's what we're saying right now.,Interrogation,Neutral,A question to confirm the group's assumptions.
+03:36,Paul,"I feel like if somebody was a troublemaker, they would've copped to it.",No Strategy,Neutral,A subjective opinion on player strategy.
+03:39,Justin,Mitch are you trying to try to get some chaos in here?,Interrogation,Neutral,A question.
+03:40,Paul,Or if anything else they would've. Yeah.,No Strategy,Neutral,A strategic opinion.
+03:43,James,I'm going to hedge my bets on Mitch lying.,Accusation,Neutral,A statement of opinion and future intent (Rule 4a).
+03:46,Paul,I kind of think Mitch is lying.,Accusation,Neutral,A subjective opinion/guess (Rule 3c).
+03:47,Justin,I don't think Mitch is lying.,Defense,Neutral,"A strategic opinion used to defend a player. As a Werewolf, this is a strategic defense, not a factual statement (Rule 3c)."
+03:50,Paul,"I have... This makes me think. No, because if we were both...",No Strategy,Neutral,An incomplete thought.
+03:54,Mitchell,What if me and Justin are both Werewolves?,Interrogation,Neutral,A hypothetical question for deduction (Rule 4b).
+03:56,Justin,"There's possibility, but it's not.",No Strategy,FALSE,"Justin knows he is a Werewolf, but he also knows Mitchell is the Insomniac. Stating it's not a possibility that they are both werewolves is a lie to shut down that line of inquiry."
+03:58,Paul,"There's no way that they're both Werewolves because for them to both lie about what they were, not knowing that none of us were that, would've been too risky. Because Mitch copped to being the insomniac before...","Accusation, Defense",Neutral,A complex logical deduction based on perceived risk and player behavior.
+04:12,James,Does this seer or see before the robber robs?,No Strategy,Neutral,A question about game rules.
+04:15,Justin,Yes. Yeah.,No Strategy,TRUE,A correct statement about the game's night order.
+04:16,James,So they can catch you in a lie.,No Strategy,Neutral,A strategic observation.
+04:19,Justin,"It goes Werewolf, Seer, Robber, Troublemaker, Insomniac. There's the numbers on them.",No Strategy,TRUE,A correct statement of the night order.
+04:26,James,Fair enough. Okay.,No Strategy,Neutral,An acknowledgment.
+04:29,Justin,"I also don't think Laura's the werewolf because I don't think in her first game she would go for a villager lie as a Werewolf. Yeah. That's a bit of meta working, but...",Defense,Neutral,A strategic opinion based on meta-game analysis (Rule 3c).
+04:37,Laura,I'd be so pissed if I was the Werewolf. Because I was Hitler last time so much.,No Strategy,Neutral,A subjective statement referencing a different game.
+04:43,James,"Yeah. I think what, Embesica.",No Strategy,Neutral,Irrelevant chatter.
+04:44,Mitchell,"What, what is happening? There are ways to get points.",No Strategy,Neutral,Irrelevant chatter.
+04:49,Justin,Did you pronounce his name as Embesica?,No Strategy,Neutral,A question.
+04:53,Paul,"What did, what did my car call you or something today? Bosek some robots.",No Strategy,Neutral,Irrelevant chatter.
+05:02,Justin,Hey peanut butter babe. You're saying it to Paul. Sorry. I won't...,No Strategy,Neutral,Irrelevant chatter.
+05:03,Paul,"Hey, peanut butter babe. Peanut butter.",No Strategy,Neutral,Irrelevant chatter.
+05:08,Mitchell,So we have a minute left.,No Strategy,TRUE,A statement of fact about the time remaining.
+05:10,James,My vote is for Mitch.,Call for Action,Neutral,A statement of future intent (Rule 4a).
+05:13,Paul,Why aren't you the Werewolf?,Interrogation,Neutral,A question.
+05:14,Mitchell,"Because I'm the insomniac. I'm not going to convince you. That's going to be my attempt here. If I was a Werewolf, I'd get defensive. So I'm not going to get defensive.","Identity Declaration, Defense",TRUE,He knows he is the Insomniac. The rest is a true statement about his chosen strategy.
+05:22,James,"Is it Asian? Is Asian like Eddie Vedder. Is that, is that.",No Strategy,Neutral,Irrelevant chatter.
+05:26,Justin,Yes.,No Strategy,Neutral,An answer to an irrelevant question.
+05:27,James,Okay.,No Strategy,Neutral,An acknowledgment.
+05:27,Paul,"Mitch, are you a Werewolf?",Interrogation,Neutral,A question.
+05:29,Mitchell,No.,Defense,TRUE,"Mitchell knows he is the Insomniac, not a Werewolf."
+05:31,Paul,Fuck.,No Strategy,Neutral,An exclamation.
+05:32,James,He's not.,Defense,Neutral,A statement of opinion. James has no certain knowledge of Mitchell's role.
+05:33,Paul,"You were like here, let me move all of the parts of my face really subtly to confuse you about if I'm lying or not.",No Strategy,Neutral,A subjective interpretation of Mitchell's body language.
+05:39,Justin,So I don't think Mitch's a Werewolf.,Defense,Neutral,A strategic opinion to defend a player (Rule 3c).
+05:41,James,I do.,Accusation,Neutral,A statement of opinion.
+05:43,Justin,"Well then why don't we vote left, because then James gets to vote for Mitchell.",Call for Action,Neutral,A strategic suggestion.
+05:48,James,"Well, we can do that, but Paul knows he's a Werewolf too.",Accusation,FALSE,James knows Paul was a Villager because he robbed him. This is a deliberate lie to cast suspicion on Paul.
+05:51,Paul,I am suspicious.,No Strategy,TRUE,A true statement about his current state of mind.
+05:54,Justin,Who are you suspicious of?,Interrogation,Neutral,A question.
+05:55,Paul,Mitchell.,Accusation,TRUE,A true statement about who he suspects.
+05:56,James,"Oh, that is sweet. And I know Paul.",No Strategy,Neutral,A subjective comment.
+05:58,Justin,"No, I think he'd be getting defensive at this point.",No Strategy,Neutral,A strategic opinion.
+06:01,James,"No, I don't think so.",No Strategy,Neutral,A statement of opinion.
+06:01,Justin,I think he would be.,No Strategy,Neutral,A statement of opinion.
+06:03,James,I don't think he would be.,No Strategy,Neutral,A statement of opinion.
+06:06,Justin,I'm not killing Mitchell.,Call for Action,Neutral,A statement of future intent (Rule 4a).
+06:07,James,Because you guys both- you guys are both werewolves and you're trying to get his back.,Accusation,FALSE,James knows Paul is not a werewolf. He is lying to create a false narrative and link Justin and Paul.
+06:08,Paul,"I think he plays too safe, like I saw the insomniac, that's a fucking sweet story. I'm voting for Mitchell.","Accusation, Call for Action",Neutral,A statement of opinion followed by a statement of future intent (Rule 4a).
+06:14,Justin,"I don't know what to say. I was the Insomniac, I woke up the insomniac. Getting a lot of heat.",Identity Declaration,FALSE,Justin knows he is a Werewolf. He is lying and falsely claiming to be the Insomniac.
+06:18,James,I can't wait to murder an innocent person.,Call for Action,Neutral,A sarcastic statement of future intent.
+06:21,Paul,We have to go to vote at the same time.,Call for Action,TRUE,A correct statement of the game's rules.
+06:24,Justin,Any point yeah.,No Strategy,TRUE,A correct statement about the rules.
+06:24,Laura,Oh.,No Strategy,Neutral,An exclamation.
